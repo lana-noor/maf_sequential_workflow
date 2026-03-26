@@ -10,10 +10,10 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from agent_framework import Agent
-from agent_framework.openai import AzureOpenAIResponsesClient
+from agent_framework.azure import AzureOpenAIResponsesClient, AzureAIAgentClient
 import os
 from dotenv import load_dotenv
-from azure.identity import DefaultAzureCredential, get_bearer_token_provider
+from azure.identity.aio import DefaultAzureCredential, AzureCliCredential
 
 """
 Payslip Verification Workflow — Three Sequential Agents + Word Executor
@@ -420,10 +420,12 @@ def _extract_text_from_result(result) -> str:
 
 def _extract_employee_name(verification_text: str) -> Optional[str]:
     """Parse employee_name from the verification agent's JSON output."""
+    # Use greedy match to capture the outermost JSON object (not a nested one)
     try:
-        match = re.search(r"\{.*?\}", verification_text, re.DOTALL)
-        if match:
-            data = json.loads(match.group())
+        start = verification_text.find("{")
+        end = verification_text.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            data = json.loads(verification_text[start:end + 1])
             name = data.get("employee_name")
             if name and name.strip().lower() not in ("null", "none", ""):
                 return name.strip()
@@ -463,15 +465,10 @@ class PayslipWorkflowExecutor:
     """
 
     def __init__(self) -> None:
-        token_provider = get_bearer_token_provider(
-            DefaultAzureCredential(),
-            "https://cognitiveservices.azure.com/.default",
-        )
         self.client = AzureOpenAIResponsesClient(
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            azure_deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2025-03-01-preview"),
-            azure_ad_token_provider=token_provider,
+            credential=DefaultAzureCredential(),
+            project_endpoint=os.getenv("AZURE_AI_PROJECT_ENDPOINT"),
+            deployment_name=os.getenv("AZURE_AI_MODEL_DEPLOYMENT_NAME"),
         )
 
     # ------------------------------------------------------------------
@@ -558,27 +555,36 @@ class PayslipWorkflowExecutor:
         return text
 
     async def _run_analysis(self, salary_slip_input: str, employee_name: str) -> str:
-        print(f"[Agent 2] Salary Analysis Agent — running for: {employee_name}...")
-        agent = Agent(
-            client=self.client,
-            instructions=ANALYSIS_INSTRUCTIONS,
-            # The CSV file is attached to the code interpreter so the agent
-            # can open and query it with Python code at runtime.
-            tools=self.client.get_code_interpreter_tool(
-                files=[PAYSLIPS_CSV]
-            ),
-        )
+        print(f"[Agent 2] Salary Analysis Agent (Azure AI Agent Service) — running for: {employee_name}...")
+        # Read CSV content to embed in the prompt; code interpreter will parse it with Python
+        csv_content = ""
+        if PAYSLIPS_CSV:
+            try:
+                csv_content = Path(PAYSLIPS_CSV).read_text(encoding="utf-8")
+            except OSError as exc:
+                csv_content = f"[Could not read CSV: {exc}]"
         query = (
-            f"Employee name to analyse: {employee_name}\n\n"
-            f"Instructions:\n"
-            f"1. Open the attached CSV file and read all rows.\n"
-            f"2. Filter rows where employee_name == '{employee_name}'.\n"
-            f"3. Extract pay_date and net_salary_aed for each matching row.\n"
-            f"4. Perform the full variation analysis as per your instructions.\n"
-            f"5. Return ONLY the required JSON — no prose.\n\n"
-            f"Submitted salary slip for cross-reference:\n{salary_slip_input}"
+            f"Use code interpreter to complete this analysis.\n\n"
+            f"TARGET EMPLOYEE: {employee_name}\n\n"
+            f"STEP 1 — Run Python code to parse the CSV string below with io.StringIO + csv.DictReader:\n"
+            f"```csv\n{csv_content}\n```\n\n"
+            f"STEP 2 — Filter ALL rows where employee_name == '{employee_name}'. "
+            f"There will be multiple rows (multiple months). Do NOT stop at the first match.\n\n"
+            f"STEP 3 — For each matching row extract: pay_date, net_salary_aed.\n\n"
+            f"STEP 4 — Sort by pay_date ascending and compute variation analysis per instructions.\n\n"
+            f"STEP 5 — Return ONLY valid JSON matching the required output schema — no prose, no markdown fences.\n\n"
+            f"=== SUBMITTED SALARY SLIP (for cross-reference only) ===\n{salary_slip_input}"
         )
-        result = await agent.run(query)
+        async with AzureCliCredential() as credential:
+            async with AzureAIAgentClient(
+                credential=credential,
+                project_endpoint=os.getenv("AZURE_AI_PROJECT_ENDPOINT"),
+            ).as_agent(
+                name="SalaryAnalysisAgent",
+                instructions=ANALYSIS_INSTRUCTIONS,
+                tools=[AzureAIAgentClient.get_code_interpreter_tool()],
+            ) as agent:
+                result = await agent.run(query)
         text = _extract_text_from_result(result)
         print(f"[Agent 2] Done.\n{text[:200]}...\n")
         return text
