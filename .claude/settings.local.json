@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(cmd /c \"cd /d \"\"C:\\\\Users\\\\lananoor\\\\OneDrive - Microsoft\\\\STU Learning\\\\LTNewsWorkflowDEMO\\\\maf_sequential_workflow\\\\.claude\\\\worktrees\\\\quirky-greider\"\" && .venv\\\\Scripts\\\\pip show agent-framework agent-framework-foundry\")",
+      "Bash(cmd /c \"cd /d \"\"C:\\\\Users\\\\lananoor\\\\OneDrive - Microsoft\\\\STU Learning\\\\LTNewsWorkflowDEMO\\\\maf_sequential_workflow\\\\.claude\\\\worktrees\\\\quirky-greider\"\" && .venv\\\\Scripts\\\\pip.exe show agent-framework agent-framework-foundry 2>&1\")",
+      "Bash(cmd /c \"\"\"C:\\\\Users\\\\lananoor\\\\OneDrive - Microsoft\\\\STU Learning\\\\LTNewsWorkflowDEMO\\\\maf_sequential_workflow\\\\.claude\\\\worktrees\\\\quirky-greider\\\\.venv\\\\Scripts\\\\python.exe\"\" -m pip show agent-framework\")",
+      "Bash(echo \"exit: $?\")",
+      "WebFetch(domain:devblogs.microsoft.com)",
+      "WebFetch(domain:pypi.org)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(cmd /c \"dir /b \"\"C:\\\\Users\\\\lananoor\\\\OneDrive - Microsoft\\\\STU Learning\\\\LTNewsWorkflowDEMO\\\\maf_sequential_workflow\\\\.claude\\\\worktrees\\\\quirky-greider\\\\output\"\"\")"
+    ]
+  }
+}

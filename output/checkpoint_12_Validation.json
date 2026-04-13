@@ -1,0 +1,66 @@
+{
+  "validated_topics": [
+    {
+      "topic": "Azure OpenAI — enterprise foundational models (MAI)",
+      "articles": [
+        {
+          "title": "",
+          "url": "https://www.siliconrepublic.com/machines/microsoft-releases-foundational-ai-models-mai-transcribe-mai-voice-mai-image",
+          "date": "2026-04-07",
+          "source": "Silicon Republic / Microsoft Azure updates"
+        }
+      ]
+    },
+    {
+      "topic": "Gartner recognition — iPaaS leadership",
+      "articles": [
+        {
+          "title": "",
+          "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2026-gartner-magic-quadrant-for-integration-platform-as-a-service/",
+          "date": "2026-04-06",
+          "source": "Microsoft Azure Blog (citing Gartner)"
+        }
+      ]
+    },
+    {
+      "topic": "Cloud market dynamics — Google growth, AWS lead narrows",
+      "articles": [
+        {
+          "title": "",
+          "url": "https://www.crn.com/news/cloud/2026/global-cloud-market-share-q4-2025-google-grows-aws-lead-narrows",
+          "date": "2026-04-08",
+          "source": "CRN (synthesis referencing IDC / Dell’Oro themes)"
+        }
+      ]
+    },
+    {
+      "topic": "Regional infrastructure push — G42 / du partnerships (UAE)",
+      "articles": [
+        {
+          "title": "",
+          "url": "https://www.g42.ai/resources/news/abu-dhabi-government-accelerates-digital-strategy-landmark-microsoft-and-g42-partnership",
+          "date": "2026-04-06",
+          "source": "G42 / Khaleej Times / Microsoft news coverage"
+        }
+      ]
+    },
+    {
+      "topic": "Copilot product momentum and enterprise adoption",
+      "articles": [
+        {
+          "title": "",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+          "date": "2026-04-06",
+          "source": "Microsoft Docs (Copilot release notes) / Business+IT (SB Bit) / Windows Central"
+        }
+      ]
+    }
+  ],
+  "rejected_count": 1,
+  "rejection_log": [
+    {
+      "topic": "Competitive pressure — talent movement & infrastructure innovation",
+      "reason": "Only a single article provided (Redmondmag) from a lower-tier source without Tier1/2 corroboration and not a single clearly defined major event."
+    }
+  ]
+}

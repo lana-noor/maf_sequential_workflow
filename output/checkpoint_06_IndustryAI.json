@@ -1,0 +1,117 @@
+{
+  "results": [
+    {
+      "topic": "Google Gemini",
+      "query": "Google Gemini new model release 2026-04-04 to 2026-04-10",
+      "title": "Gemini Hits 750M Users + 3.1 Pro Launch [April 2026] - Tech Insider",
+      "snippet": "Prediction 2: Google will launch Gemini 4.0 by late 2026, targeting a 2-million-token context window and native video understanding. The competitive pressure from OpenAI and Anthropic will drive rapid model iteration. Google’s TPU infrastructure and custom silicon give it a cost advantage in training increasingly large models. Expect Gemini 4.0 to be the first model to process full-length films and multi-hour meetings natively. [...] _Updated April 6, 2026_\n\nGoogle’s Gemini ecosystem has seen a rapid succession of launches heading into April 2026. The headline release is Gemini 3.1 Pro, which rolled out globally through the Gemini app in early April, offering enhanced reasoning capabilities for complex coding and data analysis tasks. It is accessible via the model dropdown for Pro and Ultra subscribers. Alongside the Pro model, Google released Gemini 3.1 Flash Live on March 26, 2026, an audio-to-audio model designed for real-time dialogue and voice-first AI applications. Flash Live achieved a leading score of 90.8% on the ComplexFuncBench Audio benchmark for multi-step function calling, establishing it as one of the most reliable voice agent foundations available. [...] Launched on February 20, 2026, Gemini 3.1 Pro has reshaped the competitive landscape among frontier AI models. Google claims the model leads in 13 of 16 major benchmarks, a statement that, while contested in some categories, reflects genuine technical progress. The most striking improvement is on ARC-AGI-2, an abstract reasoning benchmark where Gemini 3.1 Pro scored 77.1%—more than doubling the prior Gemini 3 Pro’s performance and dramatically outscoring GPT-5.2’s 52.9% and Claude Opus 4.6’s 68.8%.",
+      "url": "https://tech-insider.org/google-gemini-750-million-users-march-2026-updates/",
+      "favicon": "https://tech-insider.org/wp-content/uploads/2026/03/ti-icon-final-150x150.png",
+      "date": "2026-04-06",
+      "source": "Tech Insider",
+      "images": [
+        {
+          "url": "https://tech-insider.org/wp-content/uploads/2026/03/google-gemini-750-million-users-march-2026-updates-1.jpg",
+          "description": null
+        }
+      ]
+    },
+    {
+      "topic": "Anthropic",
+      "query": "Anthropic Claude updates enterprise partnership April 4 2026 to April 10 2026",
+      "title": "Newsroom - Anthropic",
+      "snippet": "Apr 6, 2026 Announcements Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute\n   Mar 31, 2026 Announcements Australian government and Anthropic sign MOU for AI safety and research\n   Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network\n   Mar 11, 2026 Announcements Introducing The Anthropic Institute\n   Mar 10, 2026 Announcements Sydney will become Anthropic’s fourth office in Asia-Pacific\n   Mar 6, 2026 Policy Partnering with Mozilla to improve Firefox’s security\n   Mar 5, 2026 Announcements Where things stand with the Department of War\n   Feb 27, 2026 Announcements Statement on the comments from Secretary of War Pete Hegseth [...] # Newsroom \\ Anthropic\n\nSkip to main contentSkip to footer\n\n[](\n\n   Research\n   Economic Futures\n   Commitments\n   Learn\n   News\n\nTry Claude\n\n# Newsroom\n\n   Press inquirespress@anthropic.com\n   Non-media inquiriessupport@anthropic.com\n   Media assetsDownload press kit\n\nImage 1: Project Glasswing\n\n## Project Glasswing [Announcements Apr 7, 2026 A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software.]( [...] See more\n\nImage 2: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute\n\n[](\n\n### Products\n\n   Claude\n   Claude Code\n   Claude Code Enterprise\n   Claude Code Security\n   Claude Cowork\n   Claude for Chrome\n   Claude for Excel\n   Claude for PowerPoint\n   Claude for Slack\n   Skills\n   Max plan\n   Team plan\n   Enterprise plan\n   Download app\n   Pricing\n   Log in to Claude\n\n### Models\n\n   Mythos preview\n   Opus\n   Sonnet\n   Haiku\n\n### Solutions\n\n   AI agents\n   Code modernization\n   Coding\n   Customer support\n   Education\n   Financial services\n   Government\n   Healthcare\n   Life sciences\n   Nonprofits\n   Security\n\n### Claude Platform",
+      "url": "https://www.anthropic.com/news",
+      "favicon": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67d31dd7aa394792257596c5_webclip.png",
+      "date": "2026-04-06",
+      "source": "Anthropic",
+      "images": [
+        {
+          "url": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Anthropic",
+      "query": "Anthropic Claude updates enterprise partnership April 4 2026 to April 10 2026",
+      "title": "The Complete Guide to Every Claude Update in Q1 2026 (Tested by ...",
+      "snippet": "If you’re anything like me, I’d say we’re currently in the middle of an Anthropic fever.\n\nThe pace of Anthropic updates right now is so overwhelming. In the last three months alone, they’ve shipped over 30 new features. New model, new integrations, new tools, new capabilities... almost every single week.\n\nKeeping up with Anthropic really does feel like a full-time job :)\n\nAnd if you’re like most people, you’ve seen the announcements, bookmarked a few, maybe tried one or two, and moved on. Because who has time to figure out what actually matters when the next update drops before you’ve even explored the last one? [...] Jan 13: Anthropic Labs introduced (Mike Krieger to Labs, Ami Vora leads Product)\n\n   Jan 16: Cowork expanded to Pro plans, Claude Code added to Team Standard seats, Opus 4/4.1 deprecated\n\n   Jan 23: Cowork expanded to Team and Enterprise plans\n\n   Jan 30: Claude on Mars (NASA Perseverance rover)\n\n### February 2026\n\n   Feb 5: Opus 4.6 released, Claude for PowerPoint (research preview), Claude for Excel improvements\n\n   Feb 10: Cowork launches on Windows\n\n   Feb 13: Analytics API for Enterprise plans\n\n   Feb 17: Sonnet 4.6 released (1M context in beta), Connectors/skills/compaction on free tier, MCP connectors in Excel\n\n   Feb 20: Claude Code Security (research preview), Claude Code Remote Control (research preview)\n\n   Feb 24: Cowork plugins and admin controls (plugin marketplace)",
+      "url": "https://aimaker.substack.com/p/anthropic-claude-updates-q1-2026-guide",
+      "favicon": "https://substackcdn.com/image/fetch/$s_!T9CL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f27c8f-3478-4e13-92df-56b0a5d97a97%2Fapple-touch-icon-114x114.png",
+      "date": "2026-04-07",
+      "source": "AI Maker (Substack)",
+      "images": [
+        {
+          "url": "https://substackcdn.com/image/fetch/$s_!0cdj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffab8165e-e5a6-4455-872b-1022d2e24ab0_1536x2752.jpeg",
+          "description": "The Complete Guide to Every Claude Update in Q1 2026 (Tested ..."
+        }
+      ]
+    },
+    {
+      "topic": "Anthropic",
+      "query": "Anthropic Claude updates enterprise partnership April 4 2026 to April 10 2026",
+      "title": "Bad news Claude users — Anthropic says you'll need to pay to use ...",
+      "snippet": "Anthropic has removed a number of third-party tools, including OpenClaw, from the standard Claude subscription with effect from April 4, 2026, meaning that users wishing to connect to OpenClaw and other third-party services will need to pay separately.\n\n\"Starting April 4..., you’ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw,\" the company wrote in an email shared by a customer (via Hacker News).\n\nWith existing subscription limits no longer applying to the use of these tools, users will need to take on pay-as-you-go billing, prepaid usage bundles or API costs to regain access.\n\nArticle continues below \n\n## OpenClaw is now separately chargeable for Claude users",
+      "url": "https://www.techradar.com/pro/bad-news-claude-users-anthropic-says-youll-need-to-pay-to-use-openclaw-now",
+      "favicon": "https://vanilla.futurecdn.net/techradar/1595218/apple-touch-icon.png",
+      "date": "2026-04-04",
+      "source": "TechRadar Pro",
+      "images": []
+    },
+    {
+      "topic": "NVIDIA",
+      "query": "NVIDIA GPU launch AI infrastructure announcement April 4 2026 to April 10 2026",
+      "title": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community | NVIDIA Blog",
+      "snippet": "Watch On Demand\n\n### Recent News\n\nRobotics\n\n### National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources\n\nApril 6, 2026\n\nAI\n\n### From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI\n\nApril 2, 2026\n\nGaming\n\n### Press Start on April: GeForce NOW Brings 10 Games to the Cloud\n\nApril 2, 2026\n\nAI Infrastructure\n\n### Efficiency at Scale: NVIDIA, Energy Leaders Accelerating Power‑Flexible AI Factories to Fortify the Grid\n\nMarch 31, 2026\n\nView All Recent News\n\n   Categories:\n   AI Infrastructure\n   Cloud\n   Software\n\n   Tags:\n   Artificial Intelligence\n   Events\n   GPU\n   NVIDIA in Europe\n   NVLink\n   Open Source\n\n### Related News\n\nImage 24: Blowing Off Steam: How Power-Flexible AI Factories Can Stabilize the Global Energy Grid\n\nAI Infrastructure [...] In addition, in collaboration with the CNCF’s Confidential Containers community, NVIDIA has introduced GPU support for Kata Containers, lightweight virtual machines that act like containers. This extends hardware acceleration into a stronger isolation, separating workloads for increased security and enabling AI workloads to run with enhanced protection so organizations can easily implement confidential computing to safeguard data.\n\n## Simplifying AI Infrastructure\n\nHistorically, managing the powerful GPUs that fuel AI within data centers required significant effort.\n\nThis contribution is designed to make high-performance computing more accessible. Key benefits for developers include: [...] “NVIDIA’s deep collaboration with the Kubernetes and CNCF community to upstream the NVIDIA DRA Driver for GPUs marks a major milestone for open source Kubernetes and AI infrastructure,” said Chris Aniszczyk, chief technology officer of CNCF. “By aligning its hardware innovations with upstream Kubernetes and AI conformance efforts, NVIDIA is making high-performance GPU orchestration seamless and accessible to all.”",
+      "url": "https://blogs.nvidia.com/blog/nvidia-at-kubecon-2026/",
+      "favicon": "https://blogs.nvidia.com/favicon.ico",
+      "date": "2026-04-06",
+      "source": "NVIDIA Blog",
+      "images": [
+        {
+          "url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/kubecon-1920x1080-1-1280x720.jpg",
+          "description": null
+        }
+      ]
+    },
+    {
+      "topic": "NVIDIA",
+      "query": "NVIDIA GPU launch AI infrastructure announcement April 4 2026 to April 10 2026",
+      "title": "NVIDIA Kicks Off the Next Generation of AI With Rubin",
+      "snippet": "Clay Magouyrk, CEO of Oracle: “Oracle Cloud Infrastructure is a hyperscale cloud built for the highest performance, and together with NVIDIA, we’re pushing the boundaries of what customers can build and scale with AI. With gigascale AI factories powered by the NVIDIA Vera Rubin architecture, OCI is giving customers the infrastructure foundation they need to push the limits of model training, inference and real-world AI impact.” [...] Matt Garman, CEO of AWS: “AWS and NVIDIA have been driving cloud AI innovation together for more than 15 years. The NVIDIA Rubin platform on AWS represents our continued commitment to delivering cutting-edge AI infrastructure that gives customers unmatched choice and flexibility. By combining NVIDIA’s advanced AI technology with AWS’s proven scale, security and comprehensive AI services, customers can build, train and deploy their most demanding AI applications faster and more cost effectively — accelerating their path from experimentation to production at any scale.” [...] Michael Dell, chairman and CEO of Dell Technologies:“The NVIDIA Rubin platform represents a major leap forward in AI infrastructure. By integrating Rubin into the Dell AI Factory with NVIDIA, we’re building infrastructure that can handle massive token volumes and multistep reasoning while delivering the performance and resiliency that enterprises and neoclouds need to deploy AI at scale.”",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+      "favicon": "https://s201.q4cdn.com/141608511/files/favicon.ico",
+      "date": "2026-04-06",
+      "source": "NVIDIA Investor Relations",
+      "images": []
+    },
+    {
+      "topic": "AI Regulation",
+      "query": "EU AI Act update April 4 2026 to April 10 2026",
+      "title": "The EU AI Act August 2026 Deadline Is 4 Months Away",
+      "snippet": "On August 2, 2026 -- exactly 16 weeks from today -- the most consequential provisions of the European Union Artificial Intelligence Act take effect. Annex III high-risk AI systems will be subject to mandatory conformity assessments, transparency requirements, human oversight mandates, and documentation obligations. Organizations that fail to comply face administrative fines of up to 35 million EUR or 7% of global annual turnover, whichever is higher. [...] That penalty structure is not hypothetical. Finland became the first EU member state to enforce AI Act provisions in January 2026, issuing a 2.3 million EUR fine to a Helsinki-based recruitment platform that used an AI screening tool without adequate bias testing or transparency disclosures. The Finnish enforcement action provides a preview of what every EU member state regulator will be empowered to do starting August 2. And unlike GDPR enforcement, which took years to produce meaningful fines, AI Act regulators appear ready to act quickly. [...] Testing results and methodology - Change logs when risks or mitigations are updated",
+      "url": "https://www.aimagicx.com/blog/eu-ai-act-four-month-compliance-countdown-august-2026",
+      "favicon": "https://www.aimagicx.com/favicon/apple-touch-icon.png",
+      "date": "2026-04-06",
+      "source": "AI Magicx",
+      "images": [
+        {
+          "url": "https://www.aimagicx.com/api/og/eu-ai-act-four-month-compliance-countdown-august-2026",
+          "description": null
+        }
+      ]
+    },
+    {
+      "topic": "AI Regulation",
+      "query": "EU AI Act update April 4 2026 to April 10 2026",
+      "title": "EU AI Act 2026 Updates: Compliance Requirements and Business ...",
+      "snippet": "\u200D\n\nProviders of High-risk AI systems must ensure compliance with the requirements set out in Articles 8–15 throughout the system’s lifecycle, including the establishment of a documented risk management system, robust data governance measures, detailed technical documentation, automatic logging, appropriate human oversight, and safeguards for accuracy, robustness, and cybersecurity. Prior to placing a system on the market or putting it into service, providers must carry out the applicable conformity assessment, draw up an EU declaration of conformity, affix the CE marking, and register the system in the EU database. Ongoing obligations include corrective actions, cooperation with competent authorities, and maintaining a quality management system that enables continuous compliance.\n\n\u200D [...] For example, The Artificial Intelligence Law in Italy (Law No. 132/2025) which entered into force on October 10, 2025, establishes fine of up to maximum EUR 774,685 and – in the most serious cases – the disqualifying measures provided under Decree 231 for up to one year. These include: disqualification from conducting business; suspension or revocation of authorisations, licences, or concessions instrumental to the offence; a ban on contracting with the public administration; exclusion from grants, financing, contributions, or subsidies (and possible revocation of those already awarded) and a prohibition on advertising goods or services. Law 132/2025 also introduces a new aggravating circumstance for crimes committed with the support of AI. A new criminal offence is established for the [...] of AI. A new criminal offence is established for the unlawful dissemination of AI-generated or altered content (e.g., deepfakes), punishable by imprisonment ranging from one to five years. Market manipulation offences committed through AI are subject to increased penalties under the Financial Consolidated Act (TUF) and Italian Civil Code.",
+      "url": "https://legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks",
+      "favicon": "https://cdn.prod.website-files.com/62305aab404861a3c7d1c98d/62382ceb11ebf140a2e5cfc9_photo_2022-03-17%2014.11%201%20(1).png",
+      "date": "2026-04-05",
+      "source": "LegalNodes",
+      "images": []
+    }
+  ]
+}

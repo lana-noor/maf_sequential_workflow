@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "topic": "Azure AI Foundry",
+      "query": "Azure AI Foundry new features 2026-04-04 to 2026-04-10",
+      "title": "Release Notes for Microsoft 365 Copilot",
+      "snippet": "Publish Azure AI Foundry agents to Copilot [Web]\n\nDevelopers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.\n\nRoadmap ID:501112\n\nWhat Changed: Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible. [...] Why this matters:\n\nBusiness impact: Improves cross‑system relevance and response quality in Copilot.\n\nPersonal impact: Delivers more accurate, personalized answers.\n\n   Publish Azure AI Foundry agents to Copilot [Web]\n\nDevelopers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.\n\nRoadmap ID:501112\n\nWhat Changed: Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible.\n\nWhy: This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.\n\nTry this: [...] Why: This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.\n\nTry This:\n\n       In Azure AI Foundry, open your agent and click Publish to Copilot.\n       Confirm availability in Word, Teams, and other supported Microsoft 365 apps.\n\nWhy This Matters:\n\nBusiness Impact: Accelerates delivery of tailored AI capabilities across the enterprise.\n\nPersonal Impact: Developers spend less time on integration work and more time innovating.\n\nAdditional Resources:\n\nLearn:\n\nPublish agents to Microsoft 365 Copilot and Microsoft Teams\n\n   Users can leverage multi-agent workflows [Windows, Web]\n\nAgents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.\n\nDetails:",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+      "favicon": "https://learn.microsoft.com/favicon.ico",
+      "date": "2026-04-06",
+      "source": "Microsoft Docs",
+      "images": []
+    },
+    {
+      "topic": "Azure OpenAI Service",
+      "query": "Azure OpenAI new model release 2026-04-04 to 2026-04-10",
+      "title": "Azure updates | Microsoft Azure",
+      "snippet": "Azure Red Hat OpenShift      LAUNCHED  GENERAL AVAILABILITY April 2026         LAUNCHED  GENERAL AVAILABILITY April 2026    Azure Red Hat OpenShift (ARO) now supports NVIDIA H100 and H200 GPU-based Azure Virtual Machine SKUs, enabling customers to run large-scale AI, machine learning, and high-performance computing (HPC) workloads on a fully managed OpenShift service. This update allows organizations to deploy GPU-accelerated containers using enterprise Kubernetes with built-in security, lifecycle management, and Azure integration. [...] This capability helps customers standardize AI and accelerated computing workloads on OpenShift while reducing operational overhead through a managed service, making it easier to move from experimentation to production on Azure.  Azure ID 559547  Product Categories(s) Containers  Update Types(s) Open Source, Regions & Datacenters    Added to roadmap: 04/07/2026 |  Last modified: 04/07/2026  Share Image 3: Accordion detail - Share RSSYour Privacy ChoicesConsumer Health Privacy",
+      "url": "https://azure.microsoft.com/updates?id=559547",
+      "favicon": "https://azure.microsoft.com/favicon.ico?v2",
+      "date": "2026-04-07",
+      "source": "Microsoft Azure",
+      "images": []
+    },
+    {
+      "topic": "Azure OpenAI Service",
+      "query": "Azure OpenAI new model release 2026-04-04 to 2026-04-10",
+      "title": "Microsoft releases foundational AI models targeting enterprises",
+      "snippet": "7 Apr 2026\n\nEqual1 partners with Q-Ctrl for quantum data centre deployment\n\nMachines\n\n### Equal1 partners with Q-Ctrl for quantum data centre deployment\n\n9 Apr 2026\n\nIrish co-founded Prism Layer out from stealth with $1m raise\n\nStart-ups\n\n### Irish co-founded Prism Layer out from stealth with $1m raise\n\n7 Apr 2026\n\nIs AGI really here as Nvidia’s Jensen Huang claims?\n\nMachines\n\n### Is AGI really here as Nvidia’s Jensen Huang claims?\n\n24 Mar 2026\n\nMicrosoft joins the Big Tech race for AI health tools\n\nBusiness\n\n### Microsoft joins the Big Tech race for AI health tools\n\n13 Mar 2026\n\nGrammarly drops AI impersonation tool after class action lawsuit\n\nBusiness\n\n12 Mar 2026\n\n### More from Science\n\n## Latest News [...] Silicon Republic\n\n TECHNOLOGY\n\n  BUSINESS ENTERPRISE COMMS START-UPS ALL\n SCIENCE\n\n  INNOVATION MACHINES CLIMATE ALL\n CAREERS\n\n  ADVICE PEOPLE EMPLOYERS JOBS NEWS ALL\n AI\n MORE\n\n  AI POLICY ADVERTISE FOLLOW US CONTACT ABOUT COOKIE & PRIVACY POLICY\n\nINNOVATION MACHINES CLIMATE ALL\n\n# Microsoft releases foundational AI models targeting enterprises\n\nby Suhasini Srinivasaragavan\n\n3 Apr 2026\n\nThe Microsoft logo on the front of a windowed building, with another building reflected in the windows and leaves visible near the top of the image.\n\nImage: © Emagnetic/Stock.adobe.com\n\nMicrosoft wants to offer the ‘most complete AI and app agent factory’. [...] Microsoft backed OpenAI in its recent $122bn funding round alongside the likes of Amazon, Nvidia and SoftBank. Late last year, the company announced a $10bn investment plan for a data centre in Portugal. It also announced a $37.5bn quarterly capital expenditure bill at the end of January.\n\nDon’t miss out on the knowledge you need to succeed. Sign up for theDaily Brief, Silicon Republic’s digest of need-to-know sci-tech news.\n\nRelated: Microsoft, AI, US\n\n[](\n\nSuhasini Srinivasaragavan is a sci-tech reporter for Silicon Republic\n\neditorial@siliconrepublic.com\n\n### You May Also Like\n\n### You May Also Like\n\nReport: 60pc of companies could lay off employees that won’t adopt AI\n\nCareers\n\n### Report: 60pc of companies could lay off employees that won’t adopt AI\n\n7 Apr 2026",
+      "url": "https://www.siliconrepublic.com/machines/microsoft-releases-foundational-ai-models-mai-transcribe-mai-voice-mai-image",
+      "favicon": "https://www.siliconrepublic.com/apple-touch-icon-144x144.png",
+      "date": "2026-04-07",
+      "source": "Silicon Republic",
+      "images": [
+        {
+          "url": "https://www.siliconrepublic.com/wp-content/uploads/2023/07/AdobeStock_474820349_Editorial_Use_Only.jpeg",
+          "description": ""
+        },
+        {
+          "url": "https://www.siliconrepublic.com/wp-content/uploads/2023/07/AdobeStock_474820349_Editorial_Use_Only-718x523.jpeg",
+          "description": ""
+        },
+        {
+          "url": "https://www.siliconrepublic.com/wp-content/themes/silicon/img/logoblack.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Microsoft Copilot",
+      "query": "Microsoft Copilot update 2026-04-04 to 2026-04-10",
+      "title": "Microsoft roadmap roundup – 06 April 2026 - SharePoint Stuff",
+      "snippet": "Microsoft Copilot (Microsoft 365): Project Manager Agent in M365 Copilot – The new Project Manager agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Find out more: \n Microsoft Copilot (Microsoft 365): Access audio overviews from the top of your Word document – Ask Copilot to generate an audio overview of your document from the Summary tab in the document snapshot. We have updated the status to accurately reflect the current state of the feature. Find out more: [...] Microsoft Purview: Role Group changes in Purview – We are introducing a new Microsoft Purview RBAC role—Purview Agent Deployment—and adding it to various existing built in role groups used by analysts and admins across Purview. This change enables users who use built-in role analyst groups to deploy Security Copilot Agents in Purview without needing any additional roles. If your organization prefers to limit agent deployment permissions, you can create a custom role group that does not include the Purview Agent Deployment role and assign that custom role group to analysts who should not be able to deploy agents. This update does not change default data access or expand visibility into customer content. All other permissions within each role group remain unchanged. Analysts who are [...] Microsoft Copilot (Microsoft 365): Researcher Output Formats – The Researcher Agent in Microsoft 365 Copilot empowers users to create rich, detailed reports on any topic they choose whether from work or web content. We are introducing new output formats in the Researcher Agent that will allow users to export and consume generated reports in their preferred formats. Users will be able to export their Researcher reports to PowerPoint, PDF, Infographic or an Audio Overview. We are also updating the UX for previously existing output formats- Word and Pages. Find out more:",
+      "url": "https://sharepointstuff.com/2026/04/06/microsoft-roadmap-roundup-06-april-2026/",
+      "favicon": "https://i0.wp.com/sharepointstuff.com/wp-content/uploads/2019/02/sstuff_icon-e1588518073885.png?fit=32%2C32&ssl=1",
+      "date": "2026-04-06",
+      "source": "SharePoint Stuff",
+      "images": []
+    },
+    {
+      "topic": "Microsoft Copilot",
+      "query": "Microsoft Copilot update 2026-04-04 to 2026-04-10",
+      "title": "ExcelやWordも激変「Copilot神アプデ」、大注目「Cowork」は仕事の常識を破壊する… 連載：Copilot for Microsoft 365で変わる仕事術｜ビジネス+IT",
+      "snippet": "もっと見る\n\n最新ニュース\n\nＮＹ株、反発\n\n2026/04/07 06:19\n\nＮＹ外為市場＝ドル安定的、円相場160円に接近　中東情勢の行方にらみ\n\n2026/04/07 06:17\n\n中東戦争でインフレ加速・成長鈍化の恐れ、世界成長の上振れ消滅＝ＩＭＦ\n\n2026/04/07 05:18\n\nＦＲＢ引き締め策を支持、雇用より物価を懸念＝2地区連銀総裁\n\n2026/04/07 04:17\n\nサプライチェーン圧力上昇、3月は23年1月以来の高水準＝ＮＹ連銀\n\n2026/04/07 03:17\n\nもっと見る\n\n広告掲載・PRのお問い合わせ\n\nメディア一覧\n\nビジネス+IT\nFacebook\nX（旧Twitter）ビジネス+ITへのリンク\nYoutube\nInstagram\nTikTok\nFinTech Journal\nFacebook\nX（旧Twitter）FinTech Journalへのリンク\nSeizo Trend\nFacebook\nX（旧Twitter）SeizoTrendへのリンク\n\nCopyright © SB Creative Corp. All rights reserved.\n\nこの機能は会員限定です\n\n「ビジネス+IT」の会員の方(登録は無料)のみ、ご利用いただけます。\n\nすべて無料！今日から使える、  \n仕事に役立つ情報満載！\n\nここでしか見られない\n\n2万本超のオリジナル記事・動画・資料が見放題！\n\n完全無料 [...] ### AIデータセンター実践講座\n\nPR\n\nPR\n\nPR\n\n### 大注目「Copilot Cowork」の凄さ\n\n画像\n画像\n\n## AI・生成AIのおすすめコンテンツ\n\n### 【Copilot Studio超入門】簡単すぎて絶句…地味作業が消える「AI自動化」の新常識\n\n### 【教えてプロ】資料作成「Copilot4機能」、Claude・Geminiと比べたら…意外な“優劣”\n\n### 【完全版】唸るほど凄い「Claude Cowork」活用法、最強すぎた「ChatGPT使い分け術」\n\n### AIの「制御不能」は防げるか？「人間の最終判断」が“限界”を迎えるとき\n\n### 「未成年SNS規制」の衝撃…日本は？訴訟乱発でも禁止できない“米国の本音”と次の急務",
+      "url": "https://www.sbbit.jp/article/cont1/183542",
+      "favicon": "",
+      "date": "2026-04-07",
+      "source": "ビジネス+IT (SB Bit)",
+      "images": []
+    },
+    {
+      "topic": "Azure AI Services",
+      "query": "Azure AI Services announcement 2026-04-04 to 2026-04-10",
+      "title": "Microsoft announces Fabric Go Local and Windows 365 Link Device ...",
+      "snippet": "Developer & IT Developer & IT \n           Azure\n           Microsoft Developer\n           Microsoft Learn\n           Support for AI marketplace apps\n           Microsoft Tech Community\n           Microsoft Marketplace\n           Marketplace Rewards\n           Visual Studio\n\n       Other Other\n           Microsoft Rewards\n           Free downloads & security\n           Education\n           Gift cards\n           Licensing\n           Unlocked stories\n\n       View Sitemap\n\nSearch Search news.microsoft.com/source/asia/\n\n   No results\n\nCancel\n\nImage 2Source Asia\n\n   \n   \n   \n   \n   \n   \n\n   Category: AI\n\n9 April, 2026\n# Microsoft announces Fabric Go Local and Windows 365 Link Device Availability in Singapore\n\n##### By\n\n   Source Singapore\n\nImage 3 [...] ##### By\n\n   Source Singapore\n\nImage 3\n\nSINGAPORE, 9 April 2026 – Microsoft today announced the availability of Microsoft Fabric Go Local in Singapore to support data residency needs for government and regulated workloads, along with Windows 365 Link devices for secure connections to Cloud PCs from anywhere.\n\nThese announcements were made at Microsoft Singapore Public Sector Solutions Day, a full-day event bringing together 500 government leaders, agencies, partners and developers to explore how public sector organisations can strengthen national AI readiness, scale responsible AI to improve citizen services, and build an AI-skilled workforce including through a new AI skilling initiative. [...] Microsoft Singapore Managing Director, Wee Luen Chia, said:“The introduction of Microsoft Fabric Go Local and Windows 365 Link underscore our long-term commitment to Singapore’s digital future. As the country doubles down on AI transformation and innovation, we are investing in the local infrastructure and offerings needed to support that growth with the highest levels of trust, security, and performance. We’ll continue to work hand-in-hand with government agencies, regulators, and businesses in Singapore to unlock new opportunities through technology.”\n\nToday’s news follows Microsoft’s announcement last week that the company is on track to spend US$5.5 billion on cloud and AI infrastructure and ongoing operations in Singapore from 2025 until the end of 2029.",
+      "url": "https://news.microsoft.com/source/asia/2026/04/09/microsoft-announces-fabric-go-local-and-windows-365-link-device-availability-in-singapore/",
+      "favicon": "https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png",
+      "date": "2026-04-09",
+      "source": "Microsoft News (Source Asia)",
+      "images": [
+        {
+          "url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+          "description": ""
+        },
+        {
+          "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+          "description": ""
+        },
+        {
+          "url": "https://news.microsoft.com/source/asia/wp-content/uploads/2026/04/W365-Link-Hero-1024x681.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Azure AI Services",
+      "query": "Azure AI Services announcement 2026-04-04 to 2026-04-10",
+      "title": "Anthropic Names Former Microsoft Azure AI Executive Eric Boyd as Infrastructure Chief -- Redmondmag.com",
+      "snippet": "Recent SQL Server 2025, Azure SQL, SSMS 22 and Fabric announcements highlight new event streaming and vector search capabilities, plus expanding monitoring and ontology tooling -- with tradeoffs in platform packaging.\n\n### Why Not Use SD Cards for Data Backups?\n\nSD cards may be cheap and portable, but their limited write endurance, greater risk of corruption and physical loss, uneven long-term reliability, and poor cost-per-capacity make them a weak choice for dependable data backups.\n\n### Microsoft Expands Copilot Controls with New Security and Analytics Features\n\n### From Fabcon to MVP Summit: The Biggest SQL Server and Fabric Updates\n\n### Microsoft Named a Leader in Forrester Customer Service Report\n\n### Microsoft, RSA Make Dual Authentication Moves at RSAC 2026 [...] Boyd spent nearly 17 years at Microsoft, where he held a series of engineering leadership roles spanning Bing Ads, AI platform development and Azure AI. In his most recent role, he oversaw the hardware and software engineering required to support both OpenAI and Anthropic models on Azure, giving him direct experience with the large-scale infrastructure demands of frontier AI systems.\n\nBoyd announced the move Tuesday on LinkedIn, saying he had watched large language models emerge from his perch at Microsoft and was drawn to Anthropic's combination of model performance and organizational culture. [...] Boyd's appointment comes as Anthropic faces intensifying competition from OpenAI and Google in both the consumer and enterprise AI markets. Infrastructure capacity, including compute, model serving, and developer tooling, has become a key differentiator among frontier AI companies as usage scales globally.\n\nThe move is notable given Boyd's direct experience managing the cloud infrastructure that served Anthropic's own models at Microsoft. He spent several years at Azure, leading the engineering of the hardware and software stack used to host Anthropic models, giving him detailed knowledge of the company's technical requirements before joining as an employee.\n\nAnthropic did not immediately respond to a request for comment.",
+      "url": "https://redmondmag.com/articles/2026/04/07/anthropic-names-former-microsoft-azure-ai-executive-eric-boyd-as-infrastructure-chief.aspx",
+      "favicon": "https://redmondmag.com/~/media/ECG/redmondmag/redmond_apple_icon.png",
+      "date": "2026-04-07",
+      "source": "Redmondmag",
+      "images": [
+        {
+          "url": "https://redmondmag.com/-/media/ECG/redmondmag/Images/IntroImages2025/dotps2b.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Azure AI Services",
+      "query": "Azure AI Services announcement 2026-04-04 to 2026-04-10",
+      "title": "Anthropic Poaches Microsoft Azure AI Chief to Lead Infrastructure Push as Claude Demand Surges -- Pure AI",
+      "snippet": "Anthropic has hired Boyd to lead its push to establish the infrastructure needed to support growing adoption of its artificial intelligence services. The hire signals the company is prioritizing the operational backbone required to sustain rapid product expansion, including Claude Code, its automated coding tool, which has seen significant user growth in recent months.\n\nBefore Microsoft, Boyd was vice president of engineering at Mochi Media, an ads startup acquired by Shanda Games, and before that, vice president of platform engineering at Yahoo for 10 years. He holds a bachelor's degree in computer science from MIT. [...] Anthropic has hired Boyd to lead its push to establish the infrastructure needed to support growing adoption of its artificial intelligence services. The hire signals the company is prioritizing the operational backbone required to sustain rapid product expansion, including Claude Code, its automated coding tool, which has seen significant user growth in recent months.\n\nBefore Microsoft, Boyd was vice president of engineering at Mochi Media, an ads startup acquired by Shanda Games, and before that, vice president of platform engineering at Yahoo for 10 years. He holds a bachelor's degree in computer science from MIT. [...] Anthropic has hired Boyd to lead its push to establish the infrastructure needed to support growing adoption of its artificial intelligence services. The hire signals the company is prioritizing the operational backbone required to sustain rapid product expansion, including Claude Code, its automated coding tool, which has seen significant user growth in recent months.\n\nBefore Microsoft, Boyd was vice president of engineering at Mochi Media, an ads startup acquired by Shanda Games, and before that, vice president of platform engineering at Yahoo for 10 years. He holds a bachelor's degree in computer science from MIT.",
+      "url": "https://pureai.com/articles/2026/04/07/anthropic-poaches-microsoft-azure-ai-chief-to-lead-infrastructure-push-as-claude-demand-surges.aspx",
+      "favicon": "https://pureai.com/~/media/ECG/PureAI/design/favicon96x96.png",
+      "date": "2026-04-07",
+      "source": "Pure AI",
+      "images": [
+        {
+          "url": "https://pureai.com/-/media/ECG/PureAI/Images/New-PAI-Image-Folder/Anthropic-with-logo-on-cell-phone-screen.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://pureai.com/articles/2026/04/07/-/media/ECG/PureAI/Images/New-PAI-Image-Folder/Anthropic-with-logo-on-cell-phone-screen.jpg",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

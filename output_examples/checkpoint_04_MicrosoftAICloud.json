@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "topic": "Azure AI Foundry",
+      "query": "Azure AI Foundry new features 2026-03-27 to 2026-04-02",
+      "title": "What's new in Microsoft Foundry | February 2026",
+      "snippet": "Features:\n\n   `AgentFunctionApp` for hosting agents on Azure Functions\n   `BaseAgent` implementations for Claude and GitHub Copilot SDKs\n   Fan-out/fan-in orchestration with shared state and configurable timeouts\n   Simplified AG-UI `run` method and Anthropic structured outputs\n\nBreaking — Credential handling unified under Azure Identity:\n\n Copy\n\n```python\n# Before\nfrom agent_framework_azure_ai import get_entra_auth_token\n\nagent = AzureAIAgent(\n    ad_token=get_entra_auth_token(),\n    ad_token_provider=my_token_provider,\n)\n\n# After — single credential parameter\nfrom azure.identity import DefaultAzureCredential\n\nagent = AzureAIAgent(\n    credential=DefaultAzureCredential(),\n)\n```\n\nBreaking — Sessions replace Threads:\n\n Copy [...] Features:\n\n   `buildOpenAIClient()` and `buildOpenAIAsyncClient()` on `AIProjectClientBuilder` for directly obtaining a Stainless OpenAI client\n   New `FoundryFeaturesOptInKeys` enum for preview feature opt-in flags: `EVALUATIONS_V1_PREVIEW`, `SCHEDULES_V1_PREVIEW`, `RED_TEAMS_V1_PREVIEW`, `INSIGHTS_V1_PREVIEW`, `MEMORY_STORES_V1_PREVIEW`\n   Added `ModelSamplingParams` and `AzureAIModelTarget` models\n\nBreaking changes:\n\nService version updated from `2025-11-15-preview` to `v1`. Credential classes and sub-client methods are renamed — here’s what your code looks like before and after:\n\nBefore (pre-v2):\n\n Copy [...] Microsoft Agent Framework (RC):`1.0.0rc1` for Python — API surface locked. Major breaking changes in credentials, sessions, and response patterns. Migration guide published.\n   Durable Agent Orchestration: New HITL pattern pairs Azure Durable Functions with Agent Framework and SignalR for agents that survive restarts and wait days for human approval.\n   Foundry Local — Sovereign Cloud: Large multimodal models now run fully disconnected on local hardware with APIs that mirror the cloud surface.\n   AI Toolkit for VS Code v0.30.0: Tool Catalog, Agent Inspector with F5 debugging, and a redesigned Agent Builder.",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-feb-2026/",
+      "favicon": "https://devblogs.microsoft.com/wp-content/uploads/2024/10/Microsoft-favicon-300x300.jpg",
+      "date": "",
+      "source": "devblogs.microsoft.com",
+      "images": []
+    },
+    {
+      "topic": "Azure AI Foundry",
+      "query": "Azure AI Foundry new features 2026-03-27 to 2026-04-02",
+      "title": "Microsoft Foundry docs: What's new for March 2026",
+      "snippet": "## New articles\n\n Foundry IQ (preview)\n Connect a Foundry IQ knowledge base to Foundry Agent Service\n Fireworks models on Microsoft Foundry (preview)\n Manage hosted agent lifecycle\n Deploy your first hosted agent\n Configure Claude Code for Microsoft Foundry\n Quotas and limits for Microsoft Foundry Agent Service\n\n### Updated articles\n\n Customer-managed keys for Microsoft Foundry\n Guardrails and safety for Microsoft Foundry\n Add a declarative agent workflows in Visual Studio Code\n Agent evaluators\n Deploy and use Claude models on Microsoft Foundry (preview)\n Disable preview features in Microsoft Foundry\n\n## Feedback\n\nWas this page helpful?\n\nNo \n\nNeed help with this topic?\n\nWant to try using Ask Learn to clarify or guide you through this topic?\n\n## Additional resources [...] Skip to Ask Learn chat experience \n\nThis browser is no longer supported.\n\nUpgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.\n\nDownload Microsoft Edge   More info about Internet Explorer and Microsoft Edge\n\nRead in English   Edit  \n\n#### Share via\n\n Facebook   x.com   LinkedIn   Email  \n\n---\n\nNote\n\nAccess to this page requires authorization. You can try signing in or changing directories.\n\nAccess to this page requires authorization. You can try signing in or changing directories.\n\n# What's new in Microsoft Foundry documentation?\n\nWelcome! This article highlights key changes and updates in Microsoft Foundry documentation for March 2026.\n\n## New articles [...] ## Additional resources\n\n Last updated on  2026-03-19",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/whats-new-foundry",
+      "favicon": "https://learn.microsoft.com/favicon.ico",
+      "date": "2026-03-19",
+      "source": "learn.microsoft.com",
+      "images": []
+    },
+    {
+      "topic": "Azure AI Foundry",
+      "query": "Azure AI Foundry new features 2026-03-27 to 2026-04-02",
+      "title": "Microsoft Expands Azure AI Foundry with Powerful New OpenAI ...",
+      "snippet": "Generative AI\n\nRead More\n\nAzure AI Foundry Introduces Powerful New Agent-Building Capabilities \n\n1 min read\n\n#### Azure AI Foundry Introduces Powerful New Agent-Building Capabilities\n\nAdmin : Jan 7, 2026 12:14:34 PM\n\nMicrosoft continues to push the boundaries of AI innovation with two major updates to Azure AI Foundry: the release of the Responses API and the ...\n\nGenerative AI\n\nRead More\n\nAzure AI Foundry: Unifying AI Development and Driving Innovation \n\n1 min read\n\n#### Azure AI Foundry: Unifying AI Development and Driving Innovation\n\nAdmin : Jan 7, 2026 12:12:46 PM\n\nMicrosoft has unveiled Azure AI Foundry, a service designed to unify and streamline AI platforms and tools under a single, cohesive ecosystem. This...\n\nRead More [...] What You Should Do Now\n\nIf you’re currently leveraging GPT-4.5 or earlier models, it’s time to transition. Whether you need complex reasoning (o3/o4-mini) or versatile natural language generation (GPT-4.1), the new model suite is designed for performance, scalability, and real-world enterprise needs.\n\nThese model updates are already being integrated across Microsoft’s Copilot platform, shaping how millions of users interact with everyday software—from Word and Excel to Dynamics and Teams.\n\n1 min read\n\n#### Azure AI Foundry Expands with New Models, Customizations, and Enterprise Features\n\nAdmin : Jan 7, 2026 12:14:06 PM\n\nMicrosoft has announced a significant update to Azure AI Foundry, enhancing its capabilities with new AI models, advanced customization options, and...\n\nGenerative AI [...] Smarter Interactions: The o-series models allow developers to build agents that understand complex tasks, reason through challenges, and deliver actionable results—ideal for customer support, internal process automation, and more.\n Richer Visual Content: With GPT-image-1, organizations can produce high-quality, detailed visuals (including text-based images) at scale. Think personalized marketing, next-gen ecommerce experiences, or dynamic educational tools.\n Future-Proof Architecture: With GPT-4.1 now taking center stage, teams can confidently build on a model designed for long-term support, optimized performance, and tight integration with Microsoft 365 Copilot.\n\nWhat You Should Do Now",
+      "url": "https://www.serverless-solutions.com/blog/microsoft-expands-azure-ai-foundry-with-powerful-new-openai-models",
+      "favicon": "https://serverless-solutions.com/wp-content/uploads/2021/12/favicon-150x150.png",
+      "date": "",
+      "source": "www.serverless-solutions.com",
+      "images": [
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Azure-AI-Foundry_1600x900-1.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Azure-AI-Foundry_1600x900-2.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Microsoft-Azure-Dec-10-2025-12-20-44-3612-AM.png",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hs-fs/hubfs/serverless_solutions_logo.png?width=999&height=90&name=serverless_solutions_logo.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Azure OpenAI Service",
+      "query": "Azure OpenAI Service new model release 2026-03-27 to 2026-04-02",
+      "title": "Azure OpenAI in Microsoft Foundry Model Retirements",
+      "snippet": "model versions will be available for a minimum of 12 months.\n   After 12 months, existing customers may continue to use older model versions for an additional six months.\n   New customers who have never deployed the older model version will no longer have access after 12 months.\n   For global deployments, all future model versions starting with `gpt-4o` and `gpt-4 0409` will be available with their (`N`) next succeeding model (`N+1`) for comparison together.\n   Customers have 60 days to try out a new GA model in at least one global or standard region before any upgrades happen to a newer GA model. [...] | `gpt-4.1` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5` |\n| `gpt-4.1-mini` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5-mini` |\n| `gpt-4.1-nano` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5-nano` |\n| `computer-use-preview` | 2025-03-11 | `Preview` | n/a | No earlier than 2026-04-14 |  |\n| `o1` | 2024-12-17 | `Generally Available` | 2025-12-17 | 2026-07-15 | `o3` |\n| `o1-pro` | 2025-03-19 | `Generally Available` | 2026-03-19 | 2026-09-18 | `o3-pro` |\n| `o3-mini` | 2025-01-31 | `Generally Available` | 2026-01-31 | 2026-08-02 | `o4-mini` |\n| `o3` | 2025-04-16 | `Generally Available` | 2026-04-16 | 2026-10-16 |  |\n| `o3-pro` | 2025-06-10 | `Generally Available` | 2026-06-10 | 2026-12-10 |  | [...] | `o3-deep-research` | 2025-06-26 | `Generally Available` | 2026-06-26 | 2026-12-26 |  |\n| `o4-mini` | 2025-04-16 | `Generally Available` | 2026-04-16 | 2026-10-16 |  |\n| `codex-mini` | 2025-05-16 | `Generally Available` | 2026-05-16 | 2026-11-15 |  |\n| `model-router` | 2025-11-18 | `Generally Available` | 2026-11-18 | 2027-05-20 |  |\n| `gpt-5-mini` | 2025-08-07 | `Generally Available` | 2026-08-07 | 2027-02-06 |  |\n| `gpt-5-nano` | 2025-08-07 | `Generally Available` | 2026-08-07 | 2027-02-06 |  |\n| `gpt-5-codex` | 2025-09-15 | `Generally Available` | 2026-09-15 | 2027-03-17 |  |\n| `gpt-5-pro` | 2025-10-06 | `Generally Available` | 2026-10-06 | 2027-04-07 |  |\n| `gpt-5.1` | 2025-11-13 | `Generally Available` | 2026-11-13 | 2027-05-15 |  |",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+      "favicon": "https://learn.microsoft.com/favicon.ico",
+      "date": "",
+      "source": "learn.microsoft.com",
+      "images": []
+    },
+    {
+      "topic": "Azure OpenAI Service",
+      "query": "Azure OpenAI Service new model release 2026-03-27 to 2026-04-02",
+      "title": "Azure Update Storyline",
+      "snippet": "| Feb 19 2026  01:01:09 UTC |  | Notice  Microsoft Foundry Blog | Whats new in Microsoft Foundry | Dec 2025 & Jan 2026 |  |\n| Feb 18 2026  19:00:07 UTC |  | Notice  Announcements Blog | Unlocking document understanding with Mistral Document AI in Microsoft Foundry |  |\n| Feb 17 2026  18:08:39 UTC |  | Notice  Announcements Blog | Claude Sonnet 4.6 in Microsoft Foundry-Frontier Performance for Scale |  |\n| Feb 13 2026  23:13:44 UTC |  | Notice  Microsoft Foundry Blog | DPO Fine-Tuning Using Microsoft Foundry SDK |  |\n| Feb 11 2026  17:29:15 UTC |  | Notice  Microsoft Foundry Blog | Beyond the Prompt Why and How to Fine-tune Your Own Models |  | [...] | Feb 06 2026  19:11:04 UTC |  | Azure Updates | Claude Opus 4.6, Available on Microsoft Foundry |  |\n| Feb 05 2026  07:43:00 UTC |  | Notice  Azure Infrastructure Blog | Observability in Generative AI: Building Trust with Systematic Evaluation in Microsoft Foundry |  |\n| Feb 05 2026  00:00:00 UTC |  | Notice  Announcements Blog | Claude Opus 4.6: Anthropics powerful model for coding, agents, and enterprise workflows is now available in Microsoft Foundry |  |\n| Feb 02 2026  00:00:00 UTC |  | Notice  Announcements Blog | PostgreSQL on Azure supercharged for AI |  | [...] | May 01 2025  20:30:19 UTC |  | Preview  Azure Updates | Azure Logic Apps now available as Agent tool in Azure AI Foundry |  |\n| Apr 30 2025  08:47:00 UTC |  | Notice  Azure Infrastructure Blog | Behind the Azure AI Foundry: Essential Azure Infrastructure & Cost Insights |  |\n| Apr 28 2025  20:44:00 UTC |  | Notice  Azure AI Services Blog | Advancing Fine-Tuning in Azure AI Foundry: April 2025 Updates |  |\n| Apr 23 2025  17:53:00 UTC |  | Notice  Azure AI Services Blog | Tracing your Semantic Kernel Agents with Azure AI Foundry |  |\n| Apr 11 2025  16:23:00 UTC |  | Notice  Azure AI Services Blog | General-Purpose vs Reasoning Models in Azure OpenAI |  |\n| Apr 06 2025  00:31:00 UTC |  | Notice  Analytics on Azure Blog | Llama 4 is now available in Azure Databricks |  |",
+      "url": "https://azurecharts.com/updates/story?id=7693",
+      "favicon": "https://azurecharts.com/favicon-96x96.png",
+      "date": "",
+      "source": "azurecharts.com",
+      "images": []
+    },
+    {
+      "topic": "Microsoft Copilot",
+      "query": "Microsoft Copilot update March 27 2026..April 2 2026 Microsoft Copilot M365 Copilot update 2026-03-27 to 2026-04-02",
+      "title": "What's New in Microsoft 365 Copilot | March 2026",
+      "snippet": "Admins can now manage authoritative sources within the Copilot Search experience in the Microsoft 365 admin center. This capability enables admins to designate SharePoint Online sites as authoritative content for their organization, helping enhance relevance and ranking of these sites in Copilot search results. This feature is rolling out in April. [...] Welcome to the March 2026 edition of What's New in Microsoft 365 Copilot! [...] Copilot Tuning introduces new templates in Agent Builder designed for tasks such as drafting complex documents, validating documents against guidelines, and editing to match a distinct writing style. Users with Copilot Tuning enabled can further customize the template-based agents by tuning the context, tools, and underlying models with their organization's proprietary data, processes, and standards, empowering teams with customized agents aligned to how the organization works. This feature will be available to enterprises with at least 5,000 Microsoft 365 Copilot licenses, will roll out to Frontier in April, and will roll out worldwide in June.",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--march-2026/4506322",
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180",
+      "date": "",
+      "source": "techcommunity.microsoft.com",
+      "images": []
+    },
+    {
+      "topic": "Microsoft Copilot",
+      "query": "Microsoft Copilot update March 27 2026..April 2 2026 Microsoft Copilot M365 Copilot update 2026-03-27 to 2026-04-02",
+      "title": "Copilot for Microsoft 365: What's new in April 2026?",
+      "snippet": "Unlike the traditional chat interface, you can write longer prompts and mention detailed instructions or requests, which helps AI better understand your needs. These abilities come in handy, specifically if you are writing an article or developing a code.\n\nOther than these, Copilot for Microsoft 365 can support 16 more languages, including  Portuguese (Portugal), Danish, Arabic, Turkish, Russian, Dutch, Czech, Polish, Hebrew, Korean, Thai, Hungarian, Swedish, Norwegian (Bokmal), Finnish, and Ukrainian.\n\n Copilot already supports English (US, GB, AU, CA, IN)​​, Japanese, Chinese (Simplified)​​, German​​, French (FR, CA)​​, Portuguese (BR)​​, Italian​​,​​ and Spanish (ES, MX)​​. Soon, you will be able to generate prompts in Chinese (Traditional) with Copilot in Microsoft 365. [...] With the Rewrite feature in Copilot, you can fine-tune a specific section of the document, giving you the command to make changes, re-write, tone, and format.\n\nThe Draft with Copilot feature lets you reference files labelled with sensitivity labels to generate new document drafts. The sensitivity label is automatically inherited by the new draft.\n\nYou can select text and ask Copilot to summarize it for you, which you can share in emails or other documents. This feature is also available in Word for web now.\n\nExcel – Multiple formula columns\n\nCopilot in Excel now allows you to generate numerous formula columns from a single prompt. Plus, Microsoft also included two new complex formulas to manage multiple tables. [...] Copilot can also help you brainstorm ideas and draft new content on the basis of a script, agenda, summary or storyboard. It can be an easier way to access particular information across the channel without even finding the actual files and message\n\nThe Copilot app is in the left app bar in all versions of Outlook, including Classic Outlook for Windows, new Outlook for Windows and OWA.\n\nWord – Create and consume documents efficiently\n\nWord has a couple of features that make accessing information quicker while creating a document. From now on, you can prompt a question in Word chat, and you will get an answer based on rich, people-centric data and insights in the Microsoft Cloud and Microsoft Graph.",
+      "url": "https://windowsreport.com/copilot-in-microsoft-365-in-april/",
+      "favicon": "https://windowsreport.com/wp-content/uploads/2019/09/cropped-cropped-winrep-favicon-1-180x180.png",
+      "date": "",
+      "source": "windowsreport.com",
+      "images": [
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/Copilot-Microsoft-365.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/windows-11-update-problems.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/openclaw-microsoft-365.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/ps6-handheld-rumored.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/SarahGilbert_2-1714419855859.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/April_2024_Word_EnterpriseSearch.GraphGrounding-1.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/Notebook_Full_Balanced.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Microsoft Copilot",
+      "query": "Microsoft Copilot update March 27 2026..April 2 2026 Microsoft Copilot M365 Copilot update 2026-03-27 to 2026-04-02",
+      "title": "What's new in Copilot Chat Quality Roadmap — March 2026",
+      "snippet": "### Share this page\n\nShare to LinkedIn\nShare to Facebook\nShare to X\nShare to Reddit\nShare to Blue Sky\nSubscribe to RSS\nShare to Email [...] Brand Logo\n\n## Forum Discussion\n\nMandy_Fallou's avatar\nIcon for Microsoft rank\n\n# What’s new in Copilot Chat Quality Roadmap — March 2026\n\nWe’re building Copilot Chat in the open. The March updates to the Copilot Chat Quality Roadmap show how we’re making Copilot Chat more flexible and easier to work with. You can share more information at once, interact in more natural ways, and get more complete answers—all while staying within the secure Microsoft 365 environment. \n\nHere’s what’s new and coming next. \n\nAll Features shown here are available at no additional cost to users with a qualifying Microsoft 365 or Office 365 license. \n\n#### March Highlights:\n\n🚀 Discover What’s New: Try the latest quality features today [...] Try this: Ask Copilot to create a chart or report with labels with non-Latin characters. You’ll see the text display correctly in the output file.\n\n🚧 What’s Next: Explore upcoming quality features in development\n\nTry this: Drag and drop two or more files (for example, a Word document and an Excel spreadsheet) into Copilot Chat at once. Then ask a question that spans both, such as “What does this spreadsheet say about the project described in this document?”\n\nTry this: If you use Copilot’s Code Interpreter on a file labeled Confidential, any files it generates (for example, a summary or visualization) will automatically be labeled Confidential in OneDrive.\n\n \n\n📌 Bookmark the monthly Copilot Chat Quality roadmap and tell us what you want to see next:  \n\n \n\n### Share this page",
+      "url": "https://techcommunity.microsoft.com/discussions/microsoft365copilot/what%E2%80%99s-new-in-copilot-chat-quality-roadmap-%E2%80%94-march-2026/4507766",
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180",
+      "date": "",
+      "source": "techcommunity.microsoft.com",
+      "images": []
+    },
+    {
+      "topic": "Azure AI Services",
+      "query": "Azure AI Services announcement March 27 2026 to April 2 2026 Azure AI Vision Speech Document Intelligence 2026-03-27 to 2026-04-02",
+      "title": "7 Microsoft AI Services Revolutionizing Business in 2026",
+      "snippet": "#### Enterprise AI Development Services\n\nAre you looking to modernize your architecture? We recently helped a global marketplace client integrate ChatGPT to automate their core event management workflows, reducing administrative overhead by 40%. If you are interested in exploring how AI can solve similar scaling challenges for your business, we offer a complimentary Architectural Audit.\n\nRequest Your Architectural AI Audit →\n\n## The 7 Microsoft AI Services for 2026\n\n### 1. Azure AI Foundry\n\nEnterprise-grade hub for building, customizing, and managing AI models and agents at scale. [...] Artificial Intelligence is transforming the way businesses work, innovate, and grow. In 2026, AI is a must-have for organizations striving to increase efficiency, reduce costs, and unlock new possibilities. By automating operations, enhancing decision-making, and supporting customer experiences, AI delivers both immediate and long-term value. [...] \"Agent Mode\" for asynchronous coding tasks\n Open-source chat for collaborative development\n Use Case: Code automation, developer onboarding\n\n### 4. Industry-Specific AI Agents\n\nPre-built agents for healthcare, retail, accessibility, and more.\n\n Healthcare: speeds up admin tasks, improves diagnostics\n Retail: predicts inventory, automates sales\n Accessibility: Copilot Vision supports users with disabilities\n Use Case: 60% less admin time in hospitals, accurate stock predictions\n\n### 5. Responsible AI & Governance Tools\n\n Azure AI Fairlearn for bias detection\n Transparency Notes for model performance\n Election Security Partnerships for integrity\n Regulatory tools for HIPAA, GDPR, and NIST\n Use Case: Ethical, compliant enterprise AI\n\n### 6. Scientific & Sustainability AI",
+      "url": "https://www.faciletechnolab.com/blog/7-microsoft-ai-services-revolutionizing-business-in-2026/",
+      "favicon": "https://static.faciletechnolab.com/images/icon/favicon/apple-touch-icon-144x144.png",
+      "date": "",
+      "source": "www.faciletechnolab.com",
+      "images": []
+    },
+    {
+      "topic": "Azure AI Services",
+      "query": "Azure AI Services announcement March 27 2026 to April 2 2026 Azure AI Vision Speech Document Intelligence 2026-03-27 to 2026-04-02",
+      "title": "Azure updates | Microsoft Azure",
+      "snippet": "## Global\n\n# Azure Updates\n\nLimited offering to select customers for non-production use and testing.\n\nAvailable to all Azure customers for non-production use and testing.\n\nFully released, production-ready product available to all Azure customers.\n\n## Additional Resources\n\n### Microsoft Azure Blog\n\n### Community support\n\n### Provide feedback\n\n### Product availability by region\n\nTwitter\nInstagram\nLinkedIn\nYouTube",
+      "url": "https://azure.microsoft.com/updates?id=557394",
+      "favicon": "https://azure.microsoft.com/favicon.ico?v2",
+      "date": "",
+      "source": "azure.microsoft.com",
+      "images": []
+    }
+  ]
+}

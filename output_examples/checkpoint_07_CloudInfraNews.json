@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "topic": "AWS",
+      "query": "AWS new cloud service launch 2026-03-27 to 2026-04-02",
+      "title": "What’s New at AWS – Cloud Innovation & News",
+      "snippet": "2026-03-31\n\n#### Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics\n\n2026-03-31\n\n#### AWS Organizations now provides organization paths in API responses\n\n2026-03-31\n\n#### AWS Deadline Cloud now supports new fleet scaling configurations for render farms\n\n2026-03-31\n\n#### AWS Marketplace sellers can now self-serve refunds and agreement cancellations\n\n2026-03-31\n\n#### Aurora DSQL launches new connectors that simplify building .NET and Rust applications\n\n2026-03-31\n\n#### Amazon S3 Vectors expands to 17 additional AWS Regions\n\n   1\n   2\n   3\n   4\n   5\n   6\n   …\n   1000\n\n## More resources\n\nContinue exploring what AWS has to offer\n\n### AWS News Blog\n\nRead more\n\n### Technical documentation\n\nRead more\n\n### AWS Training and Certification\n\nRead more [...] ## Unable to save cookie preferences\n\nWe will only store essential cookies at this time, because we were unable to save your cookie preferences.\n\nIf you want to change your cookie preferences, try again later using the link in the AWS console footer, or contact support if the problem persists.\n\nDismiss\n\nSkip to main content\n\n\n\n2026-03-31\n\n#### Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement\n\n2026-03-31\n\n#### AWS launches Sustainability console for carbon emissions tracking\n\n2026-03-31\n\n#### AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region\n\n2026-03-31\n\n#### Amazon Managed Service for Apache Flink now supports Apache Flink 2.2\n\n2026-03-31 [...] English\n\nBack to top\n\nAmazon is an Equal Opportunity Employer: Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.\n\n[](\n\n   Privacy\n   Site terms\n   Cookie Preferences\n\n© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "url": "https://aws.amazon.com/new/",
+      "favicon": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png",
+      "date": "2026-03-31",
+      "source": "Amazon Web Services",
+      "images": []
+    },
+    {
+      "topic": "AWS",
+      "query": "AWS new cloud service launch 2026-03-27 to 2026-04-02",
+      "title": "AWS Service Availability Updates - AWS",
+      "snippet": "Search\n\n# AWS Service Availability Updates\n\nWe’re announcing availability changes to the following AWS services and features.\n  \n  \nServices moving to Maintenance\n\nServices moving to maintenance will no longer be accessible to new customers starting April 30, 2026. Customers already using these services and features can continue to do so. AWS will continue to operate and support these services and features. We recommend that customers learn about the changes in the product pages and documentation.\n\nServices entering Sunset [...] Services entering Sunset\n\nThe following services are entering sunset, and we are announcing the date upon which we will end operations and support of the service. Customers using these services should click on the links below to understand the sunset timeline and begin planning migration to alternatives as recommended in the updated service web pages and documentation.\n\nServices reaching End of Support\n\nThe following feature has reached end of support and is no longer available as of March 31, 2026.\n\nFor customers affected by these changes, we've prepared comprehensive migration guides, and our support teams are ready to assist with your transition. Visit AWS Product Lifecycle Page to learn more, and subscribe to the RSS feed for future updates.\n\n## Learn\n\n## Resources\n\n## Developers [...] ## Learn\n\n## Resources\n\n## Developers\n\n## Help",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
+      "favicon": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png",
+      "date": "2026-03-31",
+      "source": "Amazon Web Services",
+      "images": []
+    },
+    {
+      "topic": "Google Cloud Platform",
+      "query": "Google Cloud Platform announcement 2026-03-27 to 2026-04-02",
+      "title": "Google Cloud latest news and announcements",
+      "snippet": "Contact salesGet started for free\n\nInside Google Cloud\n\n# What’s new with Google Cloud\n\nMarch 27, 2026\n\n   . This add-on uses AI to enhance your API documentation with the precise examples and error codes that AI agents need to function reliably.\n\nRead the full blog post to get started.\n\n   Webinar | April 16: AI Command & ControlAs AI agents move from experimental pilots to core enterprise functions, governance is the critical next step. Join Google Cloud expert Satyam Maloo for a webinar on April 16th at 11:00 AM IST to learn how to architect a secure AI Management layer. We’ll explore developing governed MCP endpoints, managing tool access to enterprise data, and operationalizing AI with robust audit logs. The session includes a live demo of these frameworks in action on Google Cloud. [...] Accelerate API Testing with the New Open Source API TesterStart validating your APIs with API Tester, a simple, YAML-based Test Driven Development (TDD) framework. Designed for the Apigee community, this tool allows you to write human-readable tests, run them instantly via a web client or CLI, and perform deep unit testing on Apigee proxies. With native support for JSONPath assertions and Apigee shared flows, you can verify everything from payload data to internal variables like `proxy.basepath` without leaving your terminal. [...] Explore the API Tester guide and start testing your proxies today.\n   Secure Sensitive Data with Kubernetes Secrets in Apigee hybridEnhance security in Apigee hybrid by accessing Kubernetes Secrets directly within your API proxies. This hybrid-exclusive feature keeps sensitive credentials within your cluster boundary and prevents replication to the management plane. It supports strict separation of duties: operators manage secrets via `kubectl`, while developers reference them as secure flow variables—ideal for high-compliance and GitOps workflows.",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "favicon": "https://cloud.google.com/favicon.ico",
+      "date": "2026-03-27",
+      "source": "Google Cloud",
+      "images": []
+    },
+    {
+      "topic": "Google Cloud Platform",
+      "query": "Google Cloud Platform announcement 2026-03-27 to 2026-04-02",
+      "title": "Google Cloud release notes | Google Cloud Documentation",
+      "snippet": "Lets admins and users access a new Unused content folder to quickly identify and manage the unused content on a Looker instance.\n   Lets admins programmatically schedule content cleanups for individual content or in bulk, and send automatic notifications to content owners.\n   Lets content owners opt out of automated scheduled cleanups for specific content.\n   Lets admins and users move content to the trash.\n\nThis feature is disabled by default. Learn more about managing unused content with Enhanced Content Cleanup.\n\nAnnouncement\n\nStarting March 30, 2026, the following features will begin rolling out.\n\nFeature\n\nAvailable in preview, you can chat with Conversational Analytics data agents in user-defined dashboards and in LookML dashboards.\n\nChange [...] ## March 30, 2026\n\nAlloyDB for PostgreSQL\n\nFeature\n\nAlloyDB now offers conversational analytics, which lets users query their operational data using natural language. This feature is powered by the Conversational Analytics API, which can help you translate complex human dialog into precise database queries to provide actionable insights. This feature is in Preview. For more information, see Conversational analytics for AlloyDB overview.\n\nBigQuery\n\nFeature\n\nThe following forecasting and anomaly detection functions and updates are generally available (GA):\n\n   The `AI.DETECT_ANOMALIES` function supports providing a custom context window that determines how many of the most recent data points should be used by the model. [...] ## March 27, 2026\n\nCloud Composer\n\nAnnouncement\n\nA new Cloud Composer release has started on March 27, 2026. Get ready for upcoming changes and features as we roll out the new release to all regions. This release is in progress at the moment. Listed changes and features might not be available in some regions yet.\n\nChange\n\nNew Airflow builds are available in Cloud Composer 3:\n\n   composer-3-airflow-3.1.7-build.3\n   composer-3-airflow-2.10.5-build.32 (default)\n   composer-3-airflow-2.9.3-build.52\n\nDeprecated\n\nThe following Cloud Composer versions and builds have reached their end of support period: composer-3-airflow-2.9.3-build.19 and composer-2.12.0-.\n\nChange\n\nNew images are available in Cloud Composer 2:\n\n   composer-2.16.9-airflow-2.10.5 (default)\n   composer-2.16.9-airflow-2.9.3",
+      "url": "https://docs.cloud.google.com/release-notes",
+      "favicon": "https://www.gstatic.com/devrel-devsite/prod/v80d9a52eefe4eccd9a262cfbc94473a846b10e2b3115e0674427719fa6f74364/clouddocs/images/favicons/onecloud/super_cloud.png",
+      "date": "2026-03-30",
+      "source": "Google Cloud Documentation",
+      "images": []
+    },
+    {
+      "topic": "Oracle Cloud Infrastructure",
+      "query": "Oracle Cloud Infrastructure update 2026-03-27 to 2026-04-02",
+      "title": "Oracle Database Monthly News – March 2026 – Quick Links | coretec",
+      "snippet": "What’s new in Oracle AI Database@AWS\n What’s new in Oracle AI Database@Azure\n What’s new in Oracle AI Database@Google Cloud\n Oracle Cloud Infrastructure Documentation / Release Notes\n What’s New in Oracle Base Database Service\n What’s New for Oracle Autonomous Database Serverless\n What’s New in Oracle Exadata Database Service on Exascale Infrastructure\n Oracle Autonomous Database on Dedicated Exadata Infrastructure\n What’s New in Oracle Exadata Database Service on Dedicated Infrastructure\n What’s New in Oracle Exadata Database Service on Cloud@Customer\n What’s New for Oracle Data Safe\n New Features in Enterprise Manager by Release Update\n New Features in 19c Release Updates\n Oracle AI Database 26ai Release Updates\n What’s New for Oracle AI Vector Search [...] ### Upcoming Events\n\n Ask Tom Office Hours\n Monthly Oracle APEX Events\n Developer Coaching Events\n Oracle Cloud Infrastructure Virtual Events\n DOAG Events\n April 21: Exadata meets the Experts\n April 22: ora2know: Upgrade Workshop (Düsseldorf)\n April 23: Patch Smarter, Not Harder – Windows Special Edition (Virtual Classroom Seminar)\n April 29: Advanced Edition: Upgrade, Migration and Patching to Oracle AI Database 26ai and 19c (London)\n May 5: DB Masters Event 2026 (Vienna)\n May 11/May 12: Extreme Edition: Upgrade, Migration and Patching to Oracle AI Database 26ai (May 11 in Utrecht/May 12 in Brussels)\n May 18/19: DOAG Database (Heide Park Soltau)\n 2026: Oracle AI World Tour\n\n### Release & Patch Updates (\\) Changes in bold [...] ### Database & Cloud Database News\n\nMulticloud News\n\n Oracle AI Database@AWS news, e.g.:\n  + Regions support in Sydney, Ireland, London, and Montreal\n Oracle AI Database@Azure news, e.g.:\n  + Oracle Exadata Database Service on Exascale Infrastructure support in Tokyo and West Europe regions\n Oracle AI Database@Google Cloud news, e.g.:\n  + Oracle Exadata Database Service on Exascale Infrastructure and Oracle Base Database Service support in Osasco, São Paulo, Brazil region\n\nOracle Autonomous AI Database Serverless (ADB-S) March news, e.g.:\n\n Select AI for Property Graphs\n Monitor Autonomous AI Database Memory Utilization\n Clone `ADMIN` Privileges in Autonomous AI Database\n Single Sign-On Support for all Autonomous AI Database Tools",
+      "url": "https://blogs.oracle.com/coretec/oracle-database-monthly-news-march-2026-quick-links",
+      "favicon": "https://blogs.oracle.com/favicon.ico",
+      "date": "2026-03-31",
+      "source": "Oracle Blogs",
+      "images": [
+        {
+          "url": "https://blogs.oracle.com/coretec/wp-content/uploads/sites/82/2025/11/quicklinks_2.jpg",
+          "description": ""
+        },
+        {
+          "url": "http://blogs.oracle.com/wp-content/uploads/2025/09/sinan.jpg",
+          "description": "Profile picture of Sinan Petrus Toma"
+        },
+        {
+          "url": "http://blogs.oracle.com/wp-content/uploads/2025/09/ulrike_schwinn.jpg",
+          "description": "Profile picture of Ulrike Schwinn"
+        }
+      ]
+    },
+    {
+      "topic": "Oracle Cloud Infrastructure",
+      "query": "Oracle Cloud Infrastructure update 2026-03-27 to 2026-04-02",
+      "title": "Oracle Cloud Infrastructure Release Notes",
+      "snippet": "## Redesign of the Console home page\n\nThe Console home page has been redesigned to provide easier access to commonly used workflows, tools, and resources.\n\n## Tenancy OCID removed from Console page footer\n\nYour tenancy's Oracle Cloud Identifier (OCID) is no longer displayed on the bottom of the Console. To get your tenancy's ...\n\n## Console design changes\n\nThe Console header has a new design, changing the navigation to some features.\n\n## Updates to the Console navigation menu\n\nThe Console menu has been redesigned to improve navigation to services and resources. For more information, see Using the Console ...\n\n## Unified navigation menu in the Console\n\nPreviously, you could navigate to services using individual menus across the top of the Console. Now you can navigate to ... [...] ## New region in Chicago, United States\n\nThe US Midwest (Chicago) region is now available. The region identifier is us-chicago-1. The region key is ORD. This region ...\n\n## New Release for Data Integration (security and bug fixes)\n\nThis release contains the following fixes.\n\n## Full Stack Disaster Recovery is now available\n\nFull Stack Disaster Recovery (FSDR) is an Oracle Cloud Infrastructure (OCI) disaster recovery orchestration and management service that provides comprehensive ...\n\n## New region in Madrid, Spain\n\nThe Spain Central (Madrid) region is now available. The region identifier is eu-madrid-1. The region key is MAD. This region ...\n\n## Process Automation is now available\n\nFor more information about Process Automation releases, see What's New and Known Issues. [...] ## New region UK West (Newport)\n\nThe UK West (Newport) region is now available. The region name is uk-cardiff-1. The region key is CWL. This region ...\n\n## Operations Insights\n\nOperations Insights enables you to analyze CPU and storage resources, forecast capacity issues, and proactively identify SQL performance issues across ...\n\n## New region in Dubai, UAE\n\nA region in Dubai, UAE is now available. The region name is me-dubai-1. The region key is DXB. This region ...\n\n## Cloud Guard is now available\n\nCloud Guard is a cloud-native service that helps customers monitor, identify, achieve, and maintain a strong security posture on Oracle ...\n\n## Security Zones are now available",
+      "url": "https://docs.oracle.com/iaas/releasenotes/services/oci/index.htm",
+      "favicon": "https://docs.oracle.com/en/styles/images/favicon.ico",
+      "date": "2026-03-30",
+      "source": "Oracle Documentation",
+      "images": []
+    },
+    {
+      "topic": "Data Centre Investment",
+      "query": "data center investment hyperscaler capex GPU demand AI compute buildout 2026-03-27 to 2026-04-02",
+      "title": "Hyperscalers Plan $630 Billion in 2026 CapEx - Data Center Richness",
+      "snippet": "# Hyperscalers Plan $630 Billion in 2026 CapEx\n\n### Investment in GPUs, Data Centers for AI Poised to Surge 62% From 2025 Record\n\nRich Miller\n\nFeb 06, 2026\n\n∙ Paid\n\nAn Amazon Web Services data center. Amazon said Thursday that it expects capital expenditures of $200 billion this year for AI infrastructure. (Photo: Amazon)\n\nDespite historic investments in GPUs and data centers, hyperscale data center operators say they are unable to keep pace with the demand for capacity for AI services. So they are turning the dial up to 11. [...] Amazon, Google, Meta and Microsoft say they will dramatically boost their data center spending in 2026. This emphatic reinforcement of the AI boom was capped by Thursday’s revelation that Amazon plans for $200 billion in annual capital expenditures (CapEx), most of which goes to digital infrastructure.\n\nAll told, the Big Four plan to invest up to $630 BILLION in capital expenditures for 2026, about a 62 percent increase from the record $388 billion in 2025 spending.\n\nHere’s a breakdown of the number from this week’s earnings calls: [...] Amazon: $200 billion in CapEx projected for 2026, versus $125 billion last year.\n Google: $175 to $185 billion, up from $91 billion in 2025.\n Meta: $115 to $135 billion for 2026, up from $72 billion in 2025.\n Microsoft: $110 to $120 billion in 2026, compared to $90 billion last year.\n\nThe CapEx numbers from the four hyperscalers lay the groundwork for an extraordinary year of investment in the AI ecosystem, as well as tensions around data center development boom and its impact on local communities.\n\nInvestors remain skeptical about the huge spending for AI infrastructure, and shares of Google, Amazon and Microsoft all sold off following their earnings calls. But hyperscale executives expressed confidence that these huge bets will pay off.",
+      "url": "https://datacenterrichness.substack.com/p/hyperscalers-plan-630-billion-in",
+      "favicon": "https://substackcdn.com/image/fetch/$s_!DGNy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9f8aa94-0a7e-4b63-be00-99c6e9d9fe08%2Ffavicon.ico",
+      "date": "2026-02-06",
+      "source": "Data Center Richness",
+      "images": []
+    },
+    {
+      "topic": "Cloud Market Dynamics",
+      "query": "cloud market share report IDC Gartner 2026-03-27 to 2026-04-02",
+      "title": "IDC: Public Cloud Spending to Pass $1 Trillion in 2026",
+      "snippet": "The overall growth of the public cloud market continues to be anchored by Software-as-a-Service (SaaS)\") , which will remain the largest segment of cloud deployment models in 2026. SaaS is expected to account for more than half of global public cloud spending as enterprises expand investments in enterprise resource management software, cybersecurity platforms, and customer relationship management tools delivered through cloud-based subscription models. These applications allow organizations to modernize business processes while reducing reliance on traditional on-premises systems. [...] ## Industries Accelerate Public Cloud Use\n\nIndustry adoption of public cloud services is broadening across both traditional and emerging sectors. Banking, software and information services, and retail are expected to represent the largest cloud-spending industries in 2026, together accounting for roughly one quarter of total global expenditure. Financial institutions are continuing large-scale modernization of legacy core systems while deploying cloud-enabled fraud detection tools, real-time payment systems, and AI-driven risk analysis platforms. [...] While SaaS dominates the market in scale, Platform-as-a-Service (PaaS) is emerging as the fastest-growing category. IDC forecasts that PaaS spending will expand by more than 37% in 2026, reflecting growing enterprise demand for tools that support application development, data engineering, and artificial intelligence workloads. PaaS platforms are increasingly used to power generative AI systems, agentic AI frameworks, and advanced analytics platforms that rely on cloud-native architectures. The rapid expansion of these technologies is driving enterprises to adopt developer-centric environments capable of managing data-intensive operations at scale.\n\n## Industries Accelerate Public Cloud Use",
+      "url": "https://hostingjournalist.com/news/idc-public-cloud-spending-to-pass-1-trillion-in-2026",
+      "favicon": "https://hostingjournalist.com/images/HostingJournalist.png",
+      "date": "2026-03-31",
+      "source": "HostingJournalist",
+      "images": [
+        {
+          "url": "https://hostingjournalist.com/uploads/news-pictures/2057-zutphen-blog-post-image-20260308175030.jpg",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

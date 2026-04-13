@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "topic": "Cybersecurity",
+      "query": "cybersecurity breach ransomware vulnerability 2026-03-27 to 2026-04-02",
+      "title": "SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks",
+      "snippet": "Title: SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks\n# SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks. Russian cybercrime group known as T505 is targeting SolarWinds Server-U systems that haven't been patched for a remote code execution vulnerability fixed this summer. Picture of Dark Reading Staff. Dark Reading Staff,Dark Reading. A recent surge in Clop ransomware attacks led researchers to spot a common thread in the first stage of the attack: the exploitation of a known and patched vulnerability in SolarWinds Serv-U file server software. NCC Group's Cyber Incident Response Team recently spotted the attack chain while conducting incident response cases of Clop ransomware victims hit by the infamous T505 cybercrime group out of Russia. The attackers exploited versions of the SolarWinds Serv-U software that have not been updated to the latest version that fixes the remote code execution flaw (CVE-2021-35211). NCC Group recommends updating SolarWinds Serv-U software to the newest version; it outlined several indicators of compromise they spotted in the attacks. Read the full report here. Dark Reading is a leading cybersecurity media site. See more from Dark Reading Staff. * The ROI of AI in Security. * Building a Robust SOC in a Post-AI World. * Retail Security: Protecting Customer Data and Payment Systems. * Rethinking SSE: When Unified SASE Delivers the Flexibility Enterprises Need. * Securing Remote and Hybrid Work Forecast: Beyond the VPN. * AI-Powered Threat Detection: Beyond Traditional Security Models. Want more Dark Reading stories in your Google search results? * Threat Intelligence2026: The Year Agentic AI Becomes the Attack-Surface Poster ChildJan 30, 2026. Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. * Building a Robust SOC in a Post-AI WorldThurs, March 19, 2026 at 1pm EST. * Retail Security: Protecting Customer Data and Payment SystemsThurs, April 2, 2026 at 1pm EST. * AI-Powered Threat Detection: Beyond Traditional Security ModelsWed, March 25, 2026 at 1pm EST. * Industry Report: AI, SOC, and Modernizing Cybersecurity. ## GISEC GLOBAL is the most influential and the largest cybersecurity gathering in the Middle East & Africa, uniting global CISOs, government leaders, technology buyers, and ethical hackers for three power-packed days of innovation, strategy, and live cyber drills.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/rise-in-clop-ransomware-attacks-tied-to",
+      "favicon": "https://www.darkreading.com/favicon.ico",
+      "date": "2026-03-31",
+      "source": "Dark Reading",
+      "images": []
+    },
+    {
+      "topic": "Cybersecurity",
+      "query": "cybersecurity breach ransomware vulnerability 2026-03-27 to 2026-04-02",
+      "title": "MOVEit Hackers Pivot to SysAid Zero-Day in Ransomware Attacks",
+      "snippet": "|\n\n  8 Min Read\n\nDownload the Collection\n\nKeep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox.\n\nSubscribe\n\nWebinars\n\n Building a Robust SOC in a Post-AI WorldThurs, March 19, 2026 at 1pm EST\n Retail Security: Protecting Customer Data and Payment SystemsThurs, April 2, 2026 at 1pm EST\n Rethinking SSE: When Unified SASE Delivers the Flexibility Enterprises NeedWed, April 1, 2026 at 1pm EST\n Securing Remote and Hybrid Work Forecast: Beyond the VPNTues, March 10, 2026 at 1pm EST\n AI-Powered Threat Detection: Beyond Traditional Security ModelsWed, March 25, 2026 at 1pm EST\n\nMore Webinars\n\nWhite Papers [...] GET YOUR PASS\n\nGISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event\n\nGISEC GLOBAL 2026\n\n## GISEC GLOBAL is the most influential and the largest cybersecurity gathering in the Middle East & Africa, uniting global CISOs, government leaders, technology buyers, and ethical hackers for three power-packed days of innovation, strategy, and live cyber drills.\n\n📌 Book Your Space [...] More Webinars\n\nWhite Papers\n\n Autonomous Pentesting at Machine Speed, Without False Positives\n Fixing Organizations' Identity Security Posture\n Best practices for incident response planning\n Industry Report: AI, SOC, and Modernizing Cybersecurity\n The Threat Prevention Buyer's Guide: Find the best AI-driven threat protection solution to stop file-based attacks.\n\nExplore More White Papers\n\nJoin Us at Black Hat Asia 2026\n\nBlack Hat Asia | Marina Bay Sands, Singapore\n\n## Experience cutting-edge cybersecurity insights in this four-day event featuring expert Briefings on the latest research, Arsenal tool demos, a vibrant Business Hall, networking opportunities, and more. Use code DARKREADING for a Free Business Pass or $200 off a Briefings Pass.\n\nGET YOUR PASS",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/moveit-hackers-sysaid-zero-day-ransomware",
+      "favicon": "https://www.darkreading.com/favicon.ico",
+      "date": "2026-03-31",
+      "source": "Dark Reading",
+      "images": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b3d76f909c837ea/654e3a18b4e480040b16763c/emergency_response_plan_designer491_Alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "AI Governance & Data Privacy",
+      "query": "AI governance EU AI Act compliance enterprises 2026-03-27 to 2026-04-02",
+      "title": "AI Pact: Simplifying EU AI Act compliance for enterprises | CIO",
+      "snippet": "“It will have to be done by mid-2026, which is a tight timeframe, but Cisco only sees benefits to being part of the AI Pact,” Quattrocchi points out. “We are in favor of AI regulations as well as regulatory simplification, also recommended by the Draghi Report, and the effective execution of the AI Act and any new AI regulatory instruments.” [...] For Valentini, it is important that, within companies, AI governance is set up, providing for a dedicated AI and compliance team involving cybersecurity, the CIO and other departments such as legal.\n\n“We are doing that,” he says, “and we are also training our employees to create awareness of what the AI Act is and how it impacts their work. I think this is also an essential task for all companies.”\n\nIn addition to holding the webinars, the European Commission will invite AI Pact participants to report on their progress on the path to AI Act compliance 12 months after the commitments are published. However, many of the signatories stress the need for the EU “machine” to move quickly by streamlining the steps, as this will give concrete effectiveness to the Pact. [...] ## Support for compliance\n\nThe AI Pact’s voluntary commitments are based on the European Commission’s call for compliance with at least three key tasks. The first is to adopt an AI governance strategy that encourages its use in the enterprise and prepares the ground for AI Act compliance; the second is to identify and map AI systems that could fall into the “high risk” category under the Act; and the third is to promote awareness of AI technology and AI Act requirements among staff, ensuring ethical and responsible AI development. At least half of the current AI Pact signatories (numbering more than 130) have made additional commitments, such as risk mitigation, human oversight and transparency in generative AI content.",
+      "url": "https://www.cio.com/article/3812400/ai-pact-how-to-simplify-ai-act-compliance-for-all-enterprises.html",
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180",
+      "date": "2026-03-30",
+      "source": "CIO",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2025/01/3812400-0-96825100-1738326131-Europe-EU-tech-chip_shutterstock_1343083016.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "AI Governance & Data Privacy",
+      "query": "AI governance EU AI Act compliance enterprises 2026-03-27 to 2026-04-02",
+      "title": "European Parliament votes to delay EU AI Act implementation",
+      "snippet": "In addition, Doug Barbin, president of compliance firm Schellman, warned CIOs, “there’s also a real procedural risk here: if Council and Parliament negotiations drag past August 2026, the original deadlines stay on the books. CIOs who’ve been sitting on their hands are the most exposed to that scenario. The organizations investing in governance infrastructure now won’t be the ones in crisis mode later. This is extra time — use it.”\n\nBarbin said the market is slowly shifting to broader strategies. “This is where compliance is going: less around specific actions and more about governance and risk,” he said.\n\n## High cost of waiting [...] - [x] \nBy submitting your information, you agree to our PRIVACY POLICY.\n\n \n\n \n\nSUBSCRIBE\n\nImage 2: top image\n\n## Related content\n\nOpinion ### What boards get wrong about AI risk: Here’s what you should be measuring By Lexi Reese Mar 31, 2026 8 mins IT Governance Laws and Regulations Staff ManagementNews ### Anthropic wins reprieve against US DoD ban, buying time for contractors to assess AI supply chains By Cynthia Brumfield Mar 27, 2026 5 mins Aerospace and Defense Industry Government Laws and RegulationsOpinion ### Are we living in an AI bubble? Applying lessons from the dot-com era By Arti Deshpande, Robert Stines and Mike Vaughan Mar 24, 2026 7 mins IT Strategy Markets Technology Industry\n\n## Other Sections\n\n   PODCASTS\n   VIDEOS\n   RESOURCES\n   EVENTS   Spotlight: Data Center [...] Back",
+      "url": "https://www.cio.com/article/4150989/european-parliament-delays-implementation-of-parts-of-the-eu-ai-act.html",
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "images": []
+    },
+    {
+      "topic": "Digital Transformation",
+      "query": "enterprise technology CIO digital transformation 2026-03-27 to 2026-04-02",
+      "title": "7 challenges IT leaders will face in 2026 - CIO",
+      "snippet": "Additionally, Ranjit Rajan, vice president and head of research at IDC, says CIOs will be called to justify previous investment in automation while managing related costs.\n\n“CIOs will be tasked with creating enterprise AI value playbooks, featuring expanded ROI models to define, measure, and showcase impact across efficiency, growth, and innovation,” Rajan says.\n\nMeanwhile, tech leaders who spent the past decade or more focused on digital transformation are now driving cultural change within their organizations. CIOs emphasize that transformation in 2026 requires a focus on people as well as technology.\n\nHere’s how CIOs say they’re preparing to address and overcome these and other challenges in 2026.\n\n## Talent gap and training [...] “We’re focusing on practical applications of AI that augment our workforce and streamline operations,” says Pegasystems’ Vidoni. “Every technology investment must be aligned with business goals and financial discipline.”\n\nWhen modernizing applications, Vidoni argues that teams need to stay outcome-focused, phasing in improvements that directly support their goals. [...] “This means application modernization and cloud cost-optimization initiatives are required to stay competitive and relevant,” he says. “The challenge is to modernize and become more agile without letting costs spiral. By empowering an organization to develop applications faster and more efficiently, we can accelerate modernization efforts, respond more quickly to the pace of tech change, and maintain control over cloud expenditures.”\n\nTech leaders also face challenges in driving efficiency through AI while vendors are increasing prices to cover their own investments in the technology, says Mark Troller, CIO of Tangoe.",
+      "url": "https://www.cio.com/article/4114004/7-challenges-it-leaders-will-face-in-2026.html",
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180",
+      "date": "2026-03-30",
+      "source": "CIO",
+      "images": []
+    },
+    {
+      "topic": "Digital Transformation",
+      "query": "enterprise technology CIO digital transformation 2026-03-27 to 2026-04-02",
+      "title": "5 IT shifts every CIO must master this year",
+      "snippet": "As we move forward in 2026, the IT landscape is undergoing its most transformative period in decades. The forces of digital transformation, persistent security threats and economic uncertainty are converging to redefine how organizations build, secure and manage technology. For IT leaders, the mission is clear: Architect resilient, efficient and intelligent infrastructure that not only keeps pace with innovation but also drives it.\n\nThe following five trends represent the core of that evolution. Together, they outline the path forward for enterprises determined to modernize, protect and lead in the next era of IT.\n\n## 1. Hybrid is the new default [...] Prioritize hybrid cloud architectures that deliver flexibility and control. Mature your zero-trust initiatives to ensure every access point is protected. Invest in unified data platforms that turn information into insight. Double down on automation to build efficiency and resilience. And begin piloting edge computing use cases that extend your digital reach.\n\nThe next generation of IT will not be defined by a single technology, but by how seamlessly all these pieces work together. In 2026, the enterprises that thrive will be those that treat modernization as a continuous journey, not a destination.\n\nThis article is published as part of the Foundry Expert Contributor Network.  \nWant to join?\n\n## Related content\n\n### The shift to a modern cloud infrastructure delivers human benefits [...] Industries such as manufacturing, logistics, healthcare and retail will see major gains in responsiveness and resilience. Predictive maintenance, computer vision and location intelligence will all benefit from processing data directly at the edge.\n\nAs these capabilities mature, the boundary between digital and physical operations will blur, unlocking new opportunities for automation, sustainability and business model innovation.\n\n## Your 2026 IT playbook\n\nThese five trends point toward an IT environment that is intelligent, automated and distributed, yet unified by strong governance and security. For technology leaders, success in this era will depend on taking deliberate steps now.",
+      "url": "https://www.cio.com/article/4125868/5-it-shifts-every-cio-must-master-this-year.html",
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2026/02/4125868-0-73909600-1770124671-shutterstock_590492840.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Enterprise Software Market",
+      "query": "SAP Salesforce ServiceNow Oracle enterprise update 2026-03-27 to 2026-04-02",
+      "title": "Oracle adds AI capabilities to its Fusion Cloud CX",
+      "snippet": "Last year in July, Salesforce updated its Commerce Cloud with digital commerce capabilities. This was followed by the company adding contact center updates to its Service Cloud in March this year.\n\nServiceNow has been slowly adding AI and generative AI capabilities to its service offerings since its Vancouver release in September last year. It later added other capabilities to its Washington DC release this year.\n\nSAP, too, since last year has been working on adding its generative AI assistant, Joule, to all its applications. [...] “The new AI capabilities within Oracle Sales enable sellers to generate more deals by delivering highly-targeted recommendations on specific products to offer, insights on the buyers’ role and engagement level, and additional contacts for key opportunities,” the company explained.\n\nOracle competes with several companies including Salesforce, SAP, ServiceNow, Tealium, Twilio, Adobe, and ActionIQ in the customer relationship management (CRM) market.\n\nSalesforce, SAP, and ServiceNow have been adding AI and generative AI capabilities to their sales, marketing, and service software offerings to help enterprises increase efficiency and productivity. [...] ## About",
+      "url": "https://www.cio.com/article/2095202/oracle-adds-ai-capabilities-to-its-fusion-cloud-cx.html",
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2025/02/2095202-0-52051800-1739944285-20151027-openworld-oracle-cloud-signs-100625232-orig-100696124-orig_1.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Enterprise Software Market",
+      "query": "SAP Salesforce ServiceNow Oracle enterprise update 2026-03-27 to 2026-04-02",
+      "title": "ZDNet Japan — News roundup (examples dated within range)",
+      "snippet": "2026-04-01 07:00\n\n子どもたちの未来を守るために。今、必要な“データプライバシー教育”とは\n\n子どもたちの未来を守るために。今、必要な“データプライバシー教育”とは\n\n2026-04-01 07:00\n\n「Windows 11」の改善を表明したマイクロソフトに求めたい4つのこと\n\n「Windows 11」の改善を表明したマイクロソフトに求めたい4つのこと\n\n2026-04-01 06:30\n\nAIとの気軽なチャットがもたらす個人情報やプライバシーの危険性\n\nAIとの気軽なチャットがもたらす個人情報やプライバシーの危険性\n\n2026-04-01 06:30\n\nNews from ZDNET Worldwide\n\n本国アメリカのZDNETが発信する海外最新IT動向やテクノロジトレンドに関するニュースを毎日発信！\n\n約7割がAIエージェントのセキュリティリスクを懸念--KnowBe4調査\n\nKnowBe4 Japanは、日本国内の企業・団体に勤める従業員を対象に実施した「AIエージェントのセキュリティへの影響に関する意識調査」の結果を発表した。AIエージェントの利用拡大への期待が高まる一方で、情報漏えいや著作権侵害といったヒューマンリスクへの懸念と、従業員のリスク理解の停滞という課題が浮き彫りになったという.\n\n2026-03-31 16:02",
+      "url": "https://japan.zdnet.com/",
+      "favicon": "https://japan.zdnet.com/icon-160x160.png",
+      "date": "2026-04-01",
+      "source": "ZDNet Japan",
+      "images": [
+        {
+          "url": "https://japan.zdnet.com/media/z/2023/zd_ogp.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Technology M&A",
+      "query": "technology merger acquisition 2026-03-27 to 2026-04-02 deal $500M acquisition 2026-03-27..2026-04-02",
+      "title": "Art Technology Acquisition Corp, ARTCU:NMQ historical prices - FT.com",
+      "snippet": "| Date | Open | High | Low | Close | Volume |\n ---  ---  --- |\n| Monday, March 30, 2026Mon, Mar 30, 2026 | 9.91 | 9.91 | 9.90 | 9.90 | 3,8113.81k |\n| Friday, March 27, 2026Fri, Mar 27, 2026 | 9.88 | 9.92 | 9.88 | 9.90 | 5,5095.51k |\n| Thursday, March 26, 2026Thu, Mar 26, 2026 | 9.90 | 9.92 | 9.88 | 9.90 | 2,6612.66k |\n| Wednesday, March 25, 2026Wed, Mar 25, 2026 | 9.89 | 9.89 | 9.89 | 9.89 | 842842.00 |\n| Wednesday, March 18, 2026Wed, Mar 18, 2026 | 9.89 | 9.92 | 9.89 | 9.90 | 9,5739.57k |\n| Tuesday, March 17, 2026Tue, Mar 17, 2026 | 9.89 | 9.91 | 9.89 | 9.90 | 4,6074.61k |\n| Monday, March 16, 2026Mon, Mar 16, 2026 | 9.91 | 9.91 | 9.91 | 9.91 | 1,1211.12k |\n| Friday, March 13, 2026Fri, Mar 13, 2026 | 9.90 | 9.90 | 9.90 | 9.90 | 7,5337.53k | [...] | Thursday, March 12, 2026Thu, Mar 12, 2026 | 9.89 | 9.89 | 9.89 | 9.89 | 1,3311.33k |\n| Friday, March 06, 2026Fri, Mar 06, 2026 | 9.90 | 9.91 | 9.89 | 9.89 | 80,01380.01k |\n| Thursday, March 05, 2026Thu, Mar 05, 2026 | 9.91 | 9.91 | 9.89 | 9.89 | 9,7829.78k |\n| Wednesday, March 04, 2026Wed, Mar 04, 2026 | 9.90 | 9.92 | 9.90 | 9.90 | 69,60169.60k |\n| Tuesday, March 03, 2026Tue, Mar 03, 2026 | 9.92 | 9.92 | 9.90 | 9.91 | 96,79696.80k | [...] # Art Technology Acquisition Corp\n\nAdd to watchlist\nAdd to portfolio\n\n# Art Technology Acquisition Corp\n\nFind Funds and ETFs\nFind Similar Funds\nFunds Screener\n\n#### ApplyCancelActions\n\n## Historical Prices\n\n#### ApplyCancelHistorical prices filter\n\nYou may only view one year's worth of data at a time.",
+      "url": "https://markets.ft.com/data/funds/tearsheet/historical?s=ARTCU%3ANMQ",
+      "favicon": "https://im.ft-static.com/m/icons/favicon.ico",
+      "date": "2026-03-30",
+      "source": "Financial Times (Markets)",
+      "images": [
+        {
+          "url": "https://markets.ft.com/data/content/images/icons/tools/iconwatchlist.svg",
+          "description": "Add to watchlist"
+        }
+      ]
+    },
+    {
+      "topic": "Technology M&A",
+      "query": "technology merger acquisition 2026-03-27 to 2026-04-02 deal $500M acquisition 2026-03-27..2026-04-02",
+      "title": "APEX Tech Acquisition Inc, TRAD.U:NYQ historical prices - FT.com",
+      "snippet": "| Date | Open | High | Low | Close | Volume |\n ---  ---  --- |\n| Wednesday, April 01, 2026Wed, Apr 01, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 90,99090.99k |\n| Monday, March 30, 2026Mon, Mar 30, 2026 | 10.00 | 10.01 | 10.00 | 10.01 | 697697.00 |\n| Friday, March 27, 2026Fri, Mar 27, 2026 | 10.00 | 10.02 | 10.00 | 10.02 | 949949.00 |\n| Thursday, March 26, 2026Thu, Mar 26, 2026 | 10.00 | 10.02 | 10.00 | 10.00 | 225,414225.41k |\n| Wednesday, March 25, 2026Wed, Mar 25, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 117,228117.23k |\n| Tuesday, March 24, 2026Tue, Mar 24, 2026 | 10.00 | 10.02 | 9.99 | 10.00 | 52,86952.87k |\n| Monday, March 23, 2026Mon, Mar 23, 2026 | 10.02 | 10.02 | 10.00 | 10.00 | 1,5151.52k |\n| Friday, March 20, 2026Fri, Mar 20, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 1,9962.00k | [...] | Monday, March 09, 2026Mon, Mar 09, 2026 | 10.02 | 10.02 | 10.00 | 10.00 | 2,9973.00k |\n| Friday, March 06, 2026Fri, Mar 06, 2026 | 10.01 | 10.01 | 10.00 | 10.00 | 40,74140.74k |\n| Thursday, March 05, 2026Thu, Mar 05, 2026 | 10.01 | 10.01 | 10.00 | 10.00 | 28,92928.93k |\n| Wednesday, March 04, 2026Wed, Mar 04, 2026 | 10.01 | 10.01 | 10.00 | 10.01 | 19,64419.64k |\n| Tuesday, March 03, 2026Tue, Mar 03, 2026 | 10.01 | 10.05 | 10.00 | 10.00 | 227,126227.13k |",
+      "url": "https://markets.ft.com/data/funds/tearsheet/historical?s=TRAD.U%3ANYQ",
+      "favicon": "https://im.ft-static.com/m/icons/favicon.ico",
+      "date": "2026-04-01",
+      "source": "Financial Times (Markets)",
+      "images": []
+    }
+  ]
+}

@@ -673,3 +673,285 @@ digital_transformation_demo/
     ├── budget_variance_report_20260330_161539.md
     └── budget_variance_report_20260330_161539.docx
 ```
+
+---
+
+# Microsoft Weekly Intelligence Brief Workflow
+
+> A **17-agent sequential pipeline** that automatically gathers, validates, analyses, and prioritises Microsoft-related news each week, then generates and emails a leadership-ready HTML intelligence brief with insights, UAE impact, and sales positioning.
+
+---
+
+## Overview
+
+`ms_intelligence_workflow.py` implements a weekly newsletter workflow for Microsoft UAE leadership. It collects news from Microsoft-first-party RSS feeds, Microsoft Learn, and three web search providers, then processes the articles through a sequential enrichment pipeline before rendering a polished HTML email and delivering it via Outlook.
+
+### Key features
+
+- **17 sequential agents** — each agent consumes the prior step's structured JSON output
+- **Three agent types** in one workflow: Foundry Agent Service, Responses API, and MAF Anthropic provider
+- **Two custom MCP servers** for RSS and Microsoft Learn data retrieval
+- **Intermediate checkpoints** — every agent output saved to `output/` for debugging
+- **Strict JSON handoffs** — all inter-agent contracts are validated JSON
+- **Outlook-compatible HTML** — rendered by Claude via MAF Anthropic provider
+
+---
+
+## The 17-Agent Pipeline
+
+| # | Agent | Type | Tool / Provider |
+|---|-------|------|-----------------|
+| 1 | DateIntelligenceAgent | Foundry Agent Service | — |
+| 2 | MicrosoftSourceAgent | Foundry Agent Service | MCP: ms-news-mcp-server |
+| 3 | MicrosoftLearnAgent | Foundry Agent Service | MCP: ms-learn-mcp-server |
+| 4 | TavilySearchAgent | Foundry Agent Service | Tavily |
+| 5 | BingSearchAgent | Foundry Agent Service | Bing Grounding |
+| 6 | SerpAPIAgent | Foundry Agent Service | SerpAPI |
+| 7 | DeduplicationAgent | Foundry Agent Service | — |
+| 8 | ValidationAgent | Foundry Agent Service | — |
+| 9 | TopicIntelligenceAgent | Foundry Agent Service | — |
+| 10 | MicrosoftMessagingAgent | Foundry Agent Service | — |
+| 11 | UAEImpactAgent | Foundry Agent Service | — |
+| 12 | SalesPositioningAgent | Foundry Agent Service | — |
+| 13 | PriorityScoringAgent | Foundry Agent Service | — |
+| 14 | NewsletterCompositionAgent | Foundry Agent Service | — |
+| 15 | MediaEnrichmentAgent | **Responses API** | — |
+| 16 | HTMLRenderingAgent | **MAF Anthropic provider** | Anthropic Claude |
+| 17 | EmailDeliveryWorkIQAgent | Foundry Agent Service | Work IQ / Outlook |
+
+### Agent instantiation pattern
+
+**Foundry agents (15 agents)** — loaded by name from `.env` via `agent_reference`:
+```python
+response = self.openai_client.responses.create(
+    input=[{"role": "user", "content": query}],
+    extra_body={
+        "agent_reference": {
+            "name": os.getenv("AGENT_NAME"),
+            "version": os.getenv("AGENT_VERSION", "1"),
+            "type": "agent_reference",
+        }
+    },
+)
+```
+
+**MediaEnrichmentAgent (Agent 15)** — Responses API with local instructions:
+```python
+agent = Agent(client=self.responses_client, instructions=MEDIA_ENRICHMENT_INSTRUCTIONS)
+result = await agent.run(query)
+```
+
+**HTMLRenderingAgent (Agent 16)** — MAF Anthropic provider:
+```python
+agent = AnthropicClient(
+    api_key=os.getenv("ANTHROPIC_API_KEY"),
+    model=os.getenv("ANTHROPIC_MODEL", "claude-opus-4-6"),
+).as_agent(instructions=HTML_RENDERING_INSTRUCTIONS)
+result = await agent.run(query)
+```
+
+---
+
+## Data Flow
+
+```
+Trigger
+  │
+  ▼
+[1] DateIntelligenceAgent ──────────────────────────────────────────────────────
+    Output: { start_date, end_date, interval_label }
+  │
+  ├──▶ [2] MicrosoftSourceAgent (MCP → RSS feeds)
+  ├──▶ [3] MicrosoftLearnAgent  (MCP → Learn docs)
+  ├──▶ [4] TavilySearchAgent   (Tavily)
+  ├──▶ [5] BingSearchAgent     (Bing Grounding)
+  └──▶ [6] SerpAPIAgent        (SerpAPI)
+       Each: Output { articles: [...] }
+  │
+  ▼  [merge all articles]
+[7] DeduplicationAgent ─── Output: { topics: [{ topic, articles }] }
+  │
+  ▼
+[8] ValidationAgent ─────── Output: { validated_topics: [...] }
+  │
+  ▼
+[9] TopicIntelligenceAgent ─ Output: { insights: [{ topic, summary, category }] }
+  │
+  ▼
+[10] MicrosoftMessagingAgent ─ Output: { messaging: [{ topic, message }] }
+  │
+  ▼
+[11] UAEImpactAgent ─────────── Output: { uae_impact: [{ topic, impact, tier }] }
+  │
+  ▼
+[12] SalesPositioningAgent ──── Output: { sales_guidance: [{ topic, approach }] }
+  │
+  ▼
+[13] PriorityScoringAgent ───── Output: { prioritized_topics: [{ topic, priority, score }] }
+  │
+  ▼
+[14] NewsletterCompositionAgent ─ Output: { newsletter_sections: { title, executive_summary, topics } }
+  │
+  ▼
+[15] MediaEnrichmentAgent (Responses API) ─ Output: { topics_with_images: [...] }
+  │
+  ▼
+[16] HTMLRenderingAgent (Anthropic MAF) ─── Output: <HTML string>
+  │
+  ▼
+[17] EmailDeliveryWorkIQAgent ─────────────  Output: delivery confirmation JSON
+                                             Email sent to NEWSLETTER_RECIPIENT_EMAIL
+```
+
+---
+
+## File Structure
+
+```
+maf_sequential_workflow/
+│
+├── ms_intelligence_workflow.py    # Main 17-agent orchestration script
+├── ms-news-mcp-server.py          # RSS MCP server (Azure Blog, MS Blog, Tech Community)
+├── ms-learn-mcp-server.py         # Microsoft Learn MCP server
+│
+├── prompts/                       # Agent system prompts
+│   ├── agent01_date_intelligence.txt
+│   ├── agent02_microsoft_source.txt
+│   ├── agent03_microsoft_learn.txt
+│   ├── agent04_tavily_search.txt
+│   ├── agent05_bing_search.txt
+│   ├── agent06_serpapi.txt
+│   ├── agent07_deduplication.txt
+│   ├── agent08_validation.txt
+│   ├── agent09_topic_intelligence.txt
+│   ├── agent10_microsoft_messaging.txt
+│   ├── agent11_uae_impact.txt
+│   ├── agent12_sales_positioning.txt
+│   ├── agent13_priority_scoring.txt
+│   ├── agent14_newsletter_composition.txt
+│   ├── agent15_media_enrichment.txt   ← Responses API system prompt
+│   ├── agent16_html_rendering.txt     ← Anthropic MAF system prompt
+│   └── agent17_email_delivery.txt
+│
+└── output/                        # Generated newsletter HTML + checkpoints
+    ├── checkpoint_01_DateIntelligence.json
+    ├── ...
+    ├── checkpoint_17_EmailDelivery.json
+    └── ms_intelligence_brief_YYYYMMDD_HHMMSS.html
+```
+
+---
+
+## Setup
+
+### Prerequisites
+
+1. **Azure AI Foundry Hub + Project** with Agent Service enabled
+2. **15 Foundry agents** deployed — names must match `.env` values
+3. **2 MCP servers** deployed to Azure Container Apps (ms-news-mcp-server, ms-learn-mcp-server)
+4. **Anthropic API key** for HTMLRenderingAgent
+5. **Microsoft 365** Outlook connection configured for EmailDeliveryWorkIQAgent
+
+### Step 1: Deploy MCP servers
+
+Deploy `ms-news-mcp-server.py` and `ms-learn-mcp-server.py` to Azure Container Apps using the same pattern as the budget MCP server.
+
+Update `.env` with the deployed endpoints:
+```
+MS_NEWS_MCP_SERVER_URL=https://ms-news-mcp-server.<id>.eastus.azurecontainerapps.io/mcp
+MS_LEARN_MCP_SERVER_URL=https://ms-learn-mcp-server.<id>.eastus.azurecontainerapps.io/mcp
+```
+
+### Step 2: Create Foundry agents
+
+Create **15 agents** in Azure AI Foundry. For each agent:
+1. Use the exact name from `.envsample` (e.g., `DateIntelligenceAgent`)
+2. Copy the matching prompt from `prompts/agent0N_*.txt` as the system instructions
+3. Configure the required tool (MCP endpoint, Bing Grounding, Tavily, SerpAPI, Work IQ as appropriate)
+4. Set the model (recommend `gpt-5-mini` for analysis agents, `gpt-5` for composition agents)
+
+| Agent | Tool |
+|-------|------|
+| MicrosoftSourceAgent | MCP → MS_NEWS_MCP_SERVER_URL |
+| MicrosoftLearnAgent | MCP → MS_LEARN_MCP_SERVER_URL |
+| TavilySearchAgent | Tavily search |
+| BingSearchAgent | Bing Grounding |
+| SerpAPIAgent | SerpAPI |
+| EmailDeliveryWorkIQAgent | Microsoft 365 / Work IQ (Outlook) |
+| All others | No tool required |
+
+### Step 3: Configure environment
+
+Copy `.envsample` to `.env` and fill in all values:
+
+```env
+AZURE_AI_PROJECT_ENDPOINT=https://your-foundry-project.services.ai.azure.com/api/projects/...
+AZURE_AI_MODEL_DEPLOYMENT_NAME=gpt-5-mini
+ANTHROPIC_API_KEY=sk-ant-...
+ANTHROPIC_MODEL=claude-opus-4-6
+NEWSLETTER_RECIPIENT_EMAIL=you@microsoft.com
+# ... all 15 agent name variables
+```
+
+### Step 4: Install dependencies
+
+```powershell
+uv venv venv
+venv\Scripts\activate
+uv pip install agent-framework --pre
+uv pip install -r requirements.txt
+```
+
+### Step 5: Run the workflow
+
+```powershell
+azd auth login
+python ms_intelligence_workflow.py
+```
+
+---
+
+## Environment Variables — Intelligence Brief Workflow
+
+| Variable | Description |
+|----------|-------------|
+| `NEWSLETTER_RECIPIENT_EMAIL` | Email address to deliver the brief to |
+| `MS_NEWS_MCP_SERVER_URL` | Deployed ms-news-mcp-server ACA endpoint |
+| `MS_LEARN_MCP_SERVER_URL` | Deployed ms-learn-mcp-server ACA endpoint |
+| `ANTHROPIC_API_KEY` | Anthropic API key for HTMLRenderingAgent |
+| `ANTHROPIC_MODEL` | Anthropic model ID (default: `claude-opus-4-6`) |
+| `DATE_INTELLIGENCE_AGENT_NAME` | Foundry agent name for Agent 1 |
+| `MICROSOFT_SOURCE_AGENT_NAME` | Foundry agent name for Agent 2 |
+| `MICROSOFT_LEARN_AGENT_NAME` | Foundry agent name for Agent 3 |
+| `TAVILY_SEARCH_AGENT_NAME` | Foundry agent name for Agent 4 |
+| `BING_SEARCH_AGENT_NAME` | Foundry agent name for Agent 5 |
+| `SERPAPI_AGENT_NAME` | Foundry agent name for Agent 6 |
+| `DEDUPLICATION_AGENT_NAME` | Foundry agent name for Agent 7 |
+| `VALIDATION_AGENT_NAME` | Foundry agent name for Agent 8 |
+| `TOPIC_INTELLIGENCE_AGENT_NAME` | Foundry agent name for Agent 9 |
+| `MICROSOFT_MESSAGING_AGENT_NAME` | Foundry agent name for Agent 10 |
+| `UAE_IMPACT_AGENT_NAME` | Foundry agent name for Agent 11 |
+| `SALES_POSITIONING_AGENT_NAME` | Foundry agent name for Agent 12 |
+| `PRIORITY_SCORING_AGENT_NAME` | Foundry agent name for Agent 13 |
+| `NEWSLETTER_COMPOSITION_AGENT_NAME` | Foundry agent name for Agent 14 |
+| `EMAIL_DELIVERY_WORKIQ_AGENT_NAME` | Foundry agent name for Agent 17 |
+
+---
+
+## HTML Output
+
+The generated HTML newsletter (`output/ms_intelligence_brief_*.html`) includes:
+- Dark navy header with title and week label
+- Executive summary section (3–4 sentences synthesising the week's key themes)
+- Per-topic cards with:
+  - Priority badge (High = red, Medium = orange, Low = green)
+  - Category badge (blue)
+  - 2–3 sentence summary
+  - Microsoft platform message (blue accent border)
+  - UAE impact assessment + relevance tier (green accent border)
+  - Seller guidance + target audience (orange accent border)
+  - Source article links with date and publication name
+  - Image (where available)
+- Professional footer
+
+The output is Outlook-compatible: table-based layout, inline styles only, no JavaScript.

@@ -1,0 +1,939 @@
+{
+  "collection_summary": {
+    "total_articles": 66,
+    "sources_included": [
+      "MicrosoftLearn",
+      "MicrosoftAICloud",
+      "MicrosoftProducts",
+      "IndustryAI",
+      "CloudInfra",
+      "UAERegional",
+      "GlobalEnterprise",
+      "MarketIntelligence"
+    ]
+  },
+  "all_articles": [
+    {
+      "title": "Microsoft Fabric: Direct SQL access to OneLake (COPY INTO / OPENROWSET) becomes GA",
+      "url": "https://learn.microsoft.com/fabric/data-warehouse/ingest-data",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "Microsoft Fabric: Customer-managed keys for Fabric SQL databases (GA)",
+      "url": "https://learn.microsoft.com/fabric/database/sql/encryption",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "Microsoft Fabric: Certificate & proxy support for VNet data gateway (GA)",
+      "url": "https://learn.microsoft.com/en-us/data-integration/vnet/manage-data-gateways",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "Microsoft Fabric: Eventstream SQL Operator for real-time processing (GA)",
+      "url": "https://learn.microsoft.com/fabric/real-time-intelligence/event-streams/process-events-using-sql-code-editor",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "Microsoft Fabric: MCP remote servers for Activator and Eventhouse (preview)",
+      "url": "https://learn.microsoft.com/fabric/real-time-intelligence/mcp-remote-eventhouse",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "Azure AI Foundry (Government): gpt-4o and gpt-4o-mini retired in Azure Government (March 31, 2026)",
+      "url": "https://learn.microsoft.com/azure/foundry-classic/openai/azure-government#azure-openai-models",
+      "date": "",
+      "source": "MicrosoftLearn",
+      "collection_source": "MicrosoftLearn",
+      "snippet": "",
+      "topic": "",
+      "images": [],
+      "favicon": ""
+    },
+    {
+      "title": "What's new in Microsoft Foundry | February 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-feb-2026/",
+      "date": "",
+      "source": "devblogs.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "Features:\n\n   `AgentFunctionApp` for hosting agents on Azure Functions\n   `BaseAgent` implementations for Claude and GitHub Copilot SDKs\n   Fan-out/fan-in orchestration with shared state and configurable timeouts\n   Simplified AG-UI `run` method and Anthropic structured outputs\n\nBreaking — Credential handling unified under Azure Identity:\n\n Copy\n\n```python\n# Before\nfrom agent_framework_azure_ai import get_entra_auth_token\n\nagent = AzureAIAgent(\n    ad_token=get_entra_auth_token(),\n    ad_token_provider=my_token_provider,\n)\n\n# After — single credential parameter\nfrom azure.identity import DefaultAzureCredential\n\nagent = AzureAIAgent(\n    credential=DefaultAzureCredential(),\n)\n```\n\nBreaking — Sessions replace Threads:\n\n Copy [...] Features:\n\n   `buildOpenAIClient()` and `buildOpenAIAsyncClient()` on `AIProjectClientBuilder` for directly obtaining a Stainless OpenAI client\n   New `FoundryFeaturesOptInKeys` enum for preview feature opt-in flags: `EVALUATIONS_V1_PREVIEW`, `SCHEDULES_V1_PREVIEW`, `RED_TEAMS_V1_PREVIEW`, `INSIGHTS_V1_PREVIEW`, `MEMORY_STORES_V1_PREVIEW`\n   Added `ModelSamplingParams` and `AzureAIModelTarget` models\n\nBreaking changes:\n\nService version updated from `2025-11-15-preview` to `v1`. Credential classes and sub-client methods are renamed — here’s what your code looks like before and after:\n\nBefore (pre-v2):\n\n Copy [...] Microsoft Agent Framework (RC):`1.0.0rc1` for Python — API surface locked. Major breaking changes in credentials, sessions, and response patterns. Migration guide published.\n   Durable Agent Orchestration: New HITL pattern pairs Azure Durable Functions with Agent Framework and SignalR for agents that survive restarts and wait days for human approval.\n   Foundry Local — Sovereign Cloud: Large multimodal models now run fully disconnected on local hardware with APIs that mirror the cloud surface.\n   AI Toolkit for VS Code v0.30.0: Tool Catalog, Agent Inspector with F5 debugging, and a redesigned Agent Builder.",
+      "topic": "Azure AI Foundry",
+      "images": [],
+      "favicon": "https://devblogs.microsoft.com/wp-content/uploads/2024/10/Microsoft-favicon-300x300.jpg"
+    },
+    {
+      "title": "Microsoft Foundry docs: What's new for March 2026",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/whats-new-foundry",
+      "date": "2026-03-19",
+      "source": "learn.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "## New articles\n\n Foundry IQ (preview)\n Connect a Foundry IQ knowledge base to Foundry Agent Service\n Fireworks models on Microsoft Foundry (preview)\n Manage hosted agent lifecycle\n Deploy your first hosted agent\n Configure Claude Code for Microsoft Foundry\n Quotas and limits for Microsoft Foundry Agent Service\n\n### Updated articles\n\n Customer-managed keys for Microsoft Foundry\n Guardrails and safety for Microsoft Foundry\n Add a declarative agent workflows in Visual Studio Code\n Agent evaluators\n Deploy and use Claude models on Microsoft Foundry (preview)\n Disable preview features in Microsoft Foundry\n\n## Feedback\n\nWas this page helpful?\n\nNo \n\nNeed help with this topic?\n\nWant to try using Ask Learn to clarify or guide you through this topic?\n\n## Additional resources [...] Skip to Ask Learn chat experience \n\nThis browser is no longer supported.\n\nUpgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.\n\nDownload Microsoft Edge   More info about Internet Explorer and Microsoft Edge\n\nRead in English   Edit  \n\n#### Share via\n\n Facebook   x.com   LinkedIn   Email  \n\n---\n\nNote\n\nAccess to this page requires authorization. You can try signing in or changing directories.\n\nAccess to this page requires authorization. You can try signing in or changing directories.\n\n# What's new in Microsoft Foundry documentation?\n\nWelcome! This article highlights key changes and updates in Microsoft Foundry documentation for March 2026.\n\n## New articles [...] ## Additional resources\n\n Last updated on  2026-03-19",
+      "topic": "Azure AI Foundry",
+      "images": [],
+      "favicon": "https://learn.microsoft.com/favicon.ico"
+    },
+    {
+      "title": "Microsoft Expands Azure AI Foundry with Powerful New OpenAI ...",
+      "url": "https://www.serverless-solutions.com/blog/microsoft-expands-azure-ai-foundry-with-powerful-new-openai-models",
+      "date": "",
+      "source": "www.serverless-solutions.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "Generative AI\n\nRead More\n\nAzure AI Foundry Introduces Powerful New Agent-Building Capabilities \n\n1 min read\n\n#### Azure AI Foundry Introduces Powerful New Agent-Building Capabilities\n\nAdmin : Jan 7, 2026 12:14:34 PM\n\nMicrosoft continues to push the boundaries of AI innovation with two major updates to Azure AI Foundry: the release of the Responses API and the ...\n\nGenerative AI\n\nRead More\n\nAzure AI Foundry: Unifying AI Development and Driving Innovation \n\n1 min read\n\n#### Azure AI Foundry: Unifying AI Development and Driving Innovation\n\nAdmin : Jan 7, 2026 12:12:46 PM\n\nMicrosoft has unveiled Azure AI Foundry, a service designed to unify and streamline AI platforms and tools under a single, cohesive ecosystem. This...\n\nRead More [...] What You Should Do Now\n\nIf you’re currently leveraging GPT-4.5 or earlier models, it’s time to transition. Whether you need complex reasoning (o3/o4-mini) or versatile natural language generation (GPT-4.1), the new model suite is designed for performance, scalability, and real-world enterprise needs.\n\nThese model updates are already being integrated across Microsoft’s Copilot platform, shaping how millions of users interact with everyday software—from Word and Excel to Dynamics and Teams.\n\n1 min read\n\n#### Azure AI Foundry Expands with New Models, Customizations, and Enterprise Features\n\nAdmin : Jan 7, 2026 12:14:06 PM\n\nMicrosoft has announced a significant update to Azure AI Foundry, enhancing its capabilities with new AI models, advanced customization options, and...\n\nGenerative AI [...] Smarter Interactions: The o-series models allow developers to build agents that understand complex tasks, reason through challenges, and deliver actionable results—ideal for customer support, internal process automation, and more.\n Richer Visual Content: With GPT-image-1, organizations can produce high-quality, detailed visuals (including text-based images) at scale. Think personalized marketing, next-gen ecommerce experiences, or dynamic educational tools.\n Future-Proof Architecture: With GPT-4.1 now taking center stage, teams can confidently build on a model designed for long-term support, optimized performance, and tight integration with Microsoft 365 Copilot.\n\nWhat You Should Do Now",
+      "topic": "Azure AI Foundry",
+      "images": [
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Azure-AI-Foundry_1600x900-1.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Azure-AI-Foundry_1600x900-2.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hubfs/Imported_Blog_Media/Microsoft-Azure-Dec-10-2025-12-20-44-3612-AM.png",
+          "description": ""
+        },
+        {
+          "url": "https://www.serverless-solutions.com/hs-fs/hubfs/serverless_solutions_logo.png?width=999&height=90&name=serverless_solutions_logo.png",
+          "description": ""
+        }
+      ],
+      "favicon": "https://serverless-solutions.com/wp-content/uploads/2021/12/favicon-150x150.png"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Model Retirements",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+      "date": "",
+      "source": "learn.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "model versions will be available for a minimum of 12 months.\n   After 12 months, existing customers may continue to use older model versions for an additional six months.\n   New customers who have never deployed the older model version will no longer have access after 12 months.\n   For global deployments, all future model versions starting with `gpt-4o` and `gpt-4 0409` will be available with their (`N`) next succeeding model (`N+1`) for comparison together.\n   Customers have 60 days to try out a new GA model in at least one global or standard region before any upgrades happen to a newer GA model. [...] | `gpt-4.1` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5` |\n| `gpt-4.1-mini` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5-mini` |\n| `gpt-4.1-nano` | 2025-04-14 | `Generally Available` | 2026-04-14 | 2026-10-14 | `gpt-5-nano` |\n| `computer-use-preview` | 2025-03-11 | `Preview` | n/a | No earlier than 2026-04-14 |  |\n| `o1` | 2024-12-17 | `Generally Available` | 2025-12-17 | 2026-07-15 | `o3` |\n| `o1-pro` | 2025-03-19 | `Generally Available` | 2026-03-19 | 2026-09-18 | `o3-pro` |\n| `o3-mini` | 2025-01-31 | `Generally Available` | 2026-01-31 | 2026-08-02 | `o4-mini` |\n| `o3` | 2025-04-16 | `Generally Available` | 2026-04-16 | 2026-10-16 |  |\n| `o3-pro` | 2025-06-10 | `Generally Available` | 2026-06-10 | 2026-12-10 |  | [...] | `o3-deep-research` | 2025-06-26 | `Generally Available` | 2026-06-26 | 2026-12-26 |  |\n| `o4-mini` | 2025-04-16 | `Generally Available` | 2026-04-16 | 2026-10-16 |  |\n| `codex-mini` | 2025-05-16 | `Generally Available` | 2026-05-16 | 2026-11-15 |  |\n| `model-router` | 2025-11-18 | `Generally Available` | 2026-11-18 | 2027-05-20 |  |\n| `gpt-5-mini` | 2025-08-07 | `Generally Available` | 2026-08-07 | 2027-02-06 |  |\n| `gpt-5-nano` | 2025-08-07 | `Generally Available` | 2026-08-07 | 2027-02-06 |  |\n| `gpt-5-codex` | 2025-09-15 | `Generally Available` | 2026-09-15 | 2027-03-17 |  |\n| `gpt-5-pro` | 2025-10-06 | `Generally Available` | 2026-10-06 | 2027-04-07 |  |\n| `gpt-5.1` | 2025-11-13 | `Generally Available` | 2026-11-13 | 2027-05-15 |  |",
+      "topic": "Azure OpenAI Service",
+      "images": [],
+      "favicon": "https://learn.microsoft.com/favicon.ico"
+    },
+    {
+      "title": "Azure Update Storyline",
+      "url": "https://azurecharts.com/updates/story?id=7693",
+      "date": "",
+      "source": "azurecharts.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "| Feb 19 2026  01:01:09 UTC |  | Notice  Microsoft Foundry Blog | Whats new in Microsoft Foundry | Dec 2025 & Jan 2026 |  |\n| Feb 18 2026  19:00:07 UTC |  | Notice  Announcements Blog | Unlocking document understanding with Mistral Document AI in Microsoft Foundry |  |\n| Feb 17 2026  18:08:39 UTC |  | Notice  Announcements Blog | Claude Sonnet 4.6 in Microsoft Foundry-Frontier Performance for Scale |  |\n| Feb 13 2026  23:13:44 UTC |  | Notice  Microsoft Foundry Blog | DPO Fine-Tuning Using Microsoft Foundry SDK |  |\n| Feb 11 2026  17:29:15 UTC |  | Notice  Microsoft Foundry Blog | Beyond the Prompt Why and How to Fine-tune Your Own Models |  | [...] | Feb 06 2026  19:11:04 UTC |  | Azure Updates | Claude Opus 4.6, Available on Microsoft Foundry |  |\n| Feb 05 2026  07:43:00 UTC |  | Notice  Azure Infrastructure Blog | Observability in Generative AI: Building Trust with Systematic Evaluation in Microsoft Foundry |  |\n| Feb 05 2026  00:00:00 UTC |  | Notice  Announcements Blog | Claude Opus 4.6: Anthropics powerful model for coding, agents, and enterprise workflows is now available in Microsoft Foundry |  |\n| Feb 02 2026  00:00:00 UTC |  | Notice  Announcements Blog | PostgreSQL on Azure supercharged for AI |  | [...] | May 01 2025  20:30:19 UTC |  | Preview  Azure Updates | Azure Logic Apps now available as Agent tool in Azure AI Foundry |  |\n| Apr 30 2025  08:47:00 UTC |  | Notice  Azure Infrastructure Blog | Behind the Azure AI Foundry: Essential Azure Infrastructure & Cost Insights |  |\n| Apr 28 2025  20:44:00 UTC |  | Notice  Azure AI Services Blog | Advancing Fine-Tuning in Azure AI Foundry: April 2025 Updates |  |\n| Apr 23 2025  17:53:00 UTC |  | Notice  Azure AI Services Blog | Tracing your Semantic Kernel Agents with Azure AI Foundry |  |\n| Apr 11 2025  16:23:00 UTC |  | Notice  Azure AI Services Blog | General-Purpose vs Reasoning Models in Azure OpenAI |  |\n| Apr 06 2025  00:31:00 UTC |  | Notice  Analytics on Azure Blog | Llama 4 is now available in Azure Databricks |  |",
+      "topic": "Azure OpenAI Service",
+      "images": [],
+      "favicon": "https://azurecharts.com/favicon-96x96.png"
+    },
+    {
+      "title": "What's New in Microsoft 365 Copilot | March 2026",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--march-2026/4506322",
+      "date": "",
+      "source": "techcommunity.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "Admins can now manage authoritative sources within the Copilot Search experience in the Microsoft 365 admin center. This capability enables admins to designate SharePoint Online sites as authoritative content for their organization, helping enhance relevance and ranking of these sites in Copilot search results. This feature is rolling out in April. [...] Welcome to the March 2026 edition of What's New in Microsoft 365 Copilot! [...] Copilot Tuning introduces new templates in Agent Builder designed for tasks such as drafting complex documents, validating documents against guidelines, and editing to match a distinct writing style. Users with Copilot Tuning enabled can further customize the template-based agents by tuning the context, tools, and underlying models with their organization's proprietary data, processes, and standards, empowering teams with customized agents aligned to how the organization works. This feature will be available to enterprises with at least 5,000 Microsoft 365 Copilot licenses, will roll out to Frontier in April, and will roll out worldwide in June.",
+      "topic": "Microsoft Copilot",
+      "images": [],
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180"
+    },
+    {
+      "title": "Copilot for Microsoft 365: What's new in April 2026?",
+      "url": "https://windowsreport.com/copilot-in-microsoft-365-in-april/",
+      "date": "",
+      "source": "windowsreport.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "Unlike the traditional chat interface, you can write longer prompts and mention detailed instructions or requests, which helps AI better understand your needs. These abilities come in handy, specifically if you are writing an article or developing a code.\n\nOther than these, Copilot for Microsoft 365 can support 16 more languages, including  Portuguese (Portugal), Danish, Arabic, Turkish, Russian, Dutch, Czech, Polish, Hebrew, Korean, Thai, Hungarian, Swedish, Norwegian (Bokmal), Finnish, and Ukrainian.\n\n Copilot already supports English (US, GB, AU, CA, IN)​​, Japanese, Chinese (Simplified)​​, German​​, French (FR, CA)​​, Portuguese (BR)​​, Italian​​,​​ and Spanish (ES, MX)​​. Soon, you will be able to generate prompts in Chinese (Traditional) with Copilot in Microsoft 365. [...] With the Rewrite feature in Copilot, you can fine-tune a specific section of the document, giving you the command to make changes, re-write, tone, and format.\n\nThe Draft with Copilot feature lets you reference files labelled with sensitivity labels to generate new document drafts. The sensitivity label is automatically inherited by the new draft.\n\nYou can select text and ask Copilot to summarize it for you, which you can share in emails or other documents. This feature is also available in Word for web now.\n\nExcel – Multiple formula columns\n\nCopilot in Excel now allows you to generate numerous formula columns from a single prompt. Plus, Microsoft also included two new complex formulas to manage multiple tables. [...] Copilot can also help you brainstorm ideas and draft new content on the basis of a script, agenda, summary or storyboard. It can be an easier way to access particular information across the channel without even finding the actual files and message\n\nThe Copilot app is in the left app bar in all versions of Outlook, including Classic Outlook for Windows, new Outlook for Windows and OWA.\n\nWord – Create and consume documents efficiently\n\nWord has a couple of features that make accessing information quicker while creating a document. From now on, you can prompt a question in Word chat, and you will get an answer based on rich, people-centric data and insights in the Microsoft Cloud and Microsoft Graph.",
+      "topic": "Microsoft Copilot",
+      "images": [
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/Copilot-Microsoft-365.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/windows-11-update-problems.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/openclaw-microsoft-365.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2026/04/ps6-handheld-rumored.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/SarahGilbert_2-1714419855859.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/April_2024_Word_EnterpriseSearch.GraphGrounding-1.png",
+          "description": ""
+        },
+        {
+          "url": "https://windowsreport.com/wp-content/uploads/2024/05/Notebook_Full_Balanced.png",
+          "description": ""
+        }
+      ],
+      "favicon": "https://windowsreport.com/wp-content/uploads/2019/09/cropped-cropped-winrep-favicon-1-180x180.png"
+    },
+    {
+      "title": "What's new in Copilot Chat Quality Roadmap — March 2026",
+      "url": "https://techcommunity.microsoft.com/discussions/microsoft365copilot/what%E2%80%99s-new-in-copilot-chat-quality-roadmap-%E2%80%94-march-2026/4507766",
+      "date": "",
+      "source": "techcommunity.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "### Share this page\n\nShare to LinkedIn\nShare to Facebook\nShare to X\nShare to Reddit\nShare to Blue Sky\nSubscribe to RSS\nShare to Email [...] Brand Logo\n\n## Forum Discussion\n\nMandy_Fallou's avatar\nIcon for Microsoft rank\n\n# What’s new in Copilot Chat Quality Roadmap — March 2026\n\nWe’re building Copilot Chat in the open. The March updates to the Copilot Chat Quality Roadmap show how we’re making Copilot Chat more flexible and easier to work with. You can share more information at once, interact in more natural ways, and get more complete answers—all while staying within the secure Microsoft 365 environment. \n\nHere’s what’s new and coming next. \n\nAll Features shown here are available at no additional cost to users with a qualifying Microsoft 365 or Office 365 license. \n\n#### March Highlights:\n\n🚀 Discover What’s New: Try the latest quality features today [...] Try this: Ask Copilot to create a chart or report with labels with non-Latin characters. You’ll see the text display correctly in the output file.\n\n🚧 What’s Next: Explore upcoming quality features in development\n\nTry this: Drag and drop two or more files (for example, a Word document and an Excel spreadsheet) into Copilot Chat at once. Then ask a question that spans both, such as “What does this spreadsheet say about the project described in this document?”\n\nTry this: If you use Copilot’s Code Interpreter on a file labeled Confidential, any files it generates (for example, a summary or visualization) will automatically be labeled Confidential in OneDrive.\n\n \n\n📌 Bookmark the monthly Copilot Chat Quality roadmap and tell us what you want to see next:  \n\n \n\n### Share this page",
+      "topic": "Microsoft Copilot",
+      "images": [],
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180"
+    },
+    {
+      "title": "7 Microsoft AI Services Revolutionizing Business in 2026",
+      "url": "https://www.faciletechnolab.com/blog/7-microsoft-ai-services-revolutionizing-business-in-2026/",
+      "date": "",
+      "source": "www.faciletechnolab.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "#### Enterprise AI Development Services\n\nAre you looking to modernize your architecture? We recently helped a global marketplace client integrate ChatGPT to automate their core event management workflows, reducing administrative overhead by 40%. If you are interested in exploring how AI can solve similar scaling challenges for your business, we offer a complimentary Architectural Audit.\n\nRequest Your Architectural AI Audit →\n\n## The 7 Microsoft AI Services for 2026\n\n### 1. Azure AI Foundry\n\nEnterprise-grade hub for building, customizing, and managing AI models and agents at scale. [...] Artificial Intelligence is transforming the way businesses work, innovate, and grow. In 2026, AI is a must-have for organizations striving to increase efficiency, reduce costs, and unlock new possibilities. By automating operations, enhancing decision-making, and supporting customer experiences, AI delivers both immediate and long-term value. [...] \"Agent Mode\" for asynchronous coding tasks\n Open-source chat for collaborative development\n Use Case: Code automation, developer onboarding\n\n### 4. Industry-Specific AI Agents\n\nPre-built agents for healthcare, retail, accessibility, and more.\n\n Healthcare: speeds up admin tasks, improves diagnostics\n Retail: predicts inventory, automates sales\n Accessibility: Copilot Vision supports users with disabilities\n Use Case: 60% less admin time in hospitals, accurate stock predictions\n\n### 5. Responsible AI & Governance Tools\n\n Azure AI Fairlearn for bias detection\n Transparency Notes for model performance\n Election Security Partnerships for integrity\n Regulatory tools for HIPAA, GDPR, and NIST\n Use Case: Ethical, compliant enterprise AI\n\n### 6. Scientific & Sustainability AI",
+      "topic": "Azure AI Services",
+      "images": [],
+      "favicon": "https://static.faciletechnolab.com/images/icon/favicon/apple-touch-icon-144x144.png"
+    },
+    {
+      "title": "Azure updates | Microsoft Azure",
+      "url": "https://azure.microsoft.com/updates?id=557394",
+      "date": "",
+      "source": "azure.microsoft.com",
+      "collection_source": "MicrosoftAICloud",
+      "snippet": "## Global\n\n# Azure Updates\n\nLimited offering to select customers for non-production use and testing.\n\nAvailable to all Azure customers for non-production use and testing.\n\nFully released, production-ready product available to all Azure customers.\n\n## Additional Resources\n\n### Microsoft Azure Blog\n\n### Community support\n\n### Provide feedback\n\n### Product availability by region\n\nTwitter\nInstagram\nLinkedIn\nYouTube",
+      "topic": "Azure AI Services",
+      "images": [],
+      "favicon": "https://azure.microsoft.com/favicon.ico?v2"
+    },
+    {
+      "title": "What's New in Microsoft Teams | March 2026",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%E2%80%99s-new-in-microsoft-teams--march-2026/4506985",
+      "date": "2026-03-31",
+      "source": "Microsoft Tech Community",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "And now to the main event: new Teams capabilities! This month's updates have something for everyone. The new AI-powered Workflows app lets you automate everyday tasks using Copilot—no coding required. Teams now enables you to View and manage activity in other accounts and organizations, so you can collaborate with colleagues and respond to messages without switching accounts. And for privacy-conscious users, Teams now automatically removes EXIF metadata from shared images, protecting sensitive location and device details by default.\n\nRead on for the full list of what's new!\n\nFeature categories: (All features listed are generally available unless otherwise noted)\n\nChat and collaboration\n\nTeams Meetings\n\nTeams Phone\n\nWorkplace\n\nFundamentals and Security\n\nTeams Platform [...] ### Teams Platform\n\nNew Workflows app experience in Teams\n\nThe newly redesigned Workflows experience in Teams makes automation easier and more accessible than ever. With a simple interface, it helps you automate day-to-day tasks, like getting updates from your teammates, automatically routing documents for approvals as they get modified, or adding tasks to Planner from messages without ever having to leave Teams. Additionally, you can now use new AI-powered workflow templates to automate tasks with Copilot or your channel’s agent — no coding required.The same Workflows experience will be available soon in SharePoint. To access the AI workflows, users need a M365 Copilot license.\n\ndemonstration of the Workflows app in Teams\n\n### Certified for Teams Devices\n\nYealink MP55 E2 Teams [...] Audio Recap — Expanded Language Support\n\nAudio recap is now available in seven additional languages, making it easier for global teams to catch up on meetings in the language that works best for them. With this update, you can generate and listen to AI-powered audio summaries in Chinese, English (multiple variations), French, German, Italian, Japanese, Portuguese, and Spanish. Whether you're commuting, multitasking, or just prefer listening over reading, audio recap delivers the key discussion points, decisions, and action items from one or multiple meetings—now in more languages.\n\n### Teams Phone\n\nCopilot in Teams Phone live calls, powered by Microsoft 365 Copilot Chat",
+      "topic": "Microsoft Teams",
+      "images": [],
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180"
+    },
+    {
+      "title": "Here are all the new features Microsoft added to Teams in March 2026",
+      "url": "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-teams-in-march-2026/",
+      "date": "2026-03-30",
+      "source": "Neowin",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "Mar 30, 2026\n\nThe GitHub Copilot mascot\n\n### Microsoft Copilot is now injecting ads into pull requests on GitHub\n\nMar 30, 2026\n\nMicrosoft 365 written next to the Microsoft logo\n\n### AI features in Microsoft 365 are insanely expensive for consumers, and it makes no sense\n\nMar 7, 2026\n\nProfile cards blurred in the darkened background with a Teams logo in the center\n\n### Microsoft Teams just got a simple new feature that I absolutely love\n\nMar 1, 2026\n\nGreat artists steal\n\n### AI copyright laws only matter when big players are affected\n\nFeb 16, 2026\n\nSteps Recorder in Windows Search\n\n### It's a shame that Microsoft deprecated Steps Recorder (PSR) in Windows in Windows\")\n\nFeb 12, 2026\n\nSony WH-1000XM5 headphones [...] Starting off with updates to the core chat and collaboration experience, we have a new multi-tenant experience that also allows you to pin accounts to the right, which should work great for external contractors. The profile card now offers access to a more refined and streamlined organizational chart too, allowing you to quickly gain insights about different teams and reporting lines. There is also a Drafts section that enables you to quickly check unsent messages. [...] In addition, threaded channels have received live meeting indicators with quick joining buttons. IT admins also have a new view that allows them to manage external collaborations in Teams. The image viewer has been upgraded so that you can scroll through a carousel of images and also jump to their accompanying message. You can also toggle the behavior of the Enter key in chat messages, use Shift + Esc to mark all messages as read, access Teams actions through Spotlight in macOS, and share files and Loop components in external chats.",
+      "topic": "Microsoft Teams",
+      "images": [
+        {
+          "url": "https://cdn.neowin.com/news/images/uploaded/2024/01/1705943373_default_gallery_experience_story.jpg",
+          "description": null
+        }
+      ],
+      "favicon": "https://www.neowin.net/images/orion/icons/apple-touch-icon-144x144.png"
+    },
+    {
+      "title": "Releases · cataclysmbn/Cataclysm-BN - GitHub",
+      "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases",
+      "date": "2026-04-01",
+      "source": "GitHub",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "There was an error while loading. Please reload this page.\n\n1 person reacted\n\n## Nightly 2026-04-01 \"The GunChair™ Update\"\n\n01 Apr 01:49\n\n@github-actions github-actions\n\n2026-04-01\n\n`283a8b2`  \n\nThis commit was created on GitHub.com and signed with GitHub’s verified signature.\n\nGPG key ID: B5690EEEBB952194\n\nVerified\n\nLearn about vigilant mode.\n\nNightly 2026-04-01 \"The GunChair™ Update\"  Pre-release\n\nPre-release\n\nchair\n> \"Own a minigun-propelled armchair for home defense, Just as the founding fathers intended\" [...] Assets 11  \n\nLoading \n\n### Uh oh!\n\nThere was an error while loading. Please reload this page.\n\n## Nightly 2026-03-28\n\n29 Mar 01:43\n\n@github-actions github-actions\n\n2026-03-28\n\n`e2da157`  \n\nThis commit was created on GitHub.com and signed with GitHub’s verified signature.\n\nGPG key ID: B5690EEEBB952194\n\nVerified\n\nLearn about vigilant mode.\n\nNightly 2026-03-28  Pre-release\n\nPre-release\n\n PR: #8376 fix: plutonium batteries no longer fully recharge if dropped before first charge cycle by boniondev\n PR: #8384 perf: reduce repeated test setup overhead by scarf005\n PR: #8398 feat: allow android to use the legacy storage directory by WishDuck\n PR: #8402 feat: update urban\\_5\\_house by 0Monet\n PR: #8400 feat(balance): nerf fancy items by DeinonychusDiscord [...] These are the outputs for the build of commit 70dc8f98b0ff19e8b3e22f05fdbf2e6e5d4f4e19\n\nAssets 11  \n\nLoading \n\n### Uh oh!\n\nThere was an error while loading. Please reload this page.\n\n1 person reacted\n\n## Nightly 2026-03-29\n\n30 Mar 01:46\n\n@github-actions github-actions\n\n2026-03-29\n\n`d101d73`  \n\nThis commit was created on GitHub.com and signed with GitHub’s verified signature.\n\nGPG key ID: B5690EEEBB952194\n\nVerified\n\nLearn about vigilant mode.\n\nNightly 2026-03-29  Pre-release\n\nPre-release\n\n PR: #8396 feat(mods): geomagnetic storm charges player bionics by shmakota\n PR: #8397 feat: allow specifying time in wait menu by shmakota\n PR: #8408 feat: add impurifiable to some starting only traits by WishDuck\n\nThese are the outputs for the build of commit d101d73c0866d4af20e0e798000fc430bbbc54c8",
+      "topic": "GitHub",
+      "images": [
+        {
+          "url": "https://repository-images.githubusercontent.com/23649904/3d0c5c0f-9b33-4abb-9f19-256ae0dfbabd",
+          "description": ""
+        }
+      ],
+      "favicon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "What's new in Power Platform: March 2026 feature update - Microsoft",
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-march-2026-feature-update/",
+      "date": "2026-03-31",
+      "source": "Microsoft Power Platform Blog",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "### Power Platform inventory\n\nImage 3\nPower Platform inventory is now generally available, giving tenant administrators a unified view of cloud flows, Copilot Studio agent flows, and Workflows agent workflows across every environment. Expansion with connectors, actions, and key usage data is on the way — making it even easier to spot your most active automations, enforce compliance, and prevent orphaned resources.\n\nLearn more\n\n### The new usage page\n\nThe new usage page is now in public preview with modern dashboards showing adoption trends and resource-level analytics for Power Apps, Power Automate, and Copilot Studio. For Power Automate, the page already shows flow run data so you can track execution patterns across your tenant.\n\nLearn more\n\n## Agentic apps [...] Add an AI model to process invoice forms – Online workshop\n   Create your first desktop flow – Online workshop\n   Create subflows and web automation with Power Automate for desktop – Online workshop\n   Install required software for Power Automate: Automation – Online workshop\n   Integrate with cloud flows – Online workshop\n   Use Outlook email to trigger desktop flows and pass inputs – Online workshop\n   Use input and output variables – Online workshop\n   Integrate with Microsoft Teams to get approvals – Online workshop\n   Build agents in Copilot Chat – Online workshop\n   Build a conversational agent in Copilot Studio – Online workshop\n   Use tools in Copilot Studio – Online workshop\n   Make your agent autonomous in Copilot Studio – Online workshop [...] Solution architect series: Explore Microsoft Copilot Studio\n   Build effective agents with Microsoft Copilot Studio\n   Use Azure AI Services for Language in a Microsoft Copilot Studio\n   Guided Project – Create agents with Microsoft Copilot Studio\n   Create an agent with Microsoft Copilot Studio and Dataverse for Teams\n   Build an initial agent with Microsoft Copilot Studio\n   Enhance Microsoft Copilot Studio agents\n   Work with entities and variables in Microsoft Copilot Studio\n   Set up a Microsoft Copilot Studio agent for voice\n   Use Agent Flows in Copilot Studio\n   Use Dataverse choice columns with formulas\n   Create a Dataverse table for the machine ordering app – Online workshop\n   Get started with Power Apps and SharePoint\n   Get started with model-driven apps in Power Apps",
+      "topic": "Power Platform",
+      "images": [],
+      "favicon": "https://www.microsoft.com/favicon.ico?v2"
+    },
+    {
+      "title": "New and planned features for Microsoft Copilot Studio, 2026 release ...",
+      "url": "https://learn.microsoft.com/en-us/power-platform/release-plan/2026wave1/microsoft-copilot-studio/planned-features",
+      "date": "2026-03-30",
+      "source": "Microsoft Learn",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "## Core authoring\n\nUse the Microsoft Copilot Studio conversational editor to construct your dialogs with rich content, variables, and powerful entity types.\n\n| Feature | Enabled for | Public preview | General availability |\n ---  --- |\n| See a unified view of errors, warnings, and governance notifications | Admins, makers, marketers, or analysts, automatically | Apr 2026 | Jun 2026 |\n| Build enhanced connectors with the Power Platform Connector SDK and PowerFx | Users, automatically | May 19, 2025 | May 2026 |\n| Build Power Platform connectors with OpenAPI v3 | Users, automatically | Feb 2026 | May 2026 |\n| Use MCP-compliant tools in agent workflows | Admins, makers, marketers, or analysts, automatically | Apr 2026 | Oct 2026 |\n\n## Service, runtime, and governance [...] # What's new and planned for Microsoft Copilot Studio\n\nThis topic lists features that are planned to release from April 2026 through September 2026. Because this topic lists features that may not have released yet, delivery timelines may change and projected functionality may not be released. For more information, go to Microsoft policy.\n\nFor a list of the previous wave's release plans, go to 2025 release wave 2 plan.\n\nIn the General availability column, the feature will be delivered within the month listed. The delivery date can be any day within that month. Released features show the full date, including the date of release.\n\nThis check mark ( ) shows which features have been released for public preview and general availability.\n\n## Copilot and AI innovation [...] | Feature | Enabled for | Public preview | General availability |\n ---  --- |\n| Automate web and desktop apps with computer use | Admins, makers, marketers, or analysts, automatically | May 27, 2025 | May 2026 |\n| Configure triggers with end-user credentials | Admins, makers, marketers, or analysts, automatically | Apr 2026 | Jun 2026 |\n| Use code interpreter on SharePoint sources in agent conversations | Admins, makers, marketers, or analysts, automatically | Mar 2026 | May 2026 |\n| Define custom metrics for analytics | Admins, makers, marketers, or analysts, automatically | Mar 2026 | May 2026 |\n| Connect any agent to any external data with custom MCP servers | Admins, makers, marketers, or analysts, automatically | Mar 2026 | Apr 2026 |",
+      "topic": "Power Platform",
+      "images": [],
+      "favicon": "https://learn.microsoft.com/favicon.ico"
+    },
+    {
+      "title": "Windows 11 Updates You Can Expect for March 2026 - Ekaru",
+      "url": "https://www.ekaru.com/blog/windows-11-updates-you-can-expect-for-march-2026",
+      "date": "2026-03-27",
+      "source": "Ekaru",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "To access optional non-security preview releases, navigate to Settings > Windows Update > Advanced options > Optional updates, select from the available updates, and click Download and install. [...] Microsoft Windows updates are intended to keep your devices protected, sustained productivity with security fixes, and feedback from previous updates for most optimized user experience. For a lot of users, new update rollouts occur gradually and/or normally. However, you also have the option to omit updates that you believe may not be impactful to your overall workflow. Optional released available at 4th week of the month. These are implemented two weeks after your latest monthly security update and about two weeks before you'll see these features become part of the next mandatory cumulative update. [...] ### Improvements\n\n Enabled automatically for many Windows Pro devices\n Better recovery from critical startup errors\n Helps restore system functionality without manual troubleshooting\n\nThese improvements reduces downtime after system failures, along with increased reliability and recovery for business devices.  \n  \n\n### Windows Backup Restore for Organizations\n\nMicrosoft is expanding the Windows Backup restore experience for enterprise users. This means when a user signs into a new device, Windows can automatically restore:\n\n Settings\n Installed Microsoft Store apps\n Organizational configurations\n\nIn return, this experience will simplify device setup for enterprise environments that can usually be time consuming.\n\n#### Install Now or Wait?",
+      "topic": "Windows",
+      "images": [],
+      "favicon": "https://www.ekaru.com/hubfs/Ekaru-IT-Cyber-Mar-27-2024-08-01-07-4516-PM.png"
+    },
+    {
+      "title": "Windows message center | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-message-center",
+      "date": "2026-03-31",
+      "source": "Microsoft Learn",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "The March 2026 non-security preview update is now available for Windows 11, versions 26H1, 25H2, and 24H2. Information about the contents of this update is available from the release notes, which are accessible from the Windows 11 update history page. For instructions on how to install this update on your home device, check theUpdate Windowsarticle. To learn more about the different types of monthly quality updates, see Windows monthly updates explained. To be informed about the latest updates and releases, follow us on X @WindowsUpdate.\n\nLooking to explore upcoming features and improvements in Windows 11? Check out the Windows roadmap. It includes what’s coming to the Windows Insider Program, what’s gradually rolling out, and what’s generally available. [...] This OOB hotpatch update is offered only to hotpatch‑enabled Windows 11, versions 25H2 and 24H2 Enterprise devices, and installs automatically without requiring a device restart. This update will not be offered to Enterprise devices that receive standard Windows updates.\n\nFor more information, refer to the KB article March 16, 2026—Hotpatch KB5084897 (OS Builds 26200.7984 and 26100.7984) Out-of-band.2026-03-16 \n\n14:00 PT\nOut-of-band update released for Windows Enterprise client devices running hotpatch updates management tool that could allow remote code execution when connecting to a malicious server. This issue only applies to a limited set of scenarios involving Enterprise client devices running hotpatch updates and being used for remote server management. [...] An out-of-band (OOB) hotpatch update (KB5084597)was released today, March 13, 2026, to address this issue. This cumulative update includes all protections and improvements from the March 2026 Windows security update released March 10, 2026. No action is required if:\n\n   Your devices receive standard Windows updates.\n   If you are not using the RRAS management tool on Windows devices running versions 25H2 or 24H2.\n\nThis OOB hotpatch update is available for Windows 11, versions 25H2 and 24H2 devices enrolled in hotpatch updates and managed by Windows Autopatch. This update will install automatically through Windows Update and take effect without requiring you to restart your device. Learn more about Hotpatch updates.",
+      "topic": "Windows",
+      "images": [],
+      "favicon": "https://learn.microsoft.com/favicon.ico"
+    },
+    {
+      "title": "RSA 2026: What's new in Microsoft Defender?",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/rsa-2026-what%E2%80%99s-new-in-microsoft-defender/4503046",
+      "date": "2026-03-31",
+      "source": "Microsoft Tech Community",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "\\n\n\\n   Identity Security: expanded capabilities and enhanced experiences to help the SOC better prepare for, detect and autonomously respond to identity-related threats.\n\\n   Collaboration Security: protect against voice‑based attacks in Teams with real‑time user warnings, SOC‑ready investigation, and new threat & posture insights reporting.\n\\n   Accelerate the SOC with Security Copilot: expansion of the Security Triage Agent to identity and cloud alerts, a new Security Analyst agent to uncover risk and a new chat experience directly in Microsoft Defender.\n\\n   Cloud Security: expansion of multi-cloud visibility to new AWS and GCP services, near real-time container runtime protection to eliminate binary drift, and introducing AI model scanning. Learn more here.\n\\n\n\\n [...] \\n\n\\n   Identity Security: expanded capabilities and enhanced experiences to help the SOC better prepare for, detect and autonomously respond to identity-related threats.\n\\n   Collaboration Security: protect against voice‑based attacks in Teams with real‑time user warnings, SOC‑ready investigation, and new threat & posture insights reporting.\n\\n   Accelerate the SOC with Security Copilot: expansion of the Security Triage Agent to identity and cloud alerts, a new Security Analyst agent to uncover risk and a new chat experience directly in Microsoft Defender.\n\\n   Cloud Security: expansion of multi-cloud visibility to new AWS and GCP services, near real-time container runtime protection to eliminate binary drift, and introducing AI model scanning. Learn more here.\n\\n\n\\n [...] Adversaries are using AI to accelerate attacks and increase sophistication. At RSA Conference 2026, we’re expanding our innovation around autonomous and assistive AI in Microsoft Defender with Security Copilot—helping defenders operate with the speed, scale, and intelligence required to stay ahead of modern threats across the entire SOC lifecycle.\n\nIn addition to expanding agentic triage to identity alerts, we’re extending that same capability to cloud—bringing phish, identity and cloud triage together within a single agent. The Security Alert Triage Agent helps analysts autonomously determine whether these alerts represent real threats or false alarms, delivering natural language verdicts and transparent, step-by-step decision reasoning.",
+      "topic": "Microsoft Security Products",
+      "images": [],
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180"
+    },
+    {
+      "title": "Monthly news - March 2026 | Microsoft Community Hub",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news---march-2026/4498458",
+      "date": "2026-03-30",
+      "source": "Microsoft Community Hub",
+      "collection_source": "MicrosoftProducts",
+      "snippet": "(General Availability) To reflect Defender Vulnerability Management's visibility into all software components identified in your organization, theVulnerable componentspage is now namedSoftware components.\n   (General Availability) To provide comprehensive vulnerability management capabilities across all supported Windows versions,Microsoft Defender Vulnerability Management now gathers software product vulnerability data on Windows 7 devices.\n   The what's new and OS-specific release notes pages are now updated to provide better visibility and access to new features, improvements, and fixes: \n       The what's new page is now named New features in Microsoft Defender for Endpoint and includes both features and links to latest release notes. [...] A new wave of identity attacks abuses legitimate authentication flows, allowing attackers to gain access without stealing passwords or breaking MFA. In this webinar recording the team breaks down how attackers trick users into approving malicious apps, how this leads to silent account takeover, and why traditional phishing defenses often miss it. They also dive into the identity sync layer at the heart of hybrid environments. You’ll learn how Entra Connect Sync and Cloud Sync are protected as Tier-0 assets, how Microsoft Defender for Identity secures synchronization flows, and how the new application-based authentication model strengthens Entra Connect Sync against modern threats.\n\nMicrosoft Defender for Office 365 [...] Monthly news - March 2026 Edition\n\n\\n\nThis is our monthly \\\"What's new\\\" blog post, summarizing product updates and various new assets we released over the past month across our Defender products. In this edition, we are looking at all the goodness from February 2026. We are now including news related to Defender for Cloud in the Defender portal. For all other Defender for Cloud news, have a look at the dedicated Defender for Cloud Monthly Newshere.\n\n\\n\n🚀 New Virtual Ninja Show episode:\n\n\\n\n\\n   New AI-powered SIEM migration experience\n\\n\n\\n\\n\nMicrosoft Defender",
+      "topic": "Microsoft Security Products",
+      "images": [],
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180"
+    },
+    {
+      "title": "Biggest AI Models of March 2026: GLM-5.1 to GPT-5.4 - Medium",
+      "url": "https://medium.com/@sanjeevpatel3007/biggest-ai-models-of-march-2026-glm-5-1-to-gpt-5-4-dcb893602d50",
+      "date": "2026-03-27",
+      "source": "Medium",
+      "collection_source": "IndustryAI",
+      "snippet": "## Recommended Stories\n\nIf this breakdown was useful, these are worth reading next:\n\n•GLM-5.1 Review: Can It Beat Claude Opus 4.6? (2026)\n\n• GPT-5.4 Complete Guide 2026:\n\n## References\n\n1. Z.ai Official GLM-5.1 Announcement (March 27, 2026): \n\n2. OpenAI Introducing GPT-5.4 (March 5, 2026): \n\n3. Google Gemini 3.1 Flash-Lite Blog (March 3, 2026): \n\n4. TechCrunch: ByteDance Dreamina Seedance 2.0 Comes to CapCut (March 26, 2026): \n\n5. GLM-5 Technical Paper (Zhipu AI & Tsinghua University, arXiv:2602.15763): \n\n6. Google Vertex AI: Gemini 3.1 Flash-Lite Documentation: \n\n7. TechCrunch: OpenAI Launches GPT-5.4 (March 5, 2026): \n\n8. 9to5Google: Gemini 3.1 Flash Live Launch (March 26, 2026): \n\n## Follow for More [...] One caveat: the model is still in preview as of March 29, 2026. Production SLAs and general availability timelines from Google have not been confirmed. Build accordingly.\n\n## Gemini 3.1 Flash Live: The Voice Model Upgrade Nobody Discussed\n\nOn March 26, Google quietly launched Gemini 3.1 Flash Live alongside Seedance and GLM-5.1. It powers Gemini Live and Search Live, with support for 90 languages, lower latency than 2.5 Flash Native Audio, and significantly improved background noise filtering. Search Live is now rolling out globally in 200 countries wherever AI Mode is available. Most people covering AI that day were looking at ByteDance. Google slipped something genuinely useful into the news cycle.\n\n## Seedance 2.0: ByteDance Goes Hollywood, Then Gets Stopped by Hollywood [...] • Mini: Released March 17, 2026. Scores 54.38% on SWE-bench Pro at roughly 6x lower cost. Solid for high-volume, latency-sensitive workloads.\n\n• Nano: Smallest variant, targeted at edge and embedded applications. Still rolling out benchmarks.\n\n## The Reasoning Effort Dial\n\nOne genuinely new architectural feature in GPT-5.4 is configurable reasoning effort: five discrete levels called none, low, medium, high, and xhigh. Developers can tune how much compute the model spends thinking before responding, on a per-request basis.",
+      "topic": "Google Gemini",
+      "images": [],
+      "favicon": "https://miro.medium.com/v2/resize:fill:152:152/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156"
+    },
+    {
+      "title": "Another Google Home Update Brings Exciting New Features",
+      "url": "https://www.droid-life.com/2026/03/31/gemini-for-home-new-features/",
+      "date": "2026-03-31",
+      "source": "Droid Life",
+      "collection_source": "IndustryAI",
+      "snippet": "Expressive Lighting: You no longer need to know exact color names. Ask for “the color of the ocean” or “the glow of the moon,” or the color of your favorite sports team, and Gemini will automatically find the perfect hue for you.\n Precision Appliance Controls: Get more granular control over your home. You can now set specific humidity levels or get dinner started early by saying, “Preheat the smart oven to 350°.”\n Advanced Climate Management: We’ve added support for holding temperature presets. You can also clear active modes without cycling through them—just say, “Unset heating on the thermostats.”\n Snappier, More Accurate Responses: We’ve fine-tuned how Gemini identifies your devices. It is now much better at distinguishing between a “lamp” and a “light,” processing requests faster. [...] Google announced that Gemini for Home is now available in Mexico, and additionally, the service now supports Spanish in all supported countries. Beyond new language support, new features are also rolling out.\n\nGoogle describes new expressive lighting commands. For example, you no longer need to know the name of a specific colors. Instead, ask Gemini for the name of your favorite sports team or color of the ocean. Your supported lights will then automatically change. Gemini is also getting smarter, with Google explaining, “It is now much better at distinguishing between a ‘lamp’ and a ‘light,’ processing requests faster.”\n\nBelow you can read all about the new features inside of you Google Home.\n\n### Gemini for Home: Voice Assistant (Early access)\n\nLanguages & Family [...] Languages & Family\n\n Gemini for Home is now available in Mexico!: Hola, México! We’re officially welcoming users in Mexico and adding Spanish to supported languages, available in all supported countries. Update to the Google Home app (v4.12) to explore Gemini in your preferred language.\n Gemini for the whole family: Kids with supervised Google Accounts can now use Gemini for Home with the rest of the family. Whether they’re asking how to spell a word or looking for a laugh with a new joke, Gemini for Home is ready to help them learn and play. Learn more on how to guide your child’s Gemini for Home experience.\n\nContinued improvements to controlling your smart home. We’ve upgraded how Gemini understands and controls your smart home to make interactions feel more natural and reliable.",
+      "topic": "Google Gemini",
+      "images": [
+        {
+          "url": "https://www.droid-life.com/wp-content/uploads/2025/11/Gemini-for-Google-Home-scaled-2292x1200-cropped.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.droid-life.com/favicon.ico"
+    },
+    {
+      "title": "Today in Techrights - Tux Machines",
+      "url": "https://news.tuxmachines.org/n/2026/04/02/Today_in_Techrights.shtml",
+      "date": "2026-04-02",
+      "source": "Tux Machines",
+      "collection_source": "IndustryAI",
+      "snippet": "| 550 | /n/2026/03/26/Back\\_to\\_Normalcy.shtml |\n    | 550 | /n/2026/03/28/Rumours\\_of\\_More\\_IBM\\_Mass\\_Layoffs\\_at\\_Beginning\\_of\\_April.shtml |\n    | 546 | /n/2026/04/01/Gemini\\_Links\\_01\\_04\\_2026\\_Hallucinations\\_Stitching\\_and\\_Type\\_Syste.shtml |\n    | 545 | /n/2026/03/26/Altering\\_Perceived\\_Reality\\_to\\_Make\\_It\\_Seem\\_Like\\_Microsoft\\_is\\_Th.shtml |\n    | 544 | /n/2026/03/27/GNU\\_Linux\\_Distros\\_Should\\_Reject\\_Age\\_Verification\\_and\\_Uphold\\_Sof.shtml |\n    | 543 | /n/2026/03/30/Today\\_Europe\\_s\\_Second\\_Largest\\_Institution\\_EPO\\_Goes\\_on\\_Strike\\_Th.shtml |\n    | 542 | /n/2026/03/27/President\\_Not\\_Cocaine\\_Campinos\\_Notified\\_of\\_Historic\\_EPO\\_Strikes.shtml |\n    | 540 | /n/2026/03/30/Links\\_30\\_03\\_2026\\_We\\_Can\\_t\\_Income\\_Tax\\_Ultra\\_Elites\\_The\\_Pirate\\_Ba.shtml | [...] | 4159 | /about.shtml |\n    | 1787 | /index.shtml |\n    | 1078 | /n/2026/03/29/People\\_Discuss\\_Rumours\\_of\\_Mass\\_Layoffs\\_at\\_IBM\\_Becoming\\_Public\\_i.shtml |\n    | 1032 | /irc.shtml |\n    | 989 | /n/2026/03/27/Media\\_Says\\_Microsoft\\_Hiring\\_Freezes\\_But\\_There\\_Are\\_Already\\_Micro.shtml |\n    | 866 | /n/2026/03/27/Slides\\_From\\_the\\_Presentation\\_Discussing\\_EPO\\_Strikes\\_Until\\_End\\_o.shtml |\n    | 861 | /n/2026/04/01/The\\_Real\\_Reason\\_Many\\_Sites\\_and\\_Forums\\_Shun\\_Microsoft\\_Lunduke.shtml |\n    | 815 | /browse/latest.shtml |\n    | 801 | /n/2026/03/27/Gemini\\_Links\\_27\\_03\\_2026\\_Being\\_Busy\\_and\\_Posting\\_Again.shtml | [...] | 797 | /n/2026/03/29/Almost\\_20\\_Years\\_After\\_Microsoft\\_Novell.shtml |\n    | 766 | /n/2026/03/27/Last\\_Night\\_The\\_Register\\_MS\\_Published\\_a\\_Fake\\_Article\\_It\\_Mentione.shtml |\n    | 726 | /n/2026/03/28/Gemini\\_Links\\_28\\_03\\_2026\\_Echo\\_Delay\\_and\\_0x0\\_st.shtml |\n    | 680 | /n/2026/03/26/EPO\\_Union\\_Decides\\_to\\_Continue\\_Industrial\\_Actions\\_Next\\_Strike\\_in.shtml |\n    | 677 | /n/2026/03/27/Perpetual\\_Strikes\\_to\\_Begin\\_at\\_European\\_Patent\\_Office\\_EPO\\_Large\\_.shtml |\n    | 672 | /n/2026/03/28/Links\\_28\\_03\\_2026\\_Microsoft\\_s\\_LinkedIn\\_a\\_National\\_Security\\_Risk\\_.shtml |\n    | 660 | /n/2026/03/30/Wikipedia\\_Funded\\_by\\_Slop\\_pushing\\_Companies\\_and\\_Broligarchs\\_Gave.shtml |",
+      "topic": "Google Gemini",
+      "images": [
+        {
+          "url": "https://news.tuxmachines.org/Images/tuxmachines.logo.svg",
+          "description": ""
+        }
+      ],
+      "favicon": "http://news.tuxmachines.org/Images/favicon.ico"
+    },
+    {
+      "title": "OpenAI Launches New Healthcare Tools For Clinicians, Expands Use Of ChatGPT",
+      "url": "https://www.rttnews.com/3609317/openai-launches-new-healthcare-tools-for-clinicians-expands-use-of-chatgpt.aspx",
+      "date": "2026-03-31",
+      "source": "RTTNews",
+      "collection_source": "IndustryAI",
+      "snippet": "## Biotech Stocks Facing FDA Decision In February 2026\n\nMarch 31, 2026 15:49 ET In this week’s video, we’ll cover major biotech moves and breakthroughs - from Novartis and Merck’s blockbuster acquisitions to the first new Hunter syndrome therapy in two decades. We’ll also look at a promising alternative to daily insulin injections and the near-term catalyst for Q3 Bio, which has been hitting new 52-week highs.\n\nmac 01042026 lt\n\n## Apple @ 50: Five Decades Of Reinvention\n\nApril 01, 2026 09:49 ET\n\n## Nike Shares Down On Weak Q3 Profit, Cautious Q4 Outlook\n\nApril 01, 2026 01:54 ET\n\n## The launch follows growing use of ChatGPT for health-related questions, with more than 40 million people engaging with the tool each day.\n\nThe product, called ChatGPT for Healthcare, is powered by GPT-5 models developed specifically for medical use. OpenAI said the models were tested with input from physicians and evaluated using benchmarks such as HealthBench and GDPval.\n\nThey are built to allow clinicians to review patient information while complying with HIPAA requirements and include support for customer managed encryption keys. [...] OpenAI presents these tools as a way to reduce administrative tasks and improve efficiency for clinicians, with the goal of supporting day-to-day medical workflows.\n\nFor comments and feedback contact: editorial@rttnews.com\n\nBusiness News\n\nBiotech Stocks Facing FDA Decision In April 2026\n\n## Biotech Stocks Facing FDA Decision In March 2026\n\nBiotech Stocks Facing FDA Decision In February 2026",
+      "topic": "OpenAI",
+      "images": [
+        {
+          "url": "https://cdn.rttnews.com/articleimages/ustopstories/2026/january/aidoctor-09012026-lt.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.rttnews.com/favicon.ico"
+    },
+    {
+      "title": "NVIDIA invests $2B in Marvell, expands NVLink Fusion - Stock Titan",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nv-link-5m19imtgrmea.html",
+      "date": "2026-03-31",
+      "source": "Stock Titan",
+      "collection_source": "IndustryAI",
+      "snippet": "SANTA CLARA, Calif., March 31, 2026 (GLOBE NEWSWIRE) -- NVIDIA and Marvell Technology, Inc. (NASDAQ: MRVL) today announced a strategic partnership to connect Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVIDIA NVLink Fusion™, offering customers building on NVIDIA architectures greater choice and flexibility in developing next-generation infrastructure. The companies will also collaborate on silicon photonics technology.\n\nIn addition, NVIDIA has invested $2 billion in Marvell. [...] English\n Arabic\n French\n German\n Italian\n Korean\n Spanish\n\nNVIDIA (NASDAQ: NVDA) and Marvell announced a strategic partnership and a $2 billion NVIDIA investment in Marvell to connect Marvell to the NVIDIA AI factory and AI‑RAN ecosystem via NVIDIA NVLink Fusion on March 31, 2026.\n\nThe collaboration covers custom XPUs, NVLink Fusion‑compatible scale‑up networking, joint silicon photonics work, and integration with NVIDIA Vera CPU, ConnectX NICs, Bluefield DPUs, and Spectrum‑X switches to accelerate rack‑scale AI infrastructure and AI‑RAN for 5G/6G.\n\nLoading...\n\nLoading translation...\n\n### Positive\n\n $2 billion NVIDIA strategic investment in Marvell\n Marvell to deliver custom XPUs compatible with NVLink Fusion\n Joint work on silicon photonics and AI‑RAN for 5G/6G\n\n### Negative\n\n None. [...] © 2026 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, NVLink, NVLink Fusion, ConnectX, Bluefield, and Spectrum-X are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.",
+      "topic": "NVIDIA",
+      "images": [
+        {
+          "url": "https://www.stocktitan.net/news_covers/NVIDIA_AI_Ecosystem_Expands_as_Marvell_Joins_Forces_Through_NVLink_Fusion_1033631.webp",
+          "description": ""
+        }
+      ],
+      "favicon": "https://static.stocktitan.net/img/favicon/apple-touch-icon.png"
+    },
+    {
+      "title": "NVIDIA Invests $2 Billion in Marvell and Expand NVLink Fusion ...",
+      "url": "https://www.techpowerup.com/347930/nvidia-invests-usd-2-billion-in-marvell-and-expand-nvlink-fusion-partnership",
+      "date": "2026-04-01",
+      "source": "TechPowerUp",
+      "collection_source": "IndustryAI",
+      "snippet": "Wednesday, April 1st 2026\n\n# NVIDIA Invests $2 Billion in Marvell and Expanded NVLink Fusion Partnership\n\nPress Release    by Nomad76     Discuss (4 Comments)\n\nNVIDIA and Marvell Technology, Inc. (NASDAQ: MRVL) today announced a strategic partnership to connect Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVIDIA NVLink Fusion offering customers building on NVIDIA architectures greater choice and flexibility in developing next-generation infrastructure. The companies will also collaborate on silicon photonics technology.  \n   \n In addition, NVIDIA has invested $2 billion in Marvell. [...] Jan 16th 2026 NVIDIA Reportedly Ends GeForce RTX 5070 Ti Production, RTX 5060 Ti 16 GB Next (210)\n Sep 10th 2025 NVIDIA GeForce RTX 50-Series SUPER GPUs Could Arrive at CES 2026 (69)\n Jul 28th 2025 NVIDIA to Debut GeForce RTX 50-series SUPER GPUs by Christmas (112)\n Sep 3rd 2025 NVIDIA Discrete GPU Market Share Dominance Expands to 94%, Notes Report (237)\n Dec 31st 2025 Leaks Predict $5000 RTX 5090 GPUs in 2026 Thanks to AI Industry Demand (124)\n Sep 29th 2025 March-April Release of NVIDIA GeForce RTX 50-series SUPER Lineup, Possible CES Reveal (73)\n Mar 16th 2026 NVIDIA Unveils DLSS 5 with Real-Time Neural Rendering (305)\n Mar 19th 2026 NVIDIA DLSS 5 Gets 84% Dislikes on YouTube as Backlash Grows (132)",
+      "topic": "NVIDIA",
+      "images": [
+        {
+          "url": "https://www.techpowerup.com/img/kkpYRfieMXANpYoo.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://tpucdn.com/apple-touch-icon-v1773253661.png"
+    },
+    {
+      "title": "NVIDIA and Marvell alliance scales AI-RAN infrastructure",
+      "url": "https://www.telecomstechnews.com/news/nvidia-and-marvell-alliance-ai-ran-infrastructure/",
+      "date": "2026-03-27",
+      "source": "TelecomsTechNews",
+      "collection_source": "IndustryAI",
+      "snippet": "27th March 2026\n\n### AI aids broadband network expansion and fleet sustainability\n\n26th March 2026\n\n### How neuromorphic AI will limit power demands in 6G networks\n\n25th March 2026\n\n## Join our Community\n\nSubscribe now to get all our premium content and latest tech news delivered straight to your inbox\n\nClick here\n\n## Popular\n\nOperators, Research\n\n### Customer engagement and billing are vital to a CSP’s success\n\n2716 view(s)\n\n5G & 6G Development, AI & Predictive Networking, Automation & Self-Optimising Networks, Featured News, Hot Topics, Market Landscape & Strategy, Network Infrastructure, Next-Gen RAN Architectures, Operator Strategies, Operators, Trends, Tech & Innovation, Voices & Analysis\n\n### How Indosat is scaling AI-RAN across its network\n\n537 view(s) [...] 537 view(s)\n\n6G, Automation, Hot Topics, Networks, Operators, Research, Security, Telecoms\n\nFeatures, Networks, Security\n\n### ​Attackers target public-facing applications over ransomware in 2025\n\n504 view(s) [...]",
+      "topic": "NVIDIA",
+      "images": [
+        {
+          "url": "https://www.telecomstechnews.com/wp-content/uploads/2026/04/nvidia-marvell-alliance-ai-ran-infrastructure-ai-ran-5g-6g-networks-artificial-intelligence-factory.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.telecomstechnews.com/wp-content/uploads/2020/09/telecom-icon-60x60.png"
+    },
+    {
+      "title": "Anthropic launches claude marketplace: Must-Read Update - 2026 - Publicancy",
+      "url": "https://publicancy.com/anthropic-launches-claude-marketplace-must-read-update",
+      "date": "2026-03-30",
+      "source": "Publicancy",
+      "collection_source": "IndustryAI",
+      "snippet": "### What Changes Now\n\nAnthropic launches Claude Marketplace and immediately transforms how enterprises access AI-powered tools. Companies with existing Anthropic spend commitments can now redirect portions toward applications made by trusted partners like GitLab, Harvey, and Replit. This marketplace model eliminates the need for separate contracts with multiple AI providers.\n\nThe marketplace opens doors for businesses that previously hesitated about AI adoption. This development in anthropic launches claude marketplace continues to evolve. instead of building custom solutions, companies can now purchase ready-made Claude-powered tools from specialized vendors. This approach significantly reduces implementation time and technical barriers. [...] #### Strategic Implications for Enterprise AI Adoption\n\nThis marketplace launch positions Anthropic as more than just an AI model provider. The impact on anthropic launches claude marketplace is significant. they’re becoming a platform company, similar to how Apple transformed from a hardware manufacturer to a services ecosystem leader. The strategy allows Anthropic to capture more value from existing enterprise customers while expanding their addressable market through partner innovations. [...] #### Impact on AI Partner Ecosystem\n\nFor partners like Replit, Lovable, and Rogo, marketplace inclusion provides immediate credibility and access to Anthropic’s enterprise customer base. The impact on anthropic launches claude marketplace is significant. this is particularly valuable for smaller AI companies that struggle with enterprise sales cycles and trust-building. The marketplace essentially acts as a quality filter and distribution channel.",
+      "topic": "Anthropic",
+      "images": [
+        {
+          "url": "https://publicancy.com/wp-content/uploads/2026/03/featured_1772875590_G8HitPI5Vs-940x540.jpg",
+          "description": "anthropic launches claude marketplace - Publicancy"
+        }
+      ],
+      "favicon": "https://publicancy.com/wp-content/uploads/2025/08/cropped-publicancy-favicon-2-32x32.png"
+    },
+    {
+      "title": "Open-source AI just changed the game! Meta ne Llama 5 launch ...",
+      "url": "https://www.instagram.com/p/DWX8RZ-kaPH/",
+      "date": "2026-03-27",
+      "source": "Instagram",
+      "collection_source": "IndustryAI",
+      "snippet": "Image 7: Photo shared by WOLFSTREET on March 26, 2026 tagging @cevsvnit, and @nextgentechconnect. May be a graphic of ‎magazine, poster and ‎text that says '‎WOLFSTREET CEV ENFINITY Powering Infinite Possibilities PoweringnfinitePossilities lities ማርይ NEXTGEN TECH CONNECT CONNECT م GROM GROW MHOWATE-COACT NNOVATE IMOWATE- CONNECT AS ASCOMMUNITYPARTNER SCOMMUNITY COMMU NITY PARTNER‎'‎‎. [...] Image 6: Photo by NextGen Tech Connect on March 27, 2026. May be an image of card, poster, magazine and text that says 'NEXTGEN TECH CONNECT OpenAl Reveals \"Project Stargate\": A $100 Billion AI Supercomputer! Microsoft and OpenAl partner for a massive, space-scale AI infrastructure by 2030. Microsoft OpenAI $100 Billion OpenAI ne Microsoft ke saath milkar ek mega AI supercomputer banane ka plan reveal kiya hai, jiska budget $100 Billion hai, aur ye AI ki capability ko pehle se 100x fast bana dega. AI capabilities ko 100x speed milne wali hai! nextgentechconnect'. [...] Image 8: Photo by NextGen Tech Connect on March 25, 2026. May be an image of screen and text that says 'NEXTGEN TECHCONNECT TECH CONNECT NVIDIA Unveils Next- Gen AI Chips යமசதණ p VIDIA 20 BP BNII New AI chips promise faster training and lower energy consumption. AI power race ab hardware level par shift ho ra hai REALITY CHECK Jiske paas strongest AI hardware hoga, wahi future control karega. @nextgentechconnect'.",
+      "topic": "Meta LLaMA",
+      "images": [],
+      "favicon": "https://static.cdninstagram.com/rsrc.php/v4/yx/r/H1l_HHqi4p6.png"
+    },
+    {
+      "title": "What’s New at AWS – Cloud Innovation & News",
+      "url": "https://aws.amazon.com/new/",
+      "date": "2026-03-31",
+      "source": "Amazon Web Services",
+      "collection_source": "CloudInfra",
+      "snippet": "2026-03-31\n\n#### Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics\n\n2026-03-31\n\n#### AWS Organizations now provides organization paths in API responses\n\n2026-03-31\n\n#### AWS Deadline Cloud now supports new fleet scaling configurations for render farms\n\n2026-03-31\n\n#### AWS Marketplace sellers can now self-serve refunds and agreement cancellations\n\n2026-03-31\n\n#### Aurora DSQL launches new connectors that simplify building .NET and Rust applications\n\n2026-03-31\n\n#### Amazon S3 Vectors expands to 17 additional AWS Regions\n\n   1\n   2\n   3\n   4\n   5\n   6\n   …\n   1000\n\n## More resources\n\nContinue exploring what AWS has to offer\n\n### AWS News Blog\n\nRead more\n\n### Technical documentation\n\nRead more\n\n### AWS Training and Certification\n\nRead more [...] ## Unable to save cookie preferences\n\nWe will only store essential cookies at this time, because we were unable to save your cookie preferences.\n\nIf you want to change your cookie preferences, try again later using the link in the AWS console footer, or contact support if the problem persists.\n\nDismiss\n\nSkip to main content\n\n\n\n2026-03-31\n\n#### Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement\n\n2026-03-31\n\n#### AWS launches Sustainability console for carbon emissions tracking\n\n2026-03-31\n\n#### AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region\n\n2026-03-31\n\n#### Amazon Managed Service for Apache Flink now supports Apache Flink 2.2\n\n2026-03-31 [...] English\n\nBack to top\n\nAmazon is an Equal Opportunity Employer: Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.\n\n[](\n\n   Privacy\n   Site terms\n   Cookie Preferences\n\n© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "topic": "AWS",
+      "images": [],
+      "favicon": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png"
+    },
+    {
+      "title": "AWS Service Availability Updates - AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
+      "date": "2026-03-31",
+      "source": "Amazon Web Services",
+      "collection_source": "CloudInfra",
+      "snippet": "Search\n\n# AWS Service Availability Updates\n\nWe’re announcing availability changes to the following AWS services and features.\n  \n  \nServices moving to Maintenance\n\nServices moving to maintenance will no longer be accessible to new customers starting April 30, 2026. Customers already using these services and features can continue to do so. AWS will continue to operate and support these services and features. We recommend that customers learn about the changes in the product pages and documentation.\n\nServices entering Sunset [...] Services entering Sunset\n\nThe following services are entering sunset, and we are announcing the date upon which we will end operations and support of the service. Customers using these services should click on the links below to understand the sunset timeline and begin planning migration to alternatives as recommended in the updated service web pages and documentation.\n\nServices reaching End of Support\n\nThe following feature has reached end of support and is no longer available as of March 31, 2026.\n\nFor customers affected by these changes, we've prepared comprehensive migration guides, and our support teams are ready to assist with your transition. Visit AWS Product Lifecycle Page to learn more, and subscribe to the RSS feed for future updates.\n\n## Learn\n\n## Resources\n\n## Developers [...] ## Learn\n\n## Resources\n\n## Developers\n\n## Help",
+      "topic": "AWS",
+      "images": [],
+      "favicon": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png"
+    },
+    {
+      "title": "Google Cloud latest news and announcements",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "date": "2026-03-27",
+      "source": "Google Cloud",
+      "collection_source": "CloudInfra",
+      "snippet": "Contact salesGet started for free\n\nInside Google Cloud\n\n# What’s new with Google Cloud\n\nMarch 27, 2026\n\n   . This add-on uses AI to enhance your API documentation with the precise examples and error codes that AI agents need to function reliably.\n\nRead the full blog post to get started.\n\n   Webinar | April 16: AI Command & ControlAs AI agents move from experimental pilots to core enterprise functions, governance is the critical next step. Join Google Cloud expert Satyam Maloo for a webinar on April 16th at 11:00 AM IST to learn how to architect a secure AI Management layer. We’ll explore developing governed MCP endpoints, managing tool access to enterprise data, and operationalizing AI with robust audit logs. The session includes a live demo of these frameworks in action on Google Cloud. [...] Accelerate API Testing with the New Open Source API TesterStart validating your APIs with API Tester, a simple, YAML-based Test Driven Development (TDD) framework. Designed for the Apigee community, this tool allows you to write human-readable tests, run them instantly via a web client or CLI, and perform deep unit testing on Apigee proxies. With native support for JSONPath assertions and Apigee shared flows, you can verify everything from payload data to internal variables like `proxy.basepath` without leaving your terminal. [...] Explore the API Tester guide and start testing your proxies today.\n   Secure Sensitive Data with Kubernetes Secrets in Apigee hybridEnhance security in Apigee hybrid by accessing Kubernetes Secrets directly within your API proxies. This hybrid-exclusive feature keeps sensitive credentials within your cluster boundary and prevents replication to the management plane. It supports strict separation of duties: operators manage secrets via `kubectl`, while developers reference them as secure flow variables—ideal for high-compliance and GitOps workflows.",
+      "topic": "Google Cloud Platform",
+      "images": [],
+      "favicon": "https://cloud.google.com/favicon.ico"
+    },
+    {
+      "title": "Google Cloud release notes | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/release-notes",
+      "date": "2026-03-30",
+      "source": "Google Cloud Documentation",
+      "collection_source": "CloudInfra",
+      "snippet": "Lets admins and users access a new Unused content folder to quickly identify and manage the unused content on a Looker instance.\n   Lets admins programmatically schedule content cleanups for individual content or in bulk, and send automatic notifications to content owners.\n   Lets content owners opt out of automated scheduled cleanups for specific content.\n   Lets admins and users move content to the trash.\n\nThis feature is disabled by default. Learn more about managing unused content with Enhanced Content Cleanup.\n\nAnnouncement\n\nStarting March 30, 2026, the following features will begin rolling out.\n\nFeature\n\nAvailable in preview, you can chat with Conversational Analytics data agents in user-defined dashboards and in LookML dashboards.\n\nChange [...] ## March 30, 2026\n\nAlloyDB for PostgreSQL\n\nFeature\n\nAlloyDB now offers conversational analytics, which lets users query their operational data using natural language. This feature is powered by the Conversational Analytics API, which can help you translate complex human dialog into precise database queries to provide actionable insights. This feature is in Preview. For more information, see Conversational analytics for AlloyDB overview.\n\nBigQuery\n\nFeature\n\nThe following forecasting and anomaly detection functions and updates are generally available (GA):\n\n   The `AI.DETECT_ANOMALIES` function supports providing a custom context window that determines how many of the most recent data points should be used by the model. [...] ## March 27, 2026\n\nCloud Composer\n\nAnnouncement\n\nA new Cloud Composer release has started on March 27, 2026. Get ready for upcoming changes and features as we roll out the new release to all regions. This release is in progress at the moment. Listed changes and features might not be available in some regions yet.\n\nChange\n\nNew Airflow builds are available in Cloud Composer 3:\n\n   composer-3-airflow-3.1.7-build.3\n   composer-3-airflow-2.10.5-build.32 (default)\n   composer-3-airflow-2.9.3-build.52\n\nDeprecated\n\nThe following Cloud Composer versions and builds have reached their end of support period: composer-3-airflow-2.9.3-build.19 and composer-2.12.0-.\n\nChange\n\nNew images are available in Cloud Composer 2:\n\n   composer-2.16.9-airflow-2.10.5 (default)\n   composer-2.16.9-airflow-2.9.3",
+      "topic": "Google Cloud Platform",
+      "images": [],
+      "favicon": "https://www.gstatic.com/devrel-devsite/prod/v80d9a52eefe4eccd9a262cfbc94473a846b10e2b3115e0674427719fa6f74364/clouddocs/images/favicons/onecloud/super_cloud.png"
+    },
+    {
+      "title": "Oracle Database Monthly News – March 2026 – Quick Links | coretec",
+      "url": "https://blogs.oracle.com/coretec/oracle-database-monthly-news-march-2026-quick-links",
+      "date": "2026-03-31",
+      "source": "Oracle Blogs",
+      "collection_source": "CloudInfra",
+      "snippet": "What’s new in Oracle AI Database@AWS\n What’s new in Oracle AI Database@Azure\n What’s new in Oracle AI Database@Google Cloud\n Oracle Cloud Infrastructure Documentation / Release Notes\n What’s New in Oracle Base Database Service\n What’s New for Oracle Autonomous Database Serverless\n What’s New in Oracle Exadata Database Service on Exascale Infrastructure\n Oracle Autonomous Database on Dedicated Exadata Infrastructure\n What’s New in Oracle Exadata Database Service on Dedicated Infrastructure\n What’s New in Oracle Exadata Database Service on Cloud@Customer\n What’s New for Oracle Data Safe\n New Features in Enterprise Manager by Release Update\n New Features in 19c Release Updates\n Oracle AI Database 26ai Release Updates\n What’s New for Oracle AI Vector Search [...] ### Upcoming Events\n\n Ask Tom Office Hours\n Monthly Oracle APEX Events\n Developer Coaching Events\n Oracle Cloud Infrastructure Virtual Events\n DOAG Events\n April 21: Exadata meets the Experts\n April 22: ora2know: Upgrade Workshop (Düsseldorf)\n April 23: Patch Smarter, Not Harder – Windows Special Edition (Virtual Classroom Seminar)\n April 29: Advanced Edition: Upgrade, Migration and Patching to Oracle AI Database 26ai and 19c (London)\n May 5: DB Masters Event 2026 (Vienna)\n May 11/May 12: Extreme Edition: Upgrade, Migration and Patching to Oracle AI Database 26ai (May 11 in Utrecht/May 12 in Brussels)\n May 18/19: DOAG Database (Heide Park Soltau)\n 2026: Oracle AI World Tour\n\n### Release & Patch Updates (\\) Changes in bold [...] ### Database & Cloud Database News\n\nMulticloud News\n\n Oracle AI Database@AWS news, e.g.:\n  + Regions support in Sydney, Ireland, London, and Montreal\n Oracle AI Database@Azure news, e.g.:\n  + Oracle Exadata Database Service on Exascale Infrastructure support in Tokyo and West Europe regions\n Oracle AI Database@Google Cloud news, e.g.:\n  + Oracle Exadata Database Service on Exascale Infrastructure and Oracle Base Database Service support in Osasco, São Paulo, Brazil region\n\nOracle Autonomous AI Database Serverless (ADB-S) March news, e.g.:\n\n Select AI for Property Graphs\n Monitor Autonomous AI Database Memory Utilization\n Clone `ADMIN` Privileges in Autonomous AI Database\n Single Sign-On Support for all Autonomous AI Database Tools",
+      "topic": "Oracle Cloud Infrastructure",
+      "images": [
+        {
+          "url": "https://blogs.oracle.com/coretec/wp-content/uploads/sites/82/2025/11/quicklinks_2.jpg",
+          "description": ""
+        },
+        {
+          "url": "http://blogs.oracle.com/wp-content/uploads/2025/09/sinan.jpg",
+          "description": "Profile picture of Sinan Petrus Toma"
+        },
+        {
+          "url": "http://blogs.oracle.com/wp-content/uploads/2025/09/ulrike_schwinn.jpg",
+          "description": "Profile picture of Ulrike Schwinn"
+        }
+      ],
+      "favicon": "https://blogs.oracle.com/favicon.ico"
+    },
+    {
+      "title": "Oracle Cloud Infrastructure Release Notes",
+      "url": "https://docs.oracle.com/iaas/releasenotes/services/oci/index.htm",
+      "date": "2026-03-30",
+      "source": "Oracle Documentation",
+      "collection_source": "CloudInfra",
+      "snippet": "## Redesign of the Console home page\n\nThe Console home page has been redesigned to provide easier access to commonly used workflows, tools, and resources.\n\n## Tenancy OCID removed from Console page footer\n\nYour tenancy's Oracle Cloud Identifier (OCID) is no longer displayed on the bottom of the Console. To get your tenancy's ...\n\n## Console design changes\n\nThe Console header has a new design, changing the navigation to some features.\n\n## Updates to the Console navigation menu\n\nThe Console menu has been redesigned to improve navigation to services and resources. For more information, see Using the Console ...\n\n## Unified navigation menu in the Console\n\nPreviously, you could navigate to services using individual menus across the top of the Console. Now you can navigate to ... [...] ## New region in Chicago, United States\n\nThe US Midwest (Chicago) region is now available. The region identifier is us-chicago-1. The region key is ORD. This region ...\n\n## New Release for Data Integration (security and bug fixes)\n\nThis release contains the following fixes.\n\n## Full Stack Disaster Recovery is now available\n\nFull Stack Disaster Recovery (FSDR) is an Oracle Cloud Infrastructure (OCI) disaster recovery orchestration and management service that provides comprehensive ...\n\n## New region in Madrid, Spain\n\nThe Spain Central (Madrid) region is now available. The region identifier is eu-madrid-1. The region key is MAD. This region ...\n\n## Process Automation is now available\n\nFor more information about Process Automation releases, see What's New and Known Issues. [...] ## New region UK West (Newport)\n\nThe UK West (Newport) region is now available. The region name is uk-cardiff-1. The region key is CWL. This region ...\n\n## Operations Insights\n\nOperations Insights enables you to analyze CPU and storage resources, forecast capacity issues, and proactively identify SQL performance issues across ...\n\n## New region in Dubai, UAE\n\nA region in Dubai, UAE is now available. The region name is me-dubai-1. The region key is DXB. This region ...\n\n## Cloud Guard is now available\n\nCloud Guard is a cloud-native service that helps customers monitor, identify, achieve, and maintain a strong security posture on Oracle ...\n\n## Security Zones are now available",
+      "topic": "Oracle Cloud Infrastructure",
+      "images": [],
+      "favicon": "https://docs.oracle.com/en/styles/images/favicon.ico"
+    },
+    {
+      "title": "Hyperscalers Plan $630 Billion in 2026 CapEx - Data Center Richness",
+      "url": "https://datacenterrichness.substack.com/p/hyperscalers-plan-630-billion-in",
+      "date": "2026-02-06",
+      "source": "Data Center Richness",
+      "collection_source": "CloudInfra",
+      "snippet": "# Hyperscalers Plan $630 Billion in 2026 CapEx\n\n### Investment in GPUs, Data Centers for AI Poised to Surge 62% From 2025 Record\n\nRich Miller\n\nFeb 06, 2026\n\n∙ Paid\n\nAn Amazon Web Services data center. Amazon said Thursday that it expects capital expenditures of $200 billion this year for AI infrastructure. (Photo: Amazon)\n\nDespite historic investments in GPUs and data centers, hyperscale data center operators say they are unable to keep pace with the demand for capacity for AI services. So they are turning the dial up to 11. [...] Amazon, Google, Meta and Microsoft say they will dramatically boost their data center spending in 2026. This emphatic reinforcement of the AI boom was capped by Thursday’s revelation that Amazon plans for $200 billion in annual capital expenditures (CapEx), most of which goes to digital infrastructure.\n\nAll told, the Big Four plan to invest up to $630 BILLION in capital expenditures for 2026, about a 62 percent increase from the record $388 billion in 2025 spending.\n\nHere’s a breakdown of the number from this week’s earnings calls: [...] Amazon: $200 billion in CapEx projected for 2026, versus $125 billion last year.\n Google: $175 to $185 billion, up from $91 billion in 2025.\n Meta: $115 to $135 billion for 2026, up from $72 billion in 2025.\n Microsoft: $110 to $120 billion in 2026, compared to $90 billion last year.\n\nThe CapEx numbers from the four hyperscalers lay the groundwork for an extraordinary year of investment in the AI ecosystem, as well as tensions around data center development boom and its impact on local communities.\n\nInvestors remain skeptical about the huge spending for AI infrastructure, and shares of Google, Amazon and Microsoft all sold off following their earnings calls. But hyperscale executives expressed confidence that these huge bets will pay off.",
+      "topic": "Data Centre Investment",
+      "images": [],
+      "favicon": "https://substackcdn.com/image/fetch/$s_!DGNy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9f8aa94-0a7e-4b63-be00-99c6e9d9fe08%2Ffavicon.ico"
+    },
+    {
+      "title": "IDC: Public Cloud Spending to Pass $1 Trillion in 2026",
+      "url": "https://hostingjournalist.com/news/idc-public-cloud-spending-to-pass-1-trillion-in-2026",
+      "date": "2026-03-31",
+      "source": "HostingJournalist",
+      "collection_source": "CloudInfra",
+      "snippet": "The overall growth of the public cloud market continues to be anchored by Software-as-a-Service (SaaS)\") , which will remain the largest segment of cloud deployment models in 2026. SaaS is expected to account for more than half of global public cloud spending as enterprises expand investments in enterprise resource management software, cybersecurity platforms, and customer relationship management tools delivered through cloud-based subscription models. These applications allow organizations to modernize business processes while reducing reliance on traditional on-premises systems. [...] ## Industries Accelerate Public Cloud Use\n\nIndustry adoption of public cloud services is broadening across both traditional and emerging sectors. Banking, software and information services, and retail are expected to represent the largest cloud-spending industries in 2026, together accounting for roughly one quarter of total global expenditure. Financial institutions are continuing large-scale modernization of legacy core systems while deploying cloud-enabled fraud detection tools, real-time payment systems, and AI-driven risk analysis platforms. [...] While SaaS dominates the market in scale, Platform-as-a-Service (PaaS) is emerging as the fastest-growing category. IDC forecasts that PaaS spending will expand by more than 37% in 2026, reflecting growing enterprise demand for tools that support application development, data engineering, and artificial intelligence workloads. PaaS platforms are increasingly used to power generative AI systems, agentic AI frameworks, and advanced analytics platforms that rely on cloud-native architectures. The rapid expansion of these technologies is driving enterprises to adopt developer-centric environments capable of managing data-intensive operations at scale.\n\n## Industries Accelerate Public Cloud Use",
+      "topic": "Cloud Market Dynamics",
+      "images": [
+        {
+          "url": "https://hostingjournalist.com/uploads/news-pictures/2057-zutphen-blog-post-image-20260308175030.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://hostingjournalist.com/images/HostingJournalist.png"
+    },
+    {
+      "title": "UAE embeds AI at the heart of new federal government strategy cycle",
+      "url": "https://gulfbusiness.com/uae-embeds-ai-at-the-heart-of-new-government-strategy/",
+      "date": "2026-04-02",
+      "source": "Gulf Business",
+      "collection_source": "UAERegional",
+      "snippet": "Key federal bodies, including 38 entities, will align their strategies using proactive, AI-driven methodologies. The initiative mandates integration of strategic intelligence, smart forecasting, and big data analysis, allowing decision-makers to anticipate future challenges and act preemptively.\n\nDuring a strategic workshop led by the Prime Minister’s Office at the Ministry of Cabinet Affairs, directors of strategy and finance from various federal entities explored how AI and advanced analytics can drive better decision-making. The updated cycle emphasises automation, predictive modelling, and integrated performance indicators tailored to real-world, real-time scenarios.\n\n### Strategic collaboration for smarter governance [...] “While in the past government success was measured by regulatory strength and comprehensive procedures, today it hinges on regulatory agility, streamlined processes, and intelligent resource management, a significantly more complex undertaking. Tools and priorities change, but the unwavering commitment to serve the people of the UAE remains constant,” he added.\n\n### Smarter, shorter, and AI-powered\n\nMarking a significant shift in how government strategies are conceived and executed, the planning cycle has been shortened from five years to three. The goal is to keep pace with rapid technological change and global shifts, ensuring greater flexibility and responsiveness. [...] As reported by the Dubai Media Office, the initiative places AI front and center in transforming government planning, streamlining processes, optimising resources, and enhancing financial efficiency, aligning with the broader objectives of the We the UAE 2031 vision.\n\nHis Highness affirmed, “We have launched the new strategic planning cycle for the Federal Government for 2031. This plan prioritises artificial intelligence in government planning, process simplification, resource optimisation, and enhanced financial efficiency.”\n\nRelated news: Sheikh Mohammed announces launch of ‘We The UAE 2031’",
+      "topic": "UAE Government AI & Digital Strategy",
+      "images": [
+        {
+          "url": "https://media.gulfbusiness.com/2026/04/GettyImages-1129653960.webp",
+          "description": ""
+        },
+        {
+          "url": "https://media.gulfbusiness.com/2026/04/EmiratesID-1.webp",
+          "description": ""
+        }
+      ],
+      "favicon": "https://gulfbusiness.com/favicon.ico"
+    },
+    {
+      "title": "Presight AI and G42 Healthcare sign MOU",
+      "url": "https://www.g42.ai/resources/news/presight-ai-and-g42-healthcare-sign-mou",
+      "date": "2026-04-02",
+      "source": "G42",
+      "collection_source": "UAERegional",
+      "snippet": "Leveraging Presight’s omni-analytics platform and G42 Healthcare’s in-depth knowledge and expertise in the health industry, the collaboration will result in the exploration of population health management, wellness and performance data prediction, and time-sequenced events and behavioral analysis prediction.\n\nThe agreement was signed at Arab Health Week by Dr. Adel Al Sharji, Chief Operating Officer of Presight AI, and Ashish Koshy, Chief Executive Officer of G42 Healthcare. [...] Commenting on the collaboration, Dr. Adel Al Sharji, Chief Operating Officer of Presight AI, said: “At Presight, we are committed to leveraging the power of big data analytics powered by AI to drive the digital transformation across industries. This partnership with G42 Healthcare is the perfect example of how we are putting this commitment into action. The combined knowledge of both organizations has a significant positive impact by extending the quality of care provided in the region and creating new verticals in the healthcare industry led by data-driven insights.” [...] The new collaboration will transform the analytical capability of both government entities and hospitals, improving record collection and understanding advanced digitized processes, such as optical character recognition (OCR) and natural language processing (NLP) used in the healthcare industry. This eases administrative practices, improves data accuracy, and reduces manual data entry. Additionally, machine-learning-based models will help unlock insights about patient demographics, health issues, diagnoses, and hospital and clinic resource utilization.",
+      "topic": "G42",
+      "images": [
+        {
+          "url": "https://www.g42.ai/application/files/cache/thumbnails/9c89fe33f6cba57da70adb1682ec81fd.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://www.g42.ai/application/files/cache/thumbnails/109eec61d4520cd20e1f002b7c5b88cb.jpg",
+          "description": "Presight AI and G42 Healthcare sign MOU"
+        }
+      ],
+      "favicon": "https://www.g42.ai/application/files/1616/6608/0878/g42-favicon.png"
+    },
+    {
+      "title": "Ministry of Foreign Trade partners with Presight to deliver new AI ...",
+      "url": "https://www.presight.ai/news/ministry-of-foreign-trade-partners-with-presight-to-deliver-new-ai-powered-trade-platform/",
+      "date": "2026-04-02",
+      "source": "Presight AI",
+      "collection_source": "UAERegional",
+      "snippet": "Dubai, UAE – 19 January 2025: The Ministry of Foreign Trade has signed an agreement with Abu Dhabi-based AI solutions provider Presight, a G42 company, to build the Ministry of Foreign Trade AI Platform, a suite of AI-powered trade tools that will facilitate smarter, faster foreign trade and consolidate the UAE’s status as a global trade pioneer. The platform will be embedded across all core functions of the Ministry of Foreign Trade as it seeks to become the first AI-driven trade ministry in the world. [...] hub on global supply chains, and create a model of excellence for other trading nations to follow.” [...] Image 11\n\n11 Feb 2026 \n\n#### Khazna and Presight sign commercially significant contract for AI-powered data centre unified command and control platform\n\n##### Get in touch\n\nConnect with us today to explore how we can innovate and grow together.\n\nFor IR enquiries send an email to: investors@presight.ai\n\nFirst name\n\nLast name\n\nEmail\n\nPhone Number \n\n+971\n\n     United States+1\n     United Kingdom+44",
+      "topic": "G42",
+      "images": [],
+      "favicon": "https://www.presight.ai/wp-content/uploads/2024/04/favicon-1.png"
+    },
+    {
+      "title": "e& (etisalat and ) UAE | Media Centre",
+      "url": "https://www.eand.ae/en/footer/about-us/media-centre/2026.html",
+      "date": "2026-04-02",
+      "source": "e& (etisalat and ) UAE",
+      "collection_source": "UAERegional",
+      "snippet": "e& Carrier & Wholesale (CWS) has announced the successful launch of its 5G Standalone (5G SA) network, setting a new standard for global connectivity with advanced roaming capabilities and exclusive Security Edge Protection Proxy (SEPP) integration via its IPX platform.  \n   \n This achievement positions e& Carrier & Wholesale as the advance provider in the region offering SEPP facilities to Mobile Network Operators (MNOs) from its Point of Presence (PoP). The new 5G SA architecture, operating independently of legacy networks, delivers ultra-fast speeds up to 100 times faster than 4G, with unparalleled reliability and ultra-low latency. [...] Under the agreement, e& UAE will design, deploy, and operate a high-speed, fully managed Wi-Fi network that provides high-quality internet, reliable coverage, secure access, and centralised performance management across both communities. The service will enable thousands of workers and displaced individuals to stay connected with their families, access digital services, and participate more fully in community life. [...] ### \n\ne& UAE, the flagship telecommunications arm of global technology group e&, inked a landmark agreement with Al Rayan Investments to deliver high-speed managed Wi-Fi services connecting more than 42,000 residents across two of Abu Dhabi’s largest workforce and humanitarian communities, the Construction Workers Residential City (CWRC) Labor Camp and the Moon Flower Humanitarian City.",
+      "topic": "UAE Telecoms & Tech",
+      "images": [
+        {
+          "url": "https://www.eand.ae/content/dam/etisalat/header/findus.svg",
+          "description": "Find Us"
+        },
+        {
+          "url": "https://www.eand.ae/content/dam/etisalat/consumer/2024/inner-banners/wst/media-centre/en/media-centre-en-wst-1920x363.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://eand.ae/content/dam/etisalat/favicon/favicon.ico"
+    },
+    {
+      "title": "UAE's Etisalat launches 5G enterprise multi-access edge computing",
+      "url": "https://developingtelecoms.com/telecom-technology/enterprise-ecosystems/12148-uae-s-etisalat-launches-5g-enterprise-multi-access-edge-computing.html",
+      "date": "2026-04-02",
+      "source": "Developing Telecoms",
+      "collection_source": "UAERegional",
+      "snippet": "Edge computing technology aims to revolutionize many industries, reduce latency, and enable the entire hosting of applications to deliver fast and secure 5G, IoT, and AI applications.\n\n“Etisalat Edge Computing solutions will help customers transform the way they operate, especially transportation, smart manufacturing, logistics, and Oil & Gas,” said Khaled Al Suwaidi, vice president Fixed and Mobile Core at Etisalat. “This drastically increases the value for traditional networks to transition into 5G to develop intelligent and autonomous next-generation technology that unlocks potential opportunities to our customers.” [...] |  |\n|  |\n|  |\n|  | [...] “Azure MEC offers service providers and customers the same set of tools to build and manage their cloud infrastructure. Our customers can maximize their efforts by employing a “build once and deploy many” strategy to optimize their investments,” said Naim Yazbeck, regional director, Enterprise and Partner Group (EPG), Microsoft UAE.\n\nAccording to the release, this latest collaboration is a continuation of last year’s successful partnership, when Etisalat teamed up with Microsoft to drive a public cloud-first strategy through a digital transformation program that enabled the telecommunications provider to build a platform infused with automation and AI.\n\nDiscover more\n\n## More Articles you may be Interested in...\n\nEthio Telecom launches digital signature platform for govt services",
+      "topic": "UAE Telecoms & Tech",
+      "images": [
+        {
+          "url": "https://developingtelecoms.com/images/stories/Features/800x600/Etisalat_1.jpg",
+          "description": "UAE's Etisalat launches 5G enterprise multi-access edge computing"
+        }
+      ],
+      "favicon": "https://developingtelecoms.com/templates/telecoms-2025/apple-touch-icon.png"
+    },
+    {
+      "title": "Alpha Ladder Group and MetaComp Partner with Maqam ... - TMCnet",
+      "url": "https://www.tmcnet.com/news/2026/04/02/10358519.htm",
+      "date": "2026-04-02",
+      "source": "TMCnet / PR Newswire",
+      "collection_source": "UAERegional",
+      "snippet": "SINGAPORE, April 2, 2026 /PRNewswire/ -- Alpha Ladder Group (\"Alpha Ladder\"), a Singapore-headquartered Digital Green Group driving sustainable financial and technology innovation through subsidiaries including MetaComp and Alpha Ladder Finance, and Maqam International Holding, an Abu Dhabi-based company, today announced the establishment of a joint venture focused on real-world asset (RWA) tokenisation and digital payments across the Middle East and North Africa (MENA) region.\n\nJoint venture domiciled in ADGM marks a landmark in Singapore-UAE digital finance cooperation, connecting MENA’s real world asset base to global capital markets through regulated blockchain infrastructure and payment network. [...] | |  |  |  --- | | [April 02, 2026] |  |   Alpha Ladder Group and MetaComp Partner with Maqam International Holding, an Abu Dhabi (UAE) company, to Advance RWA Tokenisation and Web2.5 Payments Across Singapore-UAE Corridor Tweet  SINGAPORE, April 2, 2026 /PRNewswire/ -- Alpha Ladder Group (\"Alpha Ladder\"), a Singapore-headquartered Digital Green Group driving sustainable financial and technology innovation through subsidiaries including MetaComp and Alpha Ladder Finance, and Maqam International Holding, an Abu Dhabi-based company, today announced the establishment of a joint venture focused on real-world asset (RWA) tokenisation and digital payments across the Middle East and North Africa (MENA) region.  Joint venture domiciled in ADGM marks a landmark in Singapore-UAE digital finance [...] in ADGM marks a landmark in Singapore-UAE digital finance cooperation, connecting MENA’s real world asset base to global capital markets through regulated blockchain infrastructure and payment network.  The announcement follows MetaComp's close of its Pre-A funding round at USD 35 million in total raised, backed by Alibaba, another internet conglomerate, Eastern Bell, Noah, Sky9, and a fund affiliated with Asia's largest logistics infrastructure company. Having achieved profitability in 2025 and with USD 100 million in instantaneous liquidity on its platform, MetaComp enters this partnership as an operationally proven Web2.5 Pay + Wealth business model, institutionally backed payment infrastructure provider — capitalised and ready to deploy across priority corridors, including MENA.",
+      "topic": "UAE FinTech & Digital Economy",
+      "images": [
+        {
+          "url": "https://mma.prnewswire.com/media/2948743/20260402_ALG_x_Maqam__PAINT.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.tmcnet.com/favicon.ico"
+    },
+    {
+      "title": "Fintech Company Dubai 2026: DFSA, VARA, ADGM and Real Costs",
+      "url": "https://diac.ae/blog/start-fintech-company-in-dubai-uae/",
+      "date": "2026-04-02",
+      "source": "Dubai International Advisory Consultants (DIAC)",
+      "collection_source": "UAERegional",
+      "snippet": "Starting a fintech company in Dubai in 2026 requires navigating four distinct regulatory environments: DFSA within DIFC for institutional financial services and payment services in a common law setting, FSRA within ADGM for institutional digital assets and traditional financial services in Abu Dhabi, VARA for virtual asset businesses serving Dubai’s retail and professional market, and CBUAE for payment service providers and digital wallet operators serving UAE mainland customers. Each route has different capital requirements, timelines, costs, and market access profiles. The DIFC and ADGM routes take 12 to 18 months and cost significantly more than the mainland path, but provide international credibility and institutional-grade regulatory recognition. VARA is Dubai’s fastest-growing [...] Skip to content\n\nDubai International Advisory Consultants\n\n +971 568072491\n WhatsApp\n AA2 504-03, Al Abbas Building 2, Bur Dubai, Dubai\n\n regulates the onshore UAE market including banks, payment service providers, stored value facility operators, and exchange businesses. If you want to serve UAE mainland customers as a payment gateway or digital wallet provider, CBUAE licensing is the pathway. Their Payment Token Services Regulation (PTSR), updated in 2026, standardises stablecoin issuance and requires AED-pegged assets to be backed with full Dirham reserves. [...] The Dubai Financial Services Authority (DFSA) is the independent regulator of the Dubai International Financial Centre (DIFC). DIFC operates as a purpose-built common law financial free zone within Dubai. The DFSA covers asset management, banking, securities, payment services, digital assets, and insurance within the DIFC perimeter.\n\nThe Financial Services Regulatory Authority (FSRA) governs the Abu Dhabi Global Market (ADGM), Abu Dhabi’s equivalent of DIFC. ADGM also operates under English Common Law and is known for particularly rigorous institutional standards. The FSRA was the first regulator in the region to develop a comprehensive digital assets framework, launching it in 2018.",
+      "topic": "UAE FinTech & Digital Economy",
+      "images": [
+        {
+          "url": "https://diac.ae/wp-content/uploads/2025/12/Start-A-Fintech-Company-In-Dubai-UAE.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://diac.ae/wp-content/uploads/2025/02/D-I-A-C-1.png"
+    },
+    {
+      "title": "UAE Data Centers: Powering the Middle East's AI Revolution",
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/uae-data-centers-powering-the-middle-east-s-ai-and-cloud-revolution",
+      "date": "2026-04-02",
+      "source": "DataCenterKnowledge",
+      "collection_source": "UAERegional",
+      "snippet": "Live capacity surpassed 376 MW in 2025 as operators raced to lock in power, land, and government workloads ahead of 2026 expansions, according to a recent Knight Frank report.\n\nA major catalyst is hyperscale investment tied to national AI ambitions. Microsoft and Abu Dhabi-based G42 announced a 200 MW expansion of data center capacity in the UAE, with capacity expected to come online by the end of 2026.\n\nDubai skyline with UAE flags\n\nDubai (pictured) and Abu Dhabi are leading the growth of the UAE’s data center market, driven by AI and hyperscale investments. (Image: Alamy)\n\nThe expansion aligns with the UAE’s goal of becoming a global hub for AI and cloud services, supported by access to advanced AI infrastructure. [...] February 19, 2026\n\nUAE data center concept\n\nAs the Middle East’s digital transformation accelerates, the United Arab Emirates (UAE) is emerging as a key player in the global data center market. With development concentrated in Abu Dhabi and Dubai, the country is leveraging its strategic location, AI ambitions, and sovereign cloud initiatives to attract hyperscale investments.\n\nServing as a gateway for digital services across the Middle East and Africa, the UAE is experiencing sustained demand for local data processing capabilities. This growth is driven by the region’s rapid adoption of advanced AI infrastructure and cloud technologies. [...] While the UAE positions itself as a hub for cloud and AI services, it must also navigate challenges such as power costs, land constraints, and sustainability concerns. Despite these hurdles, the market continues to expand at a remarkable pace, driven by hyperscale investments and government-backed initiatives.\n\nRelated:OpenAI Announces Stargate Data Center Expansion in Abu Dhabi\n\n## The UAE’s Strategic Role in the Middle East’s Digital Transformation\n\nThe UAE’s data center market is evolving rapidly, with the emirates of Abu Dhabi and Dubai leading the charge as key hubs for digital infrastructure. Growth is underpinned by the country’s strategic investments in AI and cloud services, as well as the country's ability to attract global hyperscalers.",
+      "topic": "Regional Cloud & AI Infrastructure",
+      "images": [],
+      "favicon": "https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/blt0e4478b1fbd413a9/664710ef5decf9432fa920b4/DCK_Favicon_RGB_512x512.png"
+    },
+    {
+      "title": "GCC Data Centre Growth 2026: Investment and Capacity Forecast",
+      "url": "https://dctc-gcc.com/blog/GCC-Data-Centres-Growth-Forecast-2026-Investment-Capacity-and-Digital-Infrastructure-Expansion",
+      "date": "2026-04-02",
+      "source": "DCTC GCC (Data Centre Technology ConFex)",
+      "collection_source": "UAERegional",
+      "snippet": "## About Data Centre Technology ConFex (DCTC)\n\nTaking place 15-16 April 2026 at the Conrad Hotel, DCTC UAE brings together the region's most influential government stakeholders, hyperscalers, developers, enterprise investors, and technology leaders to design, build, power, secure, and optimize the next generation of GCC data centres. The event serves as the premier platform for deal-making, partnership development, and knowledge exchange as the region enters its most significant phase of digital infrastructure expansion. [...] The Conrad Hotel, Dubai\n\n16 April 2026\n\nCTF KSA\n\n CTF\n PTF\n DCTC KSA\n CTF Awards\n\n# GCC Data Centres Growth Forecast 2026\n\nInvestment, Capacity & Digital Infrastructure Expansion\n\nThe GCC region is experiencing a transformational surge in data centre development, positioning itself as a global digital infrastructure powerhouse. With ambitious national strategies, unprecedented investment momentum, and a strategic geographical advantage, the GCC is rapidly emerging as a critical hub for cloud computing, artificial intelligence, and digital transformation.\n\n## Market Growth and Investment Outlook [...] Saudi Arabia is rapidly closing the gap, with Vision 2030 targeting over USD 18 billion in data centre investments and significant capacity expansion including facilities powered entirely by renewable energy. The implementation of Data Centre Services Regulations in January 2024 has created a streamlined regulatory framework designed to attract investment and support the Kingdom's digital transformation objectives.\n\nCloud regions from global hyperscalers including Amazon Web Services, Microsoft, Google, Oracle, Alibaba, and Huawei are now spread across Dubai, Abu Dhabi, Riyadh, Jeddah, Dammam, Doha, and Manama, demonstrating the region's emergence as a strategic digital corridor connecting Europe, Asia, and Africa.\n\n## AI and High-Density Infrastructure",
+      "topic": "Regional Cloud & AI Infrastructure",
+      "images": [],
+      "favicon": "https://dctc-gcc.com/favicon.ico"
+    },
+    {
+      "title": "SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/rise-in-clop-ransomware-attacks-tied-to",
+      "date": "2026-03-31",
+      "source": "Dark Reading",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "Title: SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks\n# SolarWinds Vulnerability Exploited in First Stage of Clop Ransomware Attacks. Russian cybercrime group known as T505 is targeting SolarWinds Server-U systems that haven't been patched for a remote code execution vulnerability fixed this summer. Picture of Dark Reading Staff. Dark Reading Staff,Dark Reading. A recent surge in Clop ransomware attacks led researchers to spot a common thread in the first stage of the attack: the exploitation of a known and patched vulnerability in SolarWinds Serv-U file server software. NCC Group's Cyber Incident Response Team recently spotted the attack chain while conducting incident response cases of Clop ransomware victims hit by the infamous T505 cybercrime group out of Russia. The attackers exploited versions of the SolarWinds Serv-U software that have not been updated to the latest version that fixes the remote code execution flaw (CVE-2021-35211). NCC Group recommends updating SolarWinds Serv-U software to the newest version; it outlined several indicators of compromise they spotted in the attacks. Read the full report here. Dark Reading is a leading cybersecurity media site. See more from Dark Reading Staff. * The ROI of AI in Security. * Building a Robust SOC in a Post-AI World. * Retail Security: Protecting Customer Data and Payment Systems. * Rethinking SSE: When Unified SASE Delivers the Flexibility Enterprises Need. * Securing Remote and Hybrid Work Forecast: Beyond the VPN. * AI-Powered Threat Detection: Beyond Traditional Security Models. Want more Dark Reading stories in your Google search results? * Threat Intelligence2026: The Year Agentic AI Becomes the Attack-Surface Poster ChildJan 30, 2026. Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. * Building a Robust SOC in a Post-AI WorldThurs, March 19, 2026 at 1pm EST. * Retail Security: Protecting Customer Data and Payment SystemsThurs, April 2, 2026 at 1pm EST. * AI-Powered Threat Detection: Beyond Traditional Security ModelsWed, March 25, 2026 at 1pm EST. * Industry Report: AI, SOC, and Modernizing Cybersecurity. ## GISEC GLOBAL is the most influential and the largest cybersecurity gathering in the Middle East & Africa, uniting global CISOs, government leaders, technology buyers, and ethical hackers for three power-packed days of innovation, strategy, and live cyber drills.",
+      "topic": "Cybersecurity",
+      "images": [],
+      "favicon": "https://www.darkreading.com/favicon.ico"
+    },
+    {
+      "title": "MOVEit Hackers Pivot to SysAid Zero-Day in Ransomware Attacks",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/moveit-hackers-sysaid-zero-day-ransomware",
+      "date": "2026-03-31",
+      "source": "Dark Reading",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "|\n\n  8 Min Read\n\nDownload the Collection\n\nKeep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox.\n\nSubscribe\n\nWebinars\n\n Building a Robust SOC in a Post-AI WorldThurs, March 19, 2026 at 1pm EST\n Retail Security: Protecting Customer Data and Payment SystemsThurs, April 2, 2026 at 1pm EST\n Rethinking SSE: When Unified SASE Delivers the Flexibility Enterprises NeedWed, April 1, 2026 at 1pm EST\n Securing Remote and Hybrid Work Forecast: Beyond the VPNTues, March 10, 2026 at 1pm EST\n AI-Powered Threat Detection: Beyond Traditional Security ModelsWed, March 25, 2026 at 1pm EST\n\nMore Webinars\n\nWhite Papers [...] GET YOUR PASS\n\nGISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event\n\nGISEC GLOBAL 2026\n\n## GISEC GLOBAL is the most influential and the largest cybersecurity gathering in the Middle East & Africa, uniting global CISOs, government leaders, technology buyers, and ethical hackers for three power-packed days of innovation, strategy, and live cyber drills.\n\n📌 Book Your Space [...] More Webinars\n\nWhite Papers\n\n Autonomous Pentesting at Machine Speed, Without False Positives\n Fixing Organizations' Identity Security Posture\n Best practices for incident response planning\n Industry Report: AI, SOC, and Modernizing Cybersecurity\n The Threat Prevention Buyer's Guide: Find the best AI-driven threat protection solution to stop file-based attacks.\n\nExplore More White Papers\n\nJoin Us at Black Hat Asia 2026\n\nBlack Hat Asia | Marina Bay Sands, Singapore\n\n## Experience cutting-edge cybersecurity insights in this four-day event featuring expert Briefings on the latest research, Arsenal tool demos, a vibrant Business Hall, networking opportunities, and more. Use code DARKREADING for a Free Business Pass or $200 off a Briefings Pass.\n\nGET YOUR PASS",
+      "topic": "Cybersecurity",
+      "images": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b3d76f909c837ea/654e3a18b4e480040b16763c/emergency_response_plan_designer491_Alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.darkreading.com/favicon.ico"
+    },
+    {
+      "title": "AI Pact: Simplifying EU AI Act compliance for enterprises | CIO",
+      "url": "https://www.cio.com/article/3812400/ai-pact-how-to-simplify-ai-act-compliance-for-all-enterprises.html",
+      "date": "2026-03-30",
+      "source": "CIO",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "“It will have to be done by mid-2026, which is a tight timeframe, but Cisco only sees benefits to being part of the AI Pact,” Quattrocchi points out. “We are in favor of AI regulations as well as regulatory simplification, also recommended by the Draghi Report, and the effective execution of the AI Act and any new AI regulatory instruments.” [...] For Valentini, it is important that, within companies, AI governance is set up, providing for a dedicated AI and compliance team involving cybersecurity, the CIO and other departments such as legal.\n\n“We are doing that,” he says, “and we are also training our employees to create awareness of what the AI Act is and how it impacts their work. I think this is also an essential task for all companies.”\n\nIn addition to holding the webinars, the European Commission will invite AI Pact participants to report on their progress on the path to AI Act compliance 12 months after the commitments are published. However, many of the signatories stress the need for the EU “machine” to move quickly by streamlining the steps, as this will give concrete effectiveness to the Pact. [...] ## Support for compliance\n\nThe AI Pact’s voluntary commitments are based on the European Commission’s call for compliance with at least three key tasks. The first is to adopt an AI governance strategy that encourages its use in the enterprise and prepares the ground for AI Act compliance; the second is to identify and map AI systems that could fall into the “high risk” category under the Act; and the third is to promote awareness of AI technology and AI Act requirements among staff, ensuring ethical and responsible AI development. At least half of the current AI Pact signatories (numbering more than 130) have made additional commitments, such as risk mitigation, human oversight and transparency in generative AI content.",
+      "topic": "AI Governance & Data Privacy",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2025/01/3812400-0-96825100-1738326131-Europe-EU-tech-chip_shutterstock_1343083016.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180"
+    },
+    {
+      "title": "European Parliament votes to delay EU AI Act implementation",
+      "url": "https://www.cio.com/article/4150989/european-parliament-delays-implementation-of-parts-of-the-eu-ai-act.html",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "In addition, Doug Barbin, president of compliance firm Schellman, warned CIOs, “there’s also a real procedural risk here: if Council and Parliament negotiations drag past August 2026, the original deadlines stay on the books. CIOs who’ve been sitting on their hands are the most exposed to that scenario. The organizations investing in governance infrastructure now won’t be the ones in crisis mode later. This is extra time — use it.”\n\nBarbin said the market is slowly shifting to broader strategies. “This is where compliance is going: less around specific actions and more about governance and risk,” he said.\n\n## High cost of waiting [...] - [x] \nBy submitting your information, you agree to our PRIVACY POLICY.\n\n \n\n \n\nSUBSCRIBE\n\nImage 2: top image\n\n## Related content\n\nOpinion ### What boards get wrong about AI risk: Here’s what you should be measuring By Lexi Reese Mar 31, 2026 8 mins IT Governance Laws and Regulations Staff ManagementNews ### Anthropic wins reprieve against US DoD ban, buying time for contractors to assess AI supply chains By Cynthia Brumfield Mar 27, 2026 5 mins Aerospace and Defense Industry Government Laws and RegulationsOpinion ### Are we living in an AI bubble? Applying lessons from the dot-com era By Arti Deshpande, Robert Stines and Mike Vaughan Mar 24, 2026 7 mins IT Strategy Markets Technology Industry\n\n## Other Sections\n\n   PODCASTS\n   VIDEOS\n   RESOURCES\n   EVENTS   Spotlight: Data Center [...] Back",
+      "topic": "AI Governance & Data Privacy",
+      "images": [],
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180"
+    },
+    {
+      "title": "7 challenges IT leaders will face in 2026 - CIO",
+      "url": "https://www.cio.com/article/4114004/7-challenges-it-leaders-will-face-in-2026.html",
+      "date": "2026-03-30",
+      "source": "CIO",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "Additionally, Ranjit Rajan, vice president and head of research at IDC, says CIOs will be called to justify previous investment in automation while managing related costs.\n\n“CIOs will be tasked with creating enterprise AI value playbooks, featuring expanded ROI models to define, measure, and showcase impact across efficiency, growth, and innovation,” Rajan says.\n\nMeanwhile, tech leaders who spent the past decade or more focused on digital transformation are now driving cultural change within their organizations. CIOs emphasize that transformation in 2026 requires a focus on people as well as technology.\n\nHere’s how CIOs say they’re preparing to address and overcome these and other challenges in 2026.\n\n## Talent gap and training [...] “We’re focusing on practical applications of AI that augment our workforce and streamline operations,” says Pegasystems’ Vidoni. “Every technology investment must be aligned with business goals and financial discipline.”\n\nWhen modernizing applications, Vidoni argues that teams need to stay outcome-focused, phasing in improvements that directly support their goals. [...] “This means application modernization and cloud cost-optimization initiatives are required to stay competitive and relevant,” he says. “The challenge is to modernize and become more agile without letting costs spiral. By empowering an organization to develop applications faster and more efficiently, we can accelerate modernization efforts, respond more quickly to the pace of tech change, and maintain control over cloud expenditures.”\n\nTech leaders also face challenges in driving efficiency through AI while vendors are increasing prices to cover their own investments in the technology, says Mark Troller, CIO of Tangoe.",
+      "topic": "Digital Transformation",
+      "images": [],
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180"
+    },
+    {
+      "title": "5 IT shifts every CIO must master this year",
+      "url": "https://www.cio.com/article/4125868/5-it-shifts-every-cio-must-master-this-year.html",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "As we move forward in 2026, the IT landscape is undergoing its most transformative period in decades. The forces of digital transformation, persistent security threats and economic uncertainty are converging to redefine how organizations build, secure and manage technology. For IT leaders, the mission is clear: Architect resilient, efficient and intelligent infrastructure that not only keeps pace with innovation but also drives it.\n\nThe following five trends represent the core of that evolution. Together, they outline the path forward for enterprises determined to modernize, protect and lead in the next era of IT.\n\n## 1. Hybrid is the new default [...] Prioritize hybrid cloud architectures that deliver flexibility and control. Mature your zero-trust initiatives to ensure every access point is protected. Invest in unified data platforms that turn information into insight. Double down on automation to build efficiency and resilience. And begin piloting edge computing use cases that extend your digital reach.\n\nThe next generation of IT will not be defined by a single technology, but by how seamlessly all these pieces work together. In 2026, the enterprises that thrive will be those that treat modernization as a continuous journey, not a destination.\n\nThis article is published as part of the Foundry Expert Contributor Network.  \nWant to join?\n\n## Related content\n\n### The shift to a modern cloud infrastructure delivers human benefits [...] Industries such as manufacturing, logistics, healthcare and retail will see major gains in responsiveness and resilience. Predictive maintenance, computer vision and location intelligence will all benefit from processing data directly at the edge.\n\nAs these capabilities mature, the boundary between digital and physical operations will blur, unlocking new opportunities for automation, sustainability and business model innovation.\n\n## Your 2026 IT playbook\n\nThese five trends point toward an IT environment that is intelligent, automated and distributed, yet unified by strong governance and security. For technology leaders, success in this era will depend on taking deliberate steps now.",
+      "topic": "Digital Transformation",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2026/02/4125868-0-73909600-1770124671-shutterstock_590492840.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180"
+    },
+    {
+      "title": "Oracle adds AI capabilities to its Fusion Cloud CX",
+      "url": "https://www.cio.com/article/2095202/oracle-adds-ai-capabilities-to-its-fusion-cloud-cx.html",
+      "date": "2026-03-31",
+      "source": "CIO",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "Last year in July, Salesforce updated its Commerce Cloud with digital commerce capabilities. This was followed by the company adding contact center updates to its Service Cloud in March this year.\n\nServiceNow has been slowly adding AI and generative AI capabilities to its service offerings since its Vancouver release in September last year. It later added other capabilities to its Washington DC release this year.\n\nSAP, too, since last year has been working on adding its generative AI assistant, Joule, to all its applications. [...] “The new AI capabilities within Oracle Sales enable sellers to generate more deals by delivering highly-targeted recommendations on specific products to offer, insights on the buyers’ role and engagement level, and additional contacts for key opportunities,” the company explained.\n\nOracle competes with several companies including Salesforce, SAP, ServiceNow, Tealium, Twilio, Adobe, and ActionIQ in the customer relationship management (CRM) market.\n\nSalesforce, SAP, and ServiceNow have been adding AI and generative AI capabilities to their sales, marketing, and service software offerings to help enterprises increase efficiency and productivity. [...] ## About",
+      "topic": "Enterprise Software Market",
+      "images": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2025/02/2095202-0-52051800-1739944285-20151027-openworld-oracle-cloud-signs-100625232-orig-100696124-orig_1.jpg?quality=50&strip=all&w=1024",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.cio.com/wp-content/uploads/2023/02/cropped-CIO-favicon-2023.png?w=180"
+    },
+    {
+      "title": "ZDNet Japan — News roundup (examples dated within range)",
+      "url": "https://japan.zdnet.com/",
+      "date": "2026-04-01",
+      "source": "ZDNet Japan",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "2026-04-01 07:00\n\n子どもたちの未来を守るために。今、必要な“データプライバシー教育”とは\n\n子どもたちの未来を守るために。今、必要な“データプライバシー教育”とは\n\n2026-04-01 07:00\n\n「Windows 11」の改善を表明したマイクロソフトに求めたい4つのこと\n\n「Windows 11」の改善を表明したマイクロソフトに求めたい4つのこと\n\n2026-04-01 06:30\n\nAIとの気軽なチャットがもたらす個人情報やプライバシーの危険性\n\nAIとの気軽なチャットがもたらす個人情報やプライバシーの危険性\n\n2026-04-01 06:30\n\nNews from ZDNET Worldwide\n\n本国アメリカのZDNETが発信する海外最新IT動向やテクノロジトレンドに関するニュースを毎日発信！\n\n約7割がAIエージェントのセキュリティリスクを懸念--KnowBe4調査\n\nKnowBe4 Japanは、日本国内の企業・団体に勤める従業員を対象に実施した「AIエージェントのセキュリティへの影響に関する意識調査」の結果を発表した。AIエージェントの利用拡大への期待が高まる一方で、情報漏えいや著作権侵害といったヒューマンリスクへの懸念と、従業員のリスク理解の停滞という課題が浮き彫りになったという.\n\n2026-03-31 16:02",
+      "topic": "Enterprise Software Market",
+      "images": [
+        {
+          "url": "https://japan.zdnet.com/media/z/2023/zd_ogp.png",
+          "description": ""
+        }
+      ],
+      "favicon": "https://japan.zdnet.com/icon-160x160.png"
+    },
+    {
+      "title": "Art Technology Acquisition Corp, ARTCU:NMQ historical prices - FT.com",
+      "url": "https://markets.ft.com/data/funds/tearsheet/historical?s=ARTCU%3ANMQ",
+      "date": "2026-03-30",
+      "source": "Financial Times (Markets)",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "| Date | Open | High | Low | Close | Volume |\n ---  ---  --- |\n| Monday, March 30, 2026Mon, Mar 30, 2026 | 9.91 | 9.91 | 9.90 | 9.90 | 3,8113.81k |\n| Friday, March 27, 2026Fri, Mar 27, 2026 | 9.88 | 9.92 | 9.88 | 9.90 | 5,5095.51k |\n| Thursday, March 26, 2026Thu, Mar 26, 2026 | 9.90 | 9.92 | 9.88 | 9.90 | 2,6612.66k |\n| Wednesday, March 25, 2026Wed, Mar 25, 2026 | 9.89 | 9.89 | 9.89 | 9.89 | 842842.00 |\n| Wednesday, March 18, 2026Wed, Mar 18, 2026 | 9.89 | 9.92 | 9.89 | 9.90 | 9,5739.57k |\n| Tuesday, March 17, 2026Tue, Mar 17, 2026 | 9.89 | 9.91 | 9.89 | 9.90 | 4,6074.61k |\n| Monday, March 16, 2026Mon, Mar 16, 2026 | 9.91 | 9.91 | 9.91 | 9.91 | 1,1211.12k |\n| Friday, March 13, 2026Fri, Mar 13, 2026 | 9.90 | 9.90 | 9.90 | 9.90 | 7,5337.53k | [...] | Thursday, March 12, 2026Thu, Mar 12, 2026 | 9.89 | 9.89 | 9.89 | 9.89 | 1,3311.33k |\n| Friday, March 06, 2026Fri, Mar 06, 2026 | 9.90 | 9.91 | 9.89 | 9.89 | 80,01380.01k |\n| Thursday, March 05, 2026Thu, Mar 05, 2026 | 9.91 | 9.91 | 9.89 | 9.89 | 9,7829.78k |\n| Wednesday, March 04, 2026Wed, Mar 04, 2026 | 9.90 | 9.92 | 9.90 | 9.90 | 69,60169.60k |\n| Tuesday, March 03, 2026Tue, Mar 03, 2026 | 9.92 | 9.92 | 9.90 | 9.91 | 96,79696.80k | [...] # Art Technology Acquisition Corp\n\nAdd to watchlist\nAdd to portfolio\n\n# Art Technology Acquisition Corp\n\nFind Funds and ETFs\nFind Similar Funds\nFunds Screener\n\n#### ApplyCancelActions\n\n## Historical Prices\n\n#### ApplyCancelHistorical prices filter\n\nYou may only view one year's worth of data at a time.",
+      "topic": "Technology M&A",
+      "images": [
+        {
+          "url": "https://markets.ft.com/data/content/images/icons/tools/iconwatchlist.svg",
+          "description": "Add to watchlist"
+        }
+      ],
+      "favicon": "https://im.ft-static.com/m/icons/favicon.ico"
+    },
+    {
+      "title": "APEX Tech Acquisition Inc, TRAD.U:NYQ historical prices - FT.com",
+      "url": "https://markets.ft.com/data/funds/tearsheet/historical?s=TRAD.U%3ANYQ",
+      "date": "2026-04-01",
+      "source": "Financial Times (Markets)",
+      "collection_source": "GlobalEnterprise",
+      "snippet": "| Date | Open | High | Low | Close | Volume |\n ---  ---  --- |\n| Wednesday, April 01, 2026Wed, Apr 01, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 90,99090.99k |\n| Monday, March 30, 2026Mon, Mar 30, 2026 | 10.00 | 10.01 | 10.00 | 10.01 | 697697.00 |\n| Friday, March 27, 2026Fri, Mar 27, 2026 | 10.00 | 10.02 | 10.00 | 10.02 | 949949.00 |\n| Thursday, March 26, 2026Thu, Mar 26, 2026 | 10.00 | 10.02 | 10.00 | 10.00 | 225,414225.41k |\n| Wednesday, March 25, 2026Wed, Mar 25, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 117,228117.23k |\n| Tuesday, March 24, 2026Tue, Mar 24, 2026 | 10.00 | 10.02 | 9.99 | 10.00 | 52,86952.87k |\n| Monday, March 23, 2026Mon, Mar 23, 2026 | 10.02 | 10.02 | 10.00 | 10.00 | 1,5151.52k |\n| Friday, March 20, 2026Fri, Mar 20, 2026 | 10.00 | 10.01 | 10.00 | 10.00 | 1,9962.00k | [...] | Monday, March 09, 2026Mon, Mar 09, 2026 | 10.02 | 10.02 | 10.00 | 10.00 | 2,9973.00k |\n| Friday, March 06, 2026Fri, Mar 06, 2026 | 10.01 | 10.01 | 10.00 | 10.00 | 40,74140.74k |\n| Thursday, March 05, 2026Thu, Mar 05, 2026 | 10.01 | 10.01 | 10.00 | 10.00 | 28,92928.93k |\n| Wednesday, March 04, 2026Wed, Mar 04, 2026 | 10.01 | 10.01 | 10.00 | 10.01 | 19,64419.64k |\n| Tuesday, March 03, 2026Tue, Mar 03, 2026 | 10.01 | 10.05 | 10.00 | 10.00 | 227,126227.13k |",
+      "topic": "Technology M&A",
+      "images": [],
+      "favicon": "https://im.ft-static.com/m/icons/favicon.ico"
+    },
+    {
+      "title": "Magic Quadrant FAQ | Gartner",
+      "url": "https://www.gartner.com/en/about/magic-quadrant-faq",
+      "date": "2026-03-31",
+      "source": "Gartner",
+      "collection_source": "MarketIntelligence",
+      "snippet": "PoliciesPrivacy PolicyTerms of UseOmbudsSite Map\n\n©2026 Gartner, Inc. and/or its affiliates. All rights reserved.\n\n©2026 Gartner, Inc. and/or its affiliates. All rights reserved.\n\nbacform\n\n### Talk to Us\n\n### Talk to Us\n\nClients receive 24/7 access to proven business and technology insights, expert guidance, benchmarks, diagnostics and more. Fill out the form to connect with a representative and learn more.\n\n##### Or give us a call\n\n1 800 213 4848Image 221 800 213 4848\n\n8 a.m. – 7 p.m. ET\n\n8 a.m.– 5 p.m. GMT\n\nMonday through Friday\n\nWork Email First Name Last Name Phone Person Type \n\nJob Title Company Name Job Function Country/Region/Territory \n\nPlease provide the consent below [...] ## How often are Magic Quadrants updated?\n\nTypically, Magic Quadrants are updated annually, but frequency may vary based on market dynamics.\n\n## What does the “as of” date mean on a Magic Quadrant?\n\nThe “as of” date indicates when the research was finalized. Events after this date are not reflected in the analysis.\n\n## Can I use a Magic Quadrant as my only vendor selection tool?\n\nNo. Magic Quadrants are a starting point. Gartner recommends using them alongside other research, such as Critical Capabilities, Peer Insights and discussions with analysts, to make informed decisions.\n\n## What are Gartner Peer Insights and how do they relate to Magic Quadrants? [...] Challengers have a strong Ability to Execute but may not have a plan that will maintain a strong value proposition for new customers. Larger vendors in mature markets may be positioned as Challengers because they choose to minimize risk or avoid disrupting their customers or their own activities.\n\n   Visionaries align with the Gartner view of how a market will evolve, but their ability to deliver against that vision is less proven. In growing markets, this status is typical. In more mature markets, it may reflect a competitive strategy for a smaller vendor — such as selling an innovation ahead of mainstream demand — or a larger vendor trying to break out of a rut or differentiate itself.",
+      "topic": "Gartner Microsoft Ranking",
+      "images": [],
+      "favicon": "https://emt.gartnerweb.com/ngw/commonassets/images/icons/Gartner_favicon@2x.png"
+    },
+    {
+      "title": "Cloud costs rise as AI moves into core business systems",
+      "url": "https://www.cloudcomputing-news.net/news/cloud-costs-rise-as-ai-moves-into-core-business-systems/",
+      "date": "2026-03-30",
+      "source": "CloudTech News",
+      "collection_source": "MarketIntelligence",
+      "snippet": "Amazon Web Services, Microsoft Azure, and Google Cloud are seeing increased use tied to AI models that require more compute and network capacity, the company says.\n\nRunning AI in production requires steady access to high-performance infrastructure. Models need to process large datasets and respond in near real time. They also need to scale as use grows. These needs push companies to rely more heavily on cloud platforms not on-premise systems.\n\nAnalysts at Canalys also identify AI as an important driver of recent growth in cloud spending, with demand rising due to increased AI consumption and enterprise adoption. [...] AI & Cloud\n\n30th March 2026\n\n# Amazon’s retail stores are starting to run like cloud systems\n\nOracle introduces “agentic cloud apps” into enterprise workflows\n\nAI & Cloud\n\n26th March 2026\n\n# Oracle introduces “agentic cloud apps” into enterprise workflows\n\nCloud Cybersecurity\n\n25th March 2026\n\n# Best hybrid mesh firewalls: Check Point, Fortinet, and Cisco compared\n\n## Subscribe\n\nAll our premium content and latest tech news delivered straight to your inbox\n\n## Explore\n\n## Reach Our Audience\n\n## Categories\n\n## Other Publications\n\nCloudTech News is part of TechForge\n\n## Subscribe\n\nAll our premium content and latest tech news delivered straight to your inbox [...] Want to learn more about Cloud Computing from industry leaders? Check out Cyber Security & Cloud Expo taking place in Amsterdam, California, and London. The comprehensive event is part of TechEx and is co-located with other leading technology events, click here for more information.\n\nCloudTech News is powered by TechForge Media. Explore other upcoming enterprise technology events and webinars here.\n\n## About the Author\n\nMuhammad Zulhusni\n\nJournalist\n\n## Related\n\n### Red Hat’s 2026 report exposes the cloud-native security execution gap–and how to close it\n\n1st April 2026\n\n### Tata SD-WAN for DC connectivity in the AI age\n\n31st March 2026\n\n### Amazon’s retail stores are starting to run like cloud systems\n\n30th March 2026",
+      "topic": "Synergy / Canalys — Azure, cloud market share, AI platform positioning",
+      "images": [],
+      "favicon": "https://www.cloudcomputing-news.net/wp-content/uploads/2024/11/cropped-cloudtech-favicon-180x180.png"
+    },
+    {
+      "title": "AWS vs Azure vs GCP [2026 Cloud Comparison Guide]",
+      "url": "https://acropolium.com/blog/adopting-cloud-computing-aws-vs-azure-vs-google-cloud-what-platform-is-your-bet",
+      "date": "2026-03-30",
+      "source": "Acropolium",
+      "collection_source": "MarketIntelligence",
+      "snippet": "AWS vs Azure vs GCP\n\nAWS vs Azure vs GCP\n\nBusinesses increasingly feel the need for hybrid models, omnicloud systems, and pay-as-you-go pricing. In many areas, such as healthcare and fintech, regulatory standards are becoming more stringent, increasing data security requirements. The boom in remote work and process automation has also contributed to the growth in demand for cloud-based app development.\n\nIn Q3 2025, AWS accounted for 29% of the global cloud infrastructure market, Azure 20%, and Google Cloud 13%, together making up 62% of the $107 billion market. By Q4, their combined share rose to 68% of a $119 billion market. Earlier in the year, their total share ranged between 63% and 65%.",
+      "topic": "Microsoft vs Competitors — Azure vs AWS vs GCP",
+      "images": [
+        {
+          "url": "https://acropolium.com/img/articles/adopting-cloud-computing/img01.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://acropolium.com/img/apple-touch-icon-152x152-light.png"
+    },
+    {
+      "title": "5 big analyst AI moves: Downgrades for SAP and Qualcomm",
+      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-downgrades-for-sap-and-qualcomm-arm-lifted-to-buy-4586523",
+      "date": "2026-03-29",
+      "source": "Investing.com (Reuters)",
+      "collection_source": "MarketIntelligence",
+      "snippet": "# 5 big analyst AI moves: Downgrades for SAP and Qualcomm; Arm lifted to Buy\n\nBy\n\nAuthorVahid Karaahmetovic\n\nStock Markets\n\nPublished 03/29/2026, 05:00 AM\n\n5 big analyst AI moves: Downgrades for SAP and Qualcomm; Arm lifted to Buy\n\nView all comments (0)0\n\n© Reuters\n\n© Reuters\n\nMSFT-2.51%\n\nDELL-2.28%\n\nQCOM-2.63%\n\nSAP-1.83%\n\nARM-6.89%\n\nInvesting.com -- Here are the biggest analyst moves in the area of artificial intelligence (AI) for this week.\n\nExplore best AI stock ideas on InvestingPro - get up to 50% off\n\n## BofA reinstates Microsoft at Buy, calls it ’primary beneficiary of AI monetization’ [...] Bank of America this week has reinstated coverage of Microsoft with a Buy rating and a $500 price target, describing the company as \"a primary beneficiary of AI monetization\" sitting \"at the center of the AI supercycle.\"",
+      "topic": "Financial & Stock Analysis",
+      "images": [
+        {
+          "url": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL470DX_L.jpg",
+          "description": ""
+        }
+      ],
+      "favicon": "https://www.investing.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Whatfix-Commissioned Study Finds Enterprises Stand to Lose $10.9 ...",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/whatfix-commissioned-study-finds-enterprises-120000712.html",
+      "date": "2026-03-31",
+      "source": "Yahoo Finance / PRNewswire",
+      "collection_source": "MarketIntelligence",
+      "snippet": "SAN JOSE, Calif., March 31, 2026 /PRNewswire/ -- Whatfix, the AI-native platform for enterprise technology adoption, today released the findings of a study it commissioned with Forrester Consulting. The study found that a mid-sized enterprise of approximately 1,000 employees could lose an estimated $10.9 million annually due to poor digital adoption, underscoring the need for Digital Adoption Platforms (DAPs) to translate enterprise applications and AI investments into measurable outcomes.\n\nWhatfix (PRNewsfoto/Whatfix)\n\n\n\nThe findings are based on a global survey of 335 senior decision-makers (Director level and above) across North America, Europe, APAC, and India, with the majority (97%) reporting annual revenues exceeding $1 billion.",
+      "topic": "Enterprise AI Adoption Studies",
+      "images": [
+        {
+          "url": "https://s.yimg.com/os/en/prnewswire.com/5869f20b9c9d4085ea825b07a91b7829",
+          "description": ""
+        }
+      ],
+      "favicon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png"
+    }
+  ]
+}

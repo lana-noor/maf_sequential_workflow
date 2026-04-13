@@ -1,0 +1,134 @@
+{
+  "results": [
+    {
+      "topic": "Microsoft Teams",
+      "query": "Microsoft Teams new feature update 2026-04-04 to 2026-04-10",
+      "title": "4 new Microsoft Teams features coming in April 2026 | Windows Central",
+      "snippet": "The new features appear on the Microsoft 365 Roadmap, so their release dates could change. But Microsoft currently plans to start rolling them out next month, so it's a great time to preview what's on the way to Teams.\n\nIn this guide, I'll highlight four of the biggest changes on the way to Microsoft Teams in April 2026. [...] Peekaboo - more #MicrosoftTeams simplicity 💜Last year, we let users see chats, channels, and Engage communities together and in customizable sectionsComing in April, an updated app bar that is lighter with no labels and hidden for focus on messaging Loving using this. More… pic.twitter.com/qsbQuhKMTLMarch 12, 2026\n\nMicrosoft's Jeff Teper shared screenshots of the meeting toolbar hidden. He also clarified that the option is on the way next month.\n\n## Other changes\n\nOther improvements are on the way to Teams as well, such as organizers having more access to private chats for event management and an improved experience for starting a meeting with a window minimized. [...] ## 3. Improved copy and paste for @mentions and contacts\n\nWhen you copy and paste messages, Teams will preserve @mentions and shared contacts instead of defaulting to plain text. This should save you some time since you will no longer have to add @mentions and other information manually.\n\nAll the latest news, reviews, and guides for Windows and Xbox diehards.\n\n## 4. Hide meetings toolbar\n\nTeams will give users the option to hide the meeting controls toolbar entirely to free up more space on the screen. This option can be set to persist across meetings. You can bring back the toolbar by hovering your cursor or using tab functionality.",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/4-new-microsoft-teams-features-coming-next-month-including-ai-youll-actually-use-and-a-must-have-feature-for-saving-time",
+      "favicon": "https://cdn.mos.cms.futurecdn.net/flexiimages/gvnkdor1vl1647264367.png",
+      "date": "2026-04-07",
+      "source": "Windows Central",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/crqVxuPFSJAxWPQfayXzaS-2560-80.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Microsoft Teams",
+      "query": "Microsoft Teams new feature update 2026-04-04 to 2026-04-10",
+      "title": "What's new for Microsoft Teams - March 2026 - HANDS ON Teams",
+      "snippet": "Teams meeting artifacts, including recordings, transcripts, and Loop notes, can now be configured to automatically inherit the sensitivity label from the meeting. This ensures content generated during meetings is consistently protected without requiring manual labeling, reducing risk and simplifying protection at scale.\n\nRead More\n\n## Microsoft Teams: New slash command in compose to create workflows\n\nMicrosoft Teams is introducing the /createworkflow slash command in the message compose box, enabling users to quickly create workflows directly from chats and channels. This feature, enabled by default with no admin changes, will roll out worldwide from late April to mid-May 2026.\n\nRead More\n\nMAR\n\n20\n\n## Microsoft Teams: Standardized preview experience for Word, PowerPoint, and Excel files [...] Microsoft Teams will enhance code blocks by adding default line numbers, improved keyboard navigation, consistent language selection, and collaborative editing via Loop components. These updates, rolling out April–May 2026, improve accessibility and developer collaboration without requiring admin action.\n\nRead More\n\nMAR\n\n3\n\n## Microsoft Teams: Private organizer and presenter chat for structured meetings and webinars on Teams Rooms on Windows [...] Meeting organizers can now easily delete meeting generated content including recording, transcript, AI summary, and notes through the new delete button in recap page. Shared files in the meeting won’t be deleted.\n\nRead More\n\n## Microsoft Teams: Channel Agent feature updates\n\nMicrosoft Teams is updating Channel Agent with customized welcome messages, user control over agent creation, improved scheduling, member addition via prompts, and direct channel posting. Requires Microsoft 365 Copilot license. Rolling out March 2026 for Teams on all platforms; admins should enable and inform helpdesk staff.\n\nRead More\n\n## Microsoft Teams: Changes to Teams Events licensing",
+      "url": "https://teams.handsontek.net/2026/04/06/whats-new-microsoft-teams-march-2026/",
+      "favicon": "https://teams.handsontek.net/wp-content/uploads/sites/7/2019/04/teams-3.png",
+      "date": "2026-04-06",
+      "source": "HANDS ON Teams",
+      "images": [
+        {
+          "url": "https://handsontek.net/images/Teams/Whats%20new/hero.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "GitHub",
+      "query": "GitHub new release announcement 2026-04-04 to 2026-04-10",
+      "title": "GitHub Actions: Early April 2026 updates - GitHub Changelog",
+      "snippet": "# GitHub Actions: Early April 2026 updates - GitHub Changelog\n\nSkip to contentSkip to sidebar\n\n tokens include repository custom properties as claims, and this feature is now generally available.\n\nPreviously available in public preview, you can now use repository custom properties as claims in your OIDC tokens to create more granular trust policies with your cloud providers. This lets you control access to cloud resources based on how your organization classifies its repositories without needing to enumerate individual repository names or IDs.\n\nWith this update, you can: [...] ## Azure private networking now supports VNET failover\n\nAzure private networking for GitHub Actions hosted runners now supports failover networks in public preview. You can configure a secondary Azure subnet—optionally in a different region—so your workflows can keep running if the primary subnet becomes unavailable.\n\nFailover can be triggered manually through the network configuration UI or REST API or automatically by GitHub during a regional outage. When a failover occurs, enterprise and organization admins are notified via audit log events and email. If you trigger a failover manually, you’re also responsible for switching back to the primary region when it’s available. [...] This feature is available to enterprise and organization accounts using Azure private networking for GitHub-hosted runners.\n\nTo learn more, see the Azure private networking documentation.\n\n## Table of Contents\n\n   Customizing entrypoints for service containers\n   Actions OIDC tokens now support repository custom properties\n   Azure private networking now supports VNET failover\n\nMenu. Currently selected: Customizing entrypoints for service containers\n\n   Customizing entrypoints for service containers\n   Actions OIDC tokens now support repository custom properties\n   Azure private networking now supports VNET failover\n\nactionsShare Copied SharedBack to changelog\n\n## Related Posts\n\n### Mar.26 Improvement\n\nView Agentic Workflow configs in the Actions run summary\n\nactions\n\n### Mar.26 Release",
+      "url": "https://github.blog/changelog/2026-04-02-github-actions-early-april-2026-updates/",
+      "favicon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+      "date": "2026-04-05",
+      "source": "GitHub Blog",
+      "images": []
+    },
+    {
+      "topic": "GitHub",
+      "query": "GitHub new release announcement 2026-04-04 to 2026-04-10",
+      "title": "What's coming to our GitHub Actions 2026 security roadmap",
+      "snippet": "Company news\n\n### Updates to GitHub Copilot interaction data usage policy\n\nFrom April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out.\n\nMario Rodriguez\n\n## Explore more from GitHub\n\nImage 14: Docs\n### Docs\n\nEverything you need to master GitHub, all in one place.\n\nGo to Docs\n\nImage 15: GitHub\n### GitHub\n\nBuild what’s next on GitHub, the place for anyone from anywhere to build anything.\n\nStart building\n\nImage 16: Customer stories\n### Customer stories\n\nMeet the companies and engineering teams that build with GitHub.\n\nLearn more\n\nImage 17: The GitHub Podcast\n### The GitHub Podcast [...] Collaboration\nTips, tools, and tricks to improve developer collaboration.\n\n           DevOps\nDevOps resources for enterprise engineering teams.\n\n           DevSecOps\nHow to integrate security into the SDLC.\n\n           Governance & compliance\nEnsuring your builds stay clean.\n\n       Image 4 GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants\nLearn why Gartner positioned GitHub as a Leader for the second year in a row.\n\nLearn more\n\n   News & insights\n       News & insights\nKeep up with what’s new and notable from inside GitHub. \n           Company news\nAn inside look at news and product updates from GitHub.\n\n           Product\nThe latest on GitHub’s platform, products, and tools. [...] Permission model changes for Action Secrets\n\nWe’re separating code contributions from credential management.\n\nThat means write access to a repository will no longer grant secret management permissions and helps us move toward least privilege by default.\n\nThis capability will instead be available through a dedicated custom role and will remain part of the repository admin, organization admin, and enterprise admin roles.\n\nTogether, these changes make it possible to ensure credentials are only issued when both the workflow and the execution context are explicitly trusted.\n\nMilestones:",
+      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+      "favicon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+      "date": "2026-04-06",
+      "source": "GitHub Blog",
+      "images": []
+    },
+    {
+      "topic": "Power Platform",
+      "query": "Power Platform Copilot Studio update 2026-04-04 to 2026-04-10",
+      "title": "2026 release wave 1 plans for Microsoft Dynamics 365, Microsoft ...",
+      "snippet": "Business Applications Update\n\nPower Platform &\n\nCopilot Studio edition\n\nApril 15, 9AM PDT\n\nRegister now\n\nImage 5: Decorative abstract gradient background.\n\n## Updates to role-based agents in Microsoft 365 Copilot\n\n2026 release wave 1 updates for Microsoft role-based agents transform Sales Agent and Finance Agent in Microsoft 365 Copilot into intelligent daily command centers, helping to deliver richer, data-grounded insights, enhanced chat and mobile experiences, contextual support across Outlook and Teams, and strengthened governance and extensibility to help organizations drive productivity and scale AI responsibly.\n\n### Sales Agent [...] Image 4\nTo help you stay current on the most important and innovative capabilities, we’re moving beyond bi-annual launch events to lighter, more frequent business applications updates, featuring expert insights and demonstrations from Microsoft product leaders and engineers.\n\n   Watch on demand: Dynamics 365 Business Applications Update\n   Register for the Power Platform and Copilot Studio update April 15 at 9 AM PDT\n\nBe sure to stay updated on the latest features and create your personalized release plan using therelease planner.\n\n## Highlights from Dynamics 365 [...] 2026 release wave 1 updates for Microsoft Power Platform deliver modernized app experiences across Power Apps and Power Pages, AI-powered automation and agent innovation in Power Automate and Copilot Studio, enhanced Dataverse intelligence and programmability, and strengthened governance, security, and cost management capabilities to help organizations build, scale, and manage intelligent solutions with confidence.\n\nExplore the Microsoft Power Platform release planner\n\n### Power Apps",
+      "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/03/18/2026-release-wave-1-plans-for-microsoft-dynamics-365-microsoft-power-platform-and-copilot-studio-offerings/",
+      "favicon": "https://www.microsoft.com/favicon.ico?v2",
+      "date": "2026-04-08",
+      "source": "Microsoft Dynamics 365 Blog",
+      "images": [
+        {
+          "url": "https://www.microsoft.com/en-us/dynamics-365/blog/wp-content/uploads/2026/03/RW1-Feature-Image-scaled.webp",
+          "description": "Collage of workplace scenarios—field technicians reviewing data outdoors, a business presentation with charts, team collaboration in an office, and a factory worker using a tablet—connected by Microsoft Copilot and Power Platform icons."
+        }
+      ]
+    },
+    {
+      "topic": "Power Platform",
+      "query": "Power Platform Copilot Studio update 2026-04-04 to 2026-04-10",
+      "title": "What's new in Power Platform: March 2026 feature update - Microsoft",
+      "snippet": "### Power Platform inventory\n\nPower Platform inventory is now generally available, giving tenant administrators a unified view of cloud flows, Copilot Studio agent flows, and Workflows agent workflows across every environment. Expansion with connectors, actions, and key usage data is on the way — making it even easier to spot your most active automations, enforce compliance, and prevent orphaned resources.\n\nLearn more\n\n### The new usage page\n\nThe new usage page is now in public preview with modern dashboards showing adoption trends and resource-level analytics for Power Apps, Power Automate, and Copilot Studio. For Power Automate, the page already shows flow run data so you can track execution patterns across your tenant.\n\nLearn more\n\n## Agentic apps [...] ### Power Apps user and mobile\n\nUpdated\n\n Visualize data in a view with Copilot (preview)\n Configure files and images in offline canvas apps\n Install the Power Apps mobile app\n Modern, refreshed look for model-driven apps\n Find data in a view with AI (preview)\n Use Copilot’s form fill assistance feature in model-driven apps\n Use row summaries in model-driven apps\n Supervise agents in model-driven apps with agent feed\n Use Microsoft 365 Copilot chat in model-driven apps (preview)\n Timeline highlights with generative AI in Dynamics 365\n\n### Power Pages\n\nNew\n\n Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code (preview)\n\nUpdated [...] Add an AI model to process invoice forms – Online workshop\n Create your first desktop flow – Online workshop\n Create subflows and web automation with Power Automate for desktop – Online workshop\n Install required software for Power Automate: Automation – Online workshop\n Integrate with cloud flows – Online workshop\n Use Outlook email to trigger desktop flows and pass inputs – Online workshop\n Use input and output variables – Online workshop\n Integrate with Microsoft Teams to get approvals – Online workshop\n Build agents in Copilot Chat – Online workshop\n Build a conversational agent in Copilot Studio – Online workshop\n Use tools in Copilot Studio – Online workshop\n Make your agent autonomous in Copilot Studio – Online workshop\n Solution architect series: Explore Microsoft Copilot Studio",
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-march-2026-feature-update/",
+      "favicon": "https://www.microsoft.com/favicon.ico?v2",
+      "date": "2026-04-06",
+      "source": "Microsoft Power Platform Blog",
+      "images": [
+        {
+          "url": "https://www.microsoft.com/en-us/power-platform/blog/wp-content/uploads/2026/02/PPL-Roundup-Header-Image.png",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Windows",
+      "query": "Windows 11 enterprise update 2026-04-04 to 2026-04-10",
+      "title": "March 26, 2026—KB5079391 (OS Builds 26200.8116 and ...",
+      "snippet": "[Windows Update Deployment (known issue)] Fixed: This update addresses an issue in Windows 11, version 25H2, where updates installed using the Windows Update Standalone Installer (WUSA) might fail with error code ERROR_BAD_PATHNAME. This issue can occur when you double-click a .msu file or run WUSA from a network share that contains multiple .msu files.\n\nIf you installed earlier updates, your device downloads and installs only the new updates contained in this package.\n\n### AI Components\n\nThis release updates the following AI components:\n\nAI ComponentVersion\nImage Search 1.2603.377.0\nContent Extraction 1.2603.377.0\nSemantic Analysis 1.2603.377.0\nSettings Model 1.2603.377.0\n\n## Windows 11 servicing stack update (KB5079387)-26100.8112 [...] Download and install each MSU file individually either using DISM or Windows Update Standalone Installer in the following order:\n\n1.   windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu\n\n2.   windows11.0-kb5079391-x64_0a0129ebe88fdd66e19ac7d40d9cddd0b18c3332.msu\n\nNote:This latest cumulative update includes updates for AI components. Even though the AI component updates are included in the update, the AI components are only applicable to Windows Copilot+ PCs and will not install on Windows PC or Windows Server.\n\nAvailableNext Step\nImage 5: Not included\n\n​​​​​​​You can import this update into Windows Server Update Services (WSUS) manually. See theMicrosoft Update Catalogfor instructions.\n\nIf you want to remove the LCU [...] # March 26, 2026—KB5079391 (OS Builds 26200.8116 and 26100.8116) Preview\n\nApplies To\n\nWindows 11 version 25H2, all editions Windows 11 version 24H2, all editions\n\nRelease Date:\n\n3/26/2026\n\nVersion:\n\nOS Builds 26200.8116 and 26100.8116\n\nThis update is no longer being offered to new devices due to an installation issue identified after release. The issue has been addressed in the March 31, 2026—KB5086672 (OS Builds 26200.8117 and 26100.8117) Out-of-band update that is now available. This newer update includes all improvements and features that were part of this update, along with a fix for the installation issue.",
+      "url": "https://support.microsoft.com/en-us/topic/march-26-2026-kb5079391-os-builds-26200-8116-and-26100-8116-preview-7c9e2275-b9ba-4068-aeb0-23da42b81d3b",
+      "favicon": "https://support.microsoft.com/favicon.ico",
+      "date": "2026-04-09",
+      "source": "Microsoft Support",
+      "images": []
+    },
+    {
+      "topic": "Windows",
+      "query": "Windows 11 enterprise update 2026-04-04 to 2026-04-10",
+      "title": "Windows 11's April update packs 8 (mostly) meaningful ...",
+      "snippet": "Subscribe to our newsletter\n\nMicrosoft is expected to begin rolling out the April 2026 Security Update for Windows 11 on Tuesday, April 14, 2026, and in the fourth month of the year, the company is making new features, improvements, and security fixes available.\n\nIn this cumulative update, the company is introducing changes to the Smart App Control so you don't have to reinstall the operating system to use it. Windows Narrator now brings image description to AI as well as to non-AI devices. You'll notice various design changes in the Settings app. File Explorer is getting a few improvements, and there's new refresh rate support on Windows 11. [...] In this guide, I'll highlight the most significant changes in the April 2026 Security Update for Windows 11 versions 25H2 and 24H2, since both are identical.\n\nArticle continues below  You may like \n\n Collage of new features coming to Windows 11 Insiders in March 2026  Windows 11 March 2026 update: 9 expected changes\n Windows 11 Resume feature  The next Windows 11 quality update is coming — these are the biggest changes\n Windows 11 Start Logo  Windows 11's new Patch Tuesday update is one you'll actually want for once\n\n## Windows 11's new features arriving in April\n\nThe company uses the Controlled Feature Rollout (CFR) technology to roll out new improvements gradually, so it may take some time before you see them.\n\n## 1. Smart App Control behavior changes",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/8-features-coming-with-the-april-2026-security-update-for-windows-11",
+      "favicon": "https://cdn.mos.cms.futurecdn.net/flexiimages/gvnkdor1vl1647264367.png",
+      "date": "2026-04-07",
+      "source": "Windows Central",
+      "images": []
+    },
+    {
+      "topic": "Microsoft Security Products",
+      "query": "Microsoft Defender new capability 2026-04-04 to 2026-04-10",
+      "title": "Monthly news -  April 2026",
+      "snippet": "Theproactive user containment (contain user)action as part of the predictive shielding feature is now generally available. This action infuses activity data with exposure data to identify exposed credentials at risk of being compromised and reused to conduct malicious activity.\n\nMicrosoft Defender for Identity\n\n   New identity security capabilities help you monitor and manage identity security for human and non-human identities: [...] Microsoft Defender for Office 365\n\n   Expanding User reporting in Teams to include Calls: Users can reported completed or missed one-to-oneMicrosoft Teams callsfrom the call history as malicious (scam) or non malicious (non-scam) to the specified reporting mailbox, or Microsoft and the reporting mailbox viauser reported settings.\n   Added support for contextual Teams messages in User reported Teams Messages: When Users reportMicrosoft Teams messagesfrom chats, channels (standard, shared, and private), and meeting conversations to Microsoft as malicious (security risk), up to fifteen messages before and after the reported message are shared for analysis.\n\nMicrosoft Defender for Cloud Apps [...] \\n\n\\n   We’re introducing a chat experience for Security Copilot directly within Microsoft Defender. Copilot is already embedded across Microsoft Defender experiences today, but now you can interact with it through an ongoing, two-way conversation. Ask questions, explore hypotheses, and follow your investigation threads across incidents, alerts, identities, devices, IPs, and other evidence. Read more about it in this blog post.",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news---april-2026/4508050",
+      "favicon": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/m_assets/themes/customTheme1/favicon-1730836283320.png?time=1730836286415&image-dimensions=180x180",
+      "date": "2026-04-08",
+      "source": "Microsoft Tech Community",
+      "images": []
+    },
+    {
+      "topic": "Microsoft Security Products",
+      "query": "Microsoft Defender new capability 2026-04-04 to 2026-04-10",
+      "title": "New Microsoft Defender Update Issued for Windows 11, Windows 10, and Server Images",
+      "snippet": "Microsoft has rolled out a fresh securityintelligence update for Microsoft Defender Antivirus to help secure Windows 11, Windows 10, and Windows Server images.\n\nReleased on April 7, 2026, this update equips endpoints with the latest threat detection logic and AI-enhanced cloud protection to defend against emerging malware campaigns.\n\nKeeping antimalware solutions up to date is a fundamental requirement for defending against fast-moving cyber threats. [...] cyber securityApril 10, 2026\n\n### MuddyWater Uses Russian MaaS in New ChainShell Attack\n\ncyber securityApril 10, 2026\n\n#### Recent News\n\nImage 4: MuddyWater Uses Russian MaaS in New ChainShell Attack\n\n### HPE Aruba Private 5G Vulnerability Opens Door to Credential Theft Attacks\n\nDivya-April 10, 2026\n\nImage 5: MuddyWater Uses Russian MaaS in New ChainShell Attack\n\n### TP-Link Devices at Risk as Multiple Security Flaws Enable Takeover\n\nDivya-April 10, 2026\n\n### Mallory Launches AI-Native Threat Intelligence Platform, Turning Global Threat Data Into Prioritized Action\n\nCyberNewswire-April 10, 2026",
+      "url": "https://gbhackers.com/new-microsoft-defender-update-issued-for-windows-11-10/",
+      "favicon": "https://gbhackers.com/wp-content/uploads/2024/09/cropped-gbh-180x180.png",
+      "date": "2026-04-10",
+      "source": "GBHackers",
+      "images": []
+    }
+  ]
+}

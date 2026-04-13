@@ -1,0 +1,24 @@
+# Dockerfile for ms-news-mcp-server.py
+# Microsoft News RSS MCP Server — Azure Container Apps deployment
+# Exposes MCP endpoint at /mcp via streamable-http transport
+
+FROM python:3.12-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements file
+COPY requirements-ms-news.txt requirements.txt
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy MCP server application code
+COPY ms-news-mcp-server.py .
+
+# Expose port 8000 (Azure Container Apps default)
+EXPOSE 8000
+
+# Run the FastMCP server with streamable-http transport
+# PORT and HOST can be overridden via ACA environment variables
+CMD ["fastmcp", "run", "ms-news-mcp-server.py", "--transport", "streamable-http", "--port", "8000", "--host", "0.0.0.0"]

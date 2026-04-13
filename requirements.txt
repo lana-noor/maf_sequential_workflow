@@ -1,5 +1,7 @@
 # Core agent framework
-#agent-framework --pre
+agent-framework>=1.0.1
+agent-framework-foundry>=1.0.1
+agent-framework-anthropic>=1.0.1
 
 # Azure AI Projects SDK (for AIProjectClient + agent_reference support)
 azure-ai-projects>=2.0.0
@@ -19,7 +21,7 @@ openai>=1.30.0
 # FastAPI backend + SSE (for the React UI)
 fastapi>=0.115
 
-# FastMCP — for the custom Budget Data MCP Server
+# FastMCP — for the custom MCP Servers (Budget, MS News, MS Learn)
 fastmcp>=0.4.0
 
 # Uvicorn for serving (included with FastMCP but explicit for clarity)
@@ -27,3 +29,27 @@ uvicorn[standard]>=0.30
 
 # Pydantic (dependency of FastMCP)
 pydantic>=2.0
+
+# ── Microsoft Weekly Intelligence Brief additional dependencies ────────────────
+
+# RSS feed parsing — used by ms-news-mcp-server.py and ms-learn-mcp-server.py
+feedparser>=6.0.0
+
+# HTTP client — used by MCP servers for fallback RSS fetching and MS Learn API
+httpx>=0.27.0
+
+# Anthropic SDK — used by HTMLRenderingAgent via MAF Anthropic provider
+# Note: the agent_framework.anthropic module wraps this SDK.
+anthropic>=0.30.0
+
+# Requirements for ms-news-mcp-server.py
+# Minimal install — only what the MCP server needs
+
+# FastMCP framework
+fastmcp>=0.4.0
+
+# HTTP client for RSS fallback fetch
+httpx>=0.27.0
+
+# RSS feed parser (primary fetch method)
+feedparser>=6.0.0

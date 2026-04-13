@@ -1,0 +1,138 @@
+{
+  "results": [
+    {
+      "topic": "Google Gemini",
+      "query": "Google Gemini new model release 2026-03-27 to 2026-04-02",
+      "title": "Biggest AI Models of March 2026: GLM-5.1 to GPT-5.4 - Medium",
+      "snippet": "## Recommended Stories\n\nIf this breakdown was useful, these are worth reading next:\n\n•GLM-5.1 Review: Can It Beat Claude Opus 4.6? (2026)\n\n• GPT-5.4 Complete Guide 2026:\n\n## References\n\n1. Z.ai Official GLM-5.1 Announcement (March 27, 2026): \n\n2. OpenAI Introducing GPT-5.4 (March 5, 2026): \n\n3. Google Gemini 3.1 Flash-Lite Blog (March 3, 2026): \n\n4. TechCrunch: ByteDance Dreamina Seedance 2.0 Comes to CapCut (March 26, 2026): \n\n5. GLM-5 Technical Paper (Zhipu AI & Tsinghua University, arXiv:2602.15763): \n\n6. Google Vertex AI: Gemini 3.1 Flash-Lite Documentation: \n\n7. TechCrunch: OpenAI Launches GPT-5.4 (March 5, 2026): \n\n8. 9to5Google: Gemini 3.1 Flash Live Launch (March 26, 2026): \n\n## Follow for More [...] One caveat: the model is still in preview as of March 29, 2026. Production SLAs and general availability timelines from Google have not been confirmed. Build accordingly.\n\n## Gemini 3.1 Flash Live: The Voice Model Upgrade Nobody Discussed\n\nOn March 26, Google quietly launched Gemini 3.1 Flash Live alongside Seedance and GLM-5.1. It powers Gemini Live and Search Live, with support for 90 languages, lower latency than 2.5 Flash Native Audio, and significantly improved background noise filtering. Search Live is now rolling out globally in 200 countries wherever AI Mode is available. Most people covering AI that day were looking at ByteDance. Google slipped something genuinely useful into the news cycle.\n\n## Seedance 2.0: ByteDance Goes Hollywood, Then Gets Stopped by Hollywood [...] • Mini: Released March 17, 2026. Scores 54.38% on SWE-bench Pro at roughly 6x lower cost. Solid for high-volume, latency-sensitive workloads.\n\n• Nano: Smallest variant, targeted at edge and embedded applications. Still rolling out benchmarks.\n\n## The Reasoning Effort Dial\n\nOne genuinely new architectural feature in GPT-5.4 is configurable reasoning effort: five discrete levels called none, low, medium, high, and xhigh. Developers can tune how much compute the model spends thinking before responding, on a per-request basis.",
+      "url": "https://medium.com/@sanjeevpatel3007/biggest-ai-models-of-march-2026-glm-5-1-to-gpt-5-4-dcb893602d50",
+      "favicon": "https://miro.medium.com/v2/resize:fill:152:152/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156",
+      "date": "2026-03-27",
+      "source": "Medium",
+      "images": []
+    },
+    {
+      "topic": "Google Gemini",
+      "query": "Google Gemini new model release 2026-03-27 to 2026-04-02",
+      "title": "Another Google Home Update Brings Exciting New Features",
+      "snippet": "Expressive Lighting: You no longer need to know exact color names. Ask for “the color of the ocean” or “the glow of the moon,” or the color of your favorite sports team, and Gemini will automatically find the perfect hue for you.\n Precision Appliance Controls: Get more granular control over your home. You can now set specific humidity levels or get dinner started early by saying, “Preheat the smart oven to 350°.”\n Advanced Climate Management: We’ve added support for holding temperature presets. You can also clear active modes without cycling through them—just say, “Unset heating on the thermostats.”\n Snappier, More Accurate Responses: We’ve fine-tuned how Gemini identifies your devices. It is now much better at distinguishing between a “lamp” and a “light,” processing requests faster. [...] Google announced that Gemini for Home is now available in Mexico, and additionally, the service now supports Spanish in all supported countries. Beyond new language support, new features are also rolling out.\n\nGoogle describes new expressive lighting commands. For example, you no longer need to know the name of a specific colors. Instead, ask Gemini for the name of your favorite sports team or color of the ocean. Your supported lights will then automatically change. Gemini is also getting smarter, with Google explaining, “It is now much better at distinguishing between a ‘lamp’ and a ‘light,’ processing requests faster.”\n\nBelow you can read all about the new features inside of you Google Home.\n\n### Gemini for Home: Voice Assistant (Early access)\n\nLanguages & Family [...] Languages & Family\n\n Gemini for Home is now available in Mexico!: Hola, México! We’re officially welcoming users in Mexico and adding Spanish to supported languages, available in all supported countries. Update to the Google Home app (v4.12) to explore Gemini in your preferred language.\n Gemini for the whole family: Kids with supervised Google Accounts can now use Gemini for Home with the rest of the family. Whether they’re asking how to spell a word or looking for a laugh with a new joke, Gemini for Home is ready to help them learn and play. Learn more on how to guide your child’s Gemini for Home experience.\n\nContinued improvements to controlling your smart home. We’ve upgraded how Gemini understands and controls your smart home to make interactions feel more natural and reliable.",
+      "url": "https://www.droid-life.com/2026/03/31/gemini-for-home-new-features/",
+      "favicon": "https://www.droid-life.com/favicon.ico",
+      "date": "2026-03-31",
+      "source": "Droid Life",
+      "images": [
+        {
+          "url": "https://www.droid-life.com/wp-content/uploads/2025/11/Gemini-for-Google-Home-scaled-2292x1200-cropped.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Google Gemini",
+      "query": "Google Gemini new model release 2026-03-27 to 2026-04-02",
+      "title": "Today in Techrights - Tux Machines",
+      "snippet": "| 550 | /n/2026/03/26/Back\\_to\\_Normalcy.shtml |\n    | 550 | /n/2026/03/28/Rumours\\_of\\_More\\_IBM\\_Mass\\_Layoffs\\_at\\_Beginning\\_of\\_April.shtml |\n    | 546 | /n/2026/04/01/Gemini\\_Links\\_01\\_04\\_2026\\_Hallucinations\\_Stitching\\_and\\_Type\\_Syste.shtml |\n    | 545 | /n/2026/03/26/Altering\\_Perceived\\_Reality\\_to\\_Make\\_It\\_Seem\\_Like\\_Microsoft\\_is\\_Th.shtml |\n    | 544 | /n/2026/03/27/GNU\\_Linux\\_Distros\\_Should\\_Reject\\_Age\\_Verification\\_and\\_Uphold\\_Sof.shtml |\n    | 543 | /n/2026/03/30/Today\\_Europe\\_s\\_Second\\_Largest\\_Institution\\_EPO\\_Goes\\_on\\_Strike\\_Th.shtml |\n    | 542 | /n/2026/03/27/President\\_Not\\_Cocaine\\_Campinos\\_Notified\\_of\\_Historic\\_EPO\\_Strikes.shtml |\n    | 540 | /n/2026/03/30/Links\\_30\\_03\\_2026\\_We\\_Can\\_t\\_Income\\_Tax\\_Ultra\\_Elites\\_The\\_Pirate\\_Ba.shtml | [...] | 4159 | /about.shtml |\n    | 1787 | /index.shtml |\n    | 1078 | /n/2026/03/29/People\\_Discuss\\_Rumours\\_of\\_Mass\\_Layoffs\\_at\\_IBM\\_Becoming\\_Public\\_i.shtml |\n    | 1032 | /irc.shtml |\n    | 989 | /n/2026/03/27/Media\\_Says\\_Microsoft\\_Hiring\\_Freezes\\_But\\_There\\_Are\\_Already\\_Micro.shtml |\n    | 866 | /n/2026/03/27/Slides\\_From\\_the\\_Presentation\\_Discussing\\_EPO\\_Strikes\\_Until\\_End\\_o.shtml |\n    | 861 | /n/2026/04/01/The\\_Real\\_Reason\\_Many\\_Sites\\_and\\_Forums\\_Shun\\_Microsoft\\_Lunduke.shtml |\n    | 815 | /browse/latest.shtml |\n    | 801 | /n/2026/03/27/Gemini\\_Links\\_27\\_03\\_2026\\_Being\\_Busy\\_and\\_Posting\\_Again.shtml | [...] | 797 | /n/2026/03/29/Almost\\_20\\_Years\\_After\\_Microsoft\\_Novell.shtml |\n    | 766 | /n/2026/03/27/Last\\_Night\\_The\\_Register\\_MS\\_Published\\_a\\_Fake\\_Article\\_It\\_Mentione.shtml |\n    | 726 | /n/2026/03/28/Gemini\\_Links\\_28\\_03\\_2026\\_Echo\\_Delay\\_and\\_0x0\\_st.shtml |\n    | 680 | /n/2026/03/26/EPO\\_Union\\_Decides\\_to\\_Continue\\_Industrial\\_Actions\\_Next\\_Strike\\_in.shtml |\n    | 677 | /n/2026/03/27/Perpetual\\_Strikes\\_to\\_Begin\\_at\\_European\\_Patent\\_Office\\_EPO\\_Large\\_.shtml |\n    | 672 | /n/2026/03/28/Links\\_28\\_03\\_2026\\_Microsoft\\_s\\_LinkedIn\\_a\\_National\\_Security\\_Risk\\_.shtml |\n    | 660 | /n/2026/03/30/Wikipedia\\_Funded\\_by\\_Slop\\_pushing\\_Companies\\_and\\_Broligarchs\\_Gave.shtml |",
+      "url": "https://news.tuxmachines.org/n/2026/04/02/Today_in_Techrights.shtml",
+      "favicon": "http://news.tuxmachines.org/Images/favicon.ico",
+      "date": "2026-04-02",
+      "source": "Tux Machines",
+      "images": [
+        {
+          "url": "https://news.tuxmachines.org/Images/tuxmachines.logo.svg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "OpenAI",
+      "query": "OpenAI ChatGPT new feature 2026-03-27 to 2026-04-02",
+      "title": "OpenAI Launches New Healthcare Tools For Clinicians, Expands Use Of ChatGPT",
+      "snippet": "## Biotech Stocks Facing FDA Decision In February 2026\n\nMarch 31, 2026 15:49 ET In this week’s video, we’ll cover major biotech moves and breakthroughs - from Novartis and Merck’s blockbuster acquisitions to the first new Hunter syndrome therapy in two decades. We’ll also look at a promising alternative to daily insulin injections and the near-term catalyst for Q3 Bio, which has been hitting new 52-week highs.\n\nmac 01042026 lt\n\n## Apple @ 50: Five Decades Of Reinvention\n\nApril 01, 2026 09:49 ET\n\n## Nike Shares Down On Weak Q3 Profit, Cautious Q4 Outlook\n\nApril 01, 2026 01:54 ET\n\n## The launch follows growing use of ChatGPT for health-related questions, with more than 40 million people engaging with the tool each day.\n\nThe product, called ChatGPT for Healthcare, is powered by GPT-5 models developed specifically for medical use. OpenAI said the models were tested with input from physicians and evaluated using benchmarks such as HealthBench and GDPval.\n\nThey are built to allow clinicians to review patient information while complying with HIPAA requirements and include support for customer managed encryption keys. [...] OpenAI presents these tools as a way to reduce administrative tasks and improve efficiency for clinicians, with the goal of supporting day-to-day medical workflows.\n\nFor comments and feedback contact: editorial@rttnews.com\n\nBusiness News\n\nBiotech Stocks Facing FDA Decision In April 2026\n\n## Biotech Stocks Facing FDA Decision In March 2026\n\nBiotech Stocks Facing FDA Decision In February 2026",
+      "url": "https://www.rttnews.com/3609317/openai-launches-new-healthcare-tools-for-clinicians-expands-use-of-chatgpt.aspx",
+      "favicon": "https://www.rttnews.com/favicon.ico",
+      "date": "2026-03-31",
+      "source": "RTTNews",
+      "images": [
+        {
+          "url": "https://cdn.rttnews.com/articleimages/ustopstories/2026/january/aidoctor-09012026-lt.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "NVIDIA",
+      "query": "NVIDIA GPU AI infrastructure announcement 2026-03-27 to 2026-04-02",
+      "title": "NVIDIA invests $2B in Marvell, expands NVLink Fusion - Stock Titan",
+      "snippet": "SANTA CLARA, Calif., March 31, 2026 (GLOBE NEWSWIRE) -- NVIDIA and Marvell Technology, Inc. (NASDAQ: MRVL) today announced a strategic partnership to connect Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVIDIA NVLink Fusion™, offering customers building on NVIDIA architectures greater choice and flexibility in developing next-generation infrastructure. The companies will also collaborate on silicon photonics technology.\n\nIn addition, NVIDIA has invested $2 billion in Marvell. [...] English\n Arabic\n French\n German\n Italian\n Korean\n Spanish\n\nNVIDIA (NASDAQ: NVDA) and Marvell announced a strategic partnership and a $2 billion NVIDIA investment in Marvell to connect Marvell to the NVIDIA AI factory and AI\u2011RAN ecosystem via NVIDIA NVLink Fusion on March 31, 2026.\n\nThe collaboration covers custom XPUs, NVLink Fusion\u2011compatible scale\u2011up networking, joint silicon photonics work, and integration with NVIDIA Vera CPU, ConnectX NICs, Bluefield DPUs, and Spectrum\u2011X switches to accelerate rack\u2011scale AI infrastructure and AI\u2011RAN for 5G/6G.\n\nLoading...\n\nLoading translation...\n\n### Positive\n\n $2 billion NVIDIA strategic investment in Marvell\n Marvell to deliver custom XPUs compatible with NVLink Fusion\n Joint work on silicon photonics and AI\u2011RAN for 5G/6G\n\n### Negative\n\n None. [...] © 2026 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, NVLink, NVLink Fusion, ConnectX, Bluefield, and Spectrum-X are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nv-link-5m19imtgrmea.html",
+      "favicon": "https://static.stocktitan.net/img/favicon/apple-touch-icon.png",
+      "date": "2026-03-31",
+      "source": "Stock Titan",
+      "images": [
+        {
+          "url": "https://www.stocktitan.net/news_covers/NVIDIA_AI_Ecosystem_Expands_as_Marvell_Joins_Forces_Through_NVLink_Fusion_1033631.webp",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "NVIDIA",
+      "query": "NVIDIA GPU AI infrastructure announcement 2026-03-27 to 2026-04-02",
+      "title": "NVIDIA Invests $2 Billion in Marvell and Expand NVLink Fusion ...",
+      "snippet": "Wednesday, April 1st 2026\n\n# NVIDIA Invests $2 Billion in Marvell and Expanded NVLink Fusion Partnership\n\nPress Release    by Nomad76     Discuss (4 Comments)\n\nNVIDIA and Marvell Technology, Inc. (NASDAQ: MRVL) today announced a strategic partnership to connect Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVIDIA NVLink Fusion offering customers building on NVIDIA architectures greater choice and flexibility in developing next-generation infrastructure. The companies will also collaborate on silicon photonics technology.  \n   \n In addition, NVIDIA has invested $2 billion in Marvell. [...] Jan 16th 2026 NVIDIA Reportedly Ends GeForce RTX 5070 Ti Production, RTX 5060 Ti 16 GB Next (210)\n Sep 10th 2025 NVIDIA GeForce RTX 50-Series SUPER GPUs Could Arrive at CES 2026 (69)\n Jul 28th 2025 NVIDIA to Debut GeForce RTX 50-series SUPER GPUs by Christmas (112)\n Sep 3rd 2025 NVIDIA Discrete GPU Market Share Dominance Expands to 94%, Notes Report (237)\n Dec 31st 2025 Leaks Predict $5000 RTX 5090 GPUs in 2026 Thanks to AI Industry Demand (124)\n Sep 29th 2025 March-April Release of NVIDIA GeForce RTX 50-series SUPER Lineup, Possible CES Reveal (73)\n Mar 16th 2026 NVIDIA Unveils DLSS 5 with Real-Time Neural Rendering (305)\n Mar 19th 2026 NVIDIA DLSS 5 Gets 84% Dislikes on YouTube as Backlash Grows (132)",
+      "url": "https://www.techpowerup.com/347930/nvidia-invests-usd-2-billion-in-marvell-and-expand-nvlink-fusion-partnership",
+      "favicon": "https://tpucdn.com/apple-touch-icon-v1773253661.png",
+      "date": "2026-04-01",
+      "source": "TechPowerUp",
+      "images": [
+        {
+          "url": "https://www.techpowerup.com/img/kkpYRfieMXANpYoo.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "NVIDIA",
+      "query": "NVIDIA GPU AI infrastructure announcement 2026-03-27 to 2026-04-02",
+      "title": "NVIDIA and Marvell alliance scales AI-RAN infrastructure",
+      "snippet": "27th March 2026\n\n### AI aids broadband network expansion and fleet sustainability\n\n26th March 2026\n\n### How neuromorphic AI will limit power demands in 6G networks\n\n25th March 2026\n\n## Join our Community\n\nSubscribe now to get all our premium content and latest tech news delivered straight to your inbox\n\nClick here\n\n## Popular\n\nOperators, Research\n\n### Customer engagement and billing are vital to a CSP’s success\n\n2716 view(s)\n\n5G & 6G Development, AI & Predictive Networking, Automation & Self-Optimising Networks, Featured News, Hot Topics, Market Landscape & Strategy, Network Infrastructure, Next-Gen RAN Architectures, Operator Strategies, Operators, Trends, Tech & Innovation, Voices & Analysis\n\n### How Indosat is scaling AI-RAN across its network\n\n537 view(s) [...] 537 view(s)\n\n6G, Automation, Hot Topics, Networks, Operators, Research, Security, Telecoms\n\nFeatures, Networks, Security\n\n### ​Attackers target public-facing applications over ransomware in 2025\n\n504 view(s) [...]",
+      "url": "https://www.telecomstechnews.com/news/nvidia-and-marvell-alliance-ai-ran-infrastructure/",
+      "favicon": "https://www.telecomstechnews.com/wp-content/uploads/2020/09/telecom-icon-60x60.png",
+      "date": "2026-03-27",
+      "source": "TelecomsTechNews",
+      "images": [
+        {
+          "url": "https://www.telecomstechnews.com/wp-content/uploads/2026/04/nvidia-marvell-alliance-ai-ran-infrastructure-ai-ran-5g-6g-networks-artificial-intelligence-factory.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "Anthropic",
+      "query": "Anthropic Claude update enterprise partnerships 2026-03-27 to 2026-04-02",
+      "title": "Anthropic launches claude marketplace: Must-Read Update - 2026 - Publicancy",
+      "snippet": "### What Changes Now\n\nAnthropic launches Claude Marketplace and immediately transforms how enterprises access AI-powered tools. Companies with existing Anthropic spend commitments can now redirect portions toward applications made by trusted partners like GitLab, Harvey, and Replit. This marketplace model eliminates the need for separate contracts with multiple AI providers.\n\nThe marketplace opens doors for businesses that previously hesitated about AI adoption. This development in anthropic launches claude marketplace continues to evolve. instead of building custom solutions, companies can now purchase ready-made Claude-powered tools from specialized vendors. This approach significantly reduces implementation time and technical barriers. [...] #### Strategic Implications for Enterprise AI Adoption\n\nThis marketplace launch positions Anthropic as more than just an AI model provider. The impact on anthropic launches claude marketplace is significant. they’re becoming a platform company, similar to how Apple transformed from a hardware manufacturer to a services ecosystem leader. The strategy allows Anthropic to capture more value from existing enterprise customers while expanding their addressable market through partner innovations. [...] #### Impact on AI Partner Ecosystem\n\nFor partners like Replit, Lovable, and Rogo, marketplace inclusion provides immediate credibility and access to Anthropic’s enterprise customer base. The impact on anthropic launches claude marketplace is significant. this is particularly valuable for smaller AI companies that struggle with enterprise sales cycles and trust-building. The marketplace essentially acts as a quality filter and distribution channel.",
+      "url": "https://publicancy.com/anthropic-launches-claude-marketplace-must-read-update",
+      "favicon": "https://publicancy.com/wp-content/uploads/2025/08/cropped-publicancy-favicon-2-32x32.png",
+      "date": "2026-03-30",
+      "source": "Publicancy",
+      "images": [
+        {
+          "url": "https://publicancy.com/wp-content/uploads/2026/03/featured_1772875590_G8HitPI5Vs-940x540.jpg",
+          "description": "anthropic launches claude marketplace - Publicancy"
+        }
+      ]
+    },
+    {
+      "topic": "Meta LLaMA",
+      "query": "Meta LLaMA open source AI release 2026-03-27 to 2026-04-02",
+      "title": "Open-source AI just changed the game! Meta ne Llama 5 launch ...",
+      "snippet": "Image 7: Photo shared by WOLFSTREET on March 26, 2026 tagging @cevsvnit, and @nextgentechconnect. May be a graphic of ‎magazine, poster and ‎text that says '‎WOLFSTREET CEV ENFINITY Powering Infinite Possibilities PoweringnfinitePossilities lities ማርይ NEXTGEN TECH CONNECT CONNECT م GROM GROW MHOWATE-COACT NNOVATE IMOWATE- CONNECT AS ASCOMMUNITYPARTNER SCOMMUNITY COMMU NITY PARTNER‎'‎‎. [...] Image 6: Photo by NextGen Tech Connect on March 27, 2026. May be an image of card, poster, magazine and text that says 'NEXTGEN TECH CONNECT OpenAl Reveals \"Project Stargate\": A $100 Billion AI Supercomputer! Microsoft and OpenAl partner for a massive, space-scale AI infrastructure by 2030. Microsoft OpenAI $100 Billion OpenAI ne Microsoft ke saath milkar ek mega AI supercomputer banane ka plan reveal kiya hai, jiska budget $100 Billion hai, aur ye AI ki capability ko pehle se 100x fast bana dega. AI capabilities ko 100x speed milne wali hai! nextgentechconnect'. [...] Image 8: Photo by NextGen Tech Connect on March 25, 2026. May be an image of screen and text that says 'NEXTGEN TECHCONNECT TECH CONNECT NVIDIA Unveils Next- Gen AI Chips යமசதණ p VIDIA 20 BP BNII New AI chips promise faster training and lower energy consumption. AI power race ab hardware level par shift ho ra hai REALITY CHECK Jiske paas strongest AI hardware hoga, wahi future control karega. @nextgentechconnect'.",
+      "url": "https://www.instagram.com/p/DWX8RZ-kaPH/",
+      "favicon": "https://static.cdninstagram.com/rsrc.php/v4/yx/r/H1l_HHqi4p6.png",
+      "date": "2026-03-27",
+      "source": "Instagram",
+      "images": []
+    }
+  ]
+}

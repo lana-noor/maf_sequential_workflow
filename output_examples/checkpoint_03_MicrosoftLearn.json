@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "title": "Microsoft Fabric: Direct SQL access to OneLake (COPY INTO / OPENROWSET) becomes GA",
+      "summary": "Fabric Data Warehouse now supports reading directly from OneLake via COPY INTO and OPENROWSET (General Availability), enabling SQL-based ingestion and ad-hoc queries against lakehouse folders without external storage or ETL pipelines.",
+      "url": "https://learn.microsoft.com/fabric/data-warehouse/ingest-data",
+      "impact_areas": [
+        "Microsoft Fabric",
+        "Data platform architecture",
+        "Cost and deployment"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Removes a common architectural barrier between lake and warehouse: teams can consolidate ingestion and analytics workflows, lower operational ETL cost, simplify data movement, and accelerate ML/AI access to fresh data across the enterprise."
+    },
+    {
+      "title": "Microsoft Fabric: Customer-managed keys for Fabric SQL databases (GA)",
+      "summary": "Fabric SQL databases now support customer-managed keys (GA) for transparent data encryption (TDE) via Azure Key Vault, including automated rotation controls for workspace databases.",
+      "url": "https://learn.microsoft.com/fabric/database/sql/encryption",
+      "impact_areas": [
+        "Microsoft Fabric",
+        "Security & compliance",
+        "Data platform"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Enables enterprise key control and auditability required by regulated industries and large organizations—affects encryption strategy, key lifecycle management, and compliance posture for production Fabric deployments."
+    },
+    {
+      "title": "Microsoft Fabric: Certificate & proxy support for VNet data gateway (GA)",
+      "summary": "VNet data gateways in Fabric now support enterprise-issued certificates and proxy routing (General Availability), allowing secure on-prem or network-restricted connectivity where direct internet access isn't permitted.",
+      "url": "https://learn.microsoft.com/en-us/data-integration/vnet/manage-data-gateways",
+      "impact_areas": [
+        "Microsoft Fabric",
+        "Infrastructure & networking",
+        "Security & governance"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Changes hybrid connectivity options for enterprises with restrictive network/topology policies—reduces need for open egress, streamlines secure gateway deployment, and impacts network architecture and operational controls."
+    },
+    {
+      "title": "Microsoft Fabric: Eventstream SQL Operator for real-time processing (GA)",
+      "summary": "Fabric Real‑Time Intelligence now includes the Eventstream SQL Operator (General Availability), providing SQL-based stream processing with multi-destination writes, event ordering policies, and late-arrival handling.",
+      "url": "https://learn.microsoft.com/fabric/real-time-intelligence/event-streams/process-events-using-sql-code-editor",
+      "impact_areas": [
+        "Microsoft Fabric",
+        "Real-time data & analytics",
+        "Architecture & scale"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Adds enterprise-grade SQL-first streaming capabilities to Fabric—enables consolidation of real-time pipelines into Fabric, influences event-driven architecture choices, and can reduce reliance on external streaming platforms."
+    },
+    {
+      "title": "Microsoft Fabric: MCP remote servers for Activator and Eventhouse (preview)",
+      "summary": "Fabric Real‑Time Intelligence introduces hosted Model Context Protocol (MCP) remote servers for Activator and Eventhouse (preview), letting AI assistants and agents interact with RTI components via natural language and agent workflows.",
+      "url": "https://learn.microsoft.com/fabric/real-time-intelligence/mcp-remote-eventhouse",
+      "impact_areas": [
+        "Microsoft Fabric",
+        "MCP / Agent Service",
+        "AI platform extensibility"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Provides a production pathway for AI agents and Copilot-style assistants to query, reason, and act on real-time Fabric data—important for embedding autonomous workflows and for designing scalable agent integrations with enterprise streaming data."
+    },
+    {
+      "title": "Azure AI Foundry (Government): gpt-4o and gpt-4o-mini retired in Azure Government (March 31, 2026)",
+      "summary": "Azure AI Foundry (classic) documentation notes that gpt-4o and gpt-4o-mini model variants were retired in Azure Government environments on March 31, 2026 (regional retirement schedule differs from public cloud).",
+      "url": "https://learn.microsoft.com/azure/foundry-classic/openai/azure-government#azure-openai-models",
+      "impact_areas": [
+        "Azure AI Services",
+        "Azure infrastructure (Government)",
+        "Enterprise deployment & compliance"
+      ],
+      "published": "2026-03-31",
+      "why_relevant": "Government and regulated customers must update model selection and deployment plans—model availability and retirements in sovereign clouds affect compliance, risk assessments, migration timelines, and service continuity for AI workloads."
+    }
+  ]
+}
