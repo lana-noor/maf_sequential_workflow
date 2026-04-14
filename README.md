@@ -13,6 +13,54 @@
 
 ---
 
+## 🚀 Updates: MAF 1.0.1 GA Release
+
+This workflow has been updated to use **Microsoft Agent Framework 1.0.1 (GA)** with the following changes:
+
+### New Agent Types
+
+The framework now distinguishes between two Foundry agent types:
+
+| Agent Type | Class | Description | Use When |
+|------------|-------|-------------|----------|
+| **Responses Agent** | `ChatClientAgent` | Inline agents where you provide model, instructions, and tools programmatically at runtime. No server-side resource created. | Agent 5 (Summary) - synthesizing outputs without external tools |
+| **Foundry Agent** | `FoundryAgent` | Server-managed agents created and versioned in the Foundry portal with persistent chat history. | Agents 1-4, 6 - deployed agents with MCP, Web Search, Code Interpreter, AI Search, Outlook |
+
+### Migration from Responses API
+
+**Before (Preview):**
+```python
+from azure.ai.openai.responses import AzureOpenAIResponsesClient
+
+client = AzureOpenAIResponsesClient(...)
+```
+
+**After (GA 1.0.1):**
+```python
+from agent_framework.foundry import AIProjectClient
+
+client = AIProjectClient.from_connection_string(...)
+```
+
+### Installation
+
+Install the GA versions:
+
+```bash
+pip install agent-framework>=1.0.1
+pip install agent-framework-foundry>=1.0.1
+```
+
+**Key Benefits:**
+- ✅ Production-ready stable API
+- ✅ Standardized agent abstraction across .NET and Python
+- ✅ Better separation between inline agents (ChatClientAgent) and portal-managed agents (FoundryAgent)
+- ✅ Full backward compatibility with orchestration patterns
+
+📚 **Learn more:** [Microsoft Agent Framework 1.0 Documentation](https://learn.microsoft.com/en-us/agent-framework/)
+
+---
+
 ## 🎯 Overview
 
 This workflow demonstrates a **public finance use case**: automating quarterly budget variance analysis for the **Apex Digital Government Authority (ADGA)** (Fake company name) using a 6-agent sequential pipeline.
@@ -536,7 +584,7 @@ venv\Scripts\activate
 Azd auth login 
 
 # Install required packages
-Uv pip install agent-framework --pre
+uv pip install agent-framework --pre
 uv pip install -r requirements.txt
 
 # Run the workflow

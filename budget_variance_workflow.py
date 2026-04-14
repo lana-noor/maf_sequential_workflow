@@ -51,8 +51,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel
 
 from agent_framework import Agent
-from agent_framework.azure import AzureOpenAIResponsesClient
-from azure.ai.projects import AIProjectClient
+from agent_framework.foundry import FoundryChatClient, FoundryAgent
 from azure.identity import DefaultAzureCredential
 
 # ---------------------------------------------------------------------------
@@ -247,6 +246,10 @@ def markdown_to_word_executor(markdown_content: str, output_path: Path) -> Path:
 
 def _extract_text_from_result(result) -> str:
     """Pull the final assistant text from an agent result."""
+    # GA shape: result.text
+    if hasattr(result, "text") and result.text:
+        return result.text
+    # Legacy shape: result.messages[].contents[].text
     try:
         if hasattr(result, "messages") and result.messages:
             for message in reversed(result.messages):
@@ -303,16 +306,9 @@ class BudgetVarianceWorkflowExecutor:
     """
 
     def __init__(self) -> None:
-        self.responses_client = AzureOpenAIResponsesClient(
-            credential=DefaultAzureCredential(),
-            project_endpoint=os.getenv("AZURE_AI_PROJECT_ENDPOINT"),
-            deployment_name=os.getenv("AZURE_AI_MODEL_DEPLOYMENT_NAME"),
-        )
-        self.project_client = AIProjectClient(
-            endpoint=os.getenv("AZURE_AI_PROJECT_ENDPOINT"),
-            credential=DefaultAzureCredential(),
-        )
-        self.openai_client = self.project_client.get_openai_client()
+        self.credential = DefaultAzureCredential()
+        self.project_endpoint = os.getenv("AZURE_AI_PROJECT_ENDPOINT")
+        self.model = os.getenv("AZURE_AI_MODEL_DEPLOYMENT_NAME")
 
     # ------------------------------------------------------------------
     # Public entry point
@@ -391,32 +387,24 @@ class BudgetVarianceWorkflowExecutor:
         print(f"\n[Agent 1] MCP Data Agent — calling {BUDGET_MCP_AGENT} v{BUDGET_MCP_VERSION}...")
         print("[Agent 1] Retrieving department-submitted narrative reports...")
 
-        # Use the prompt instructions from the agent configuration
-        response = self.openai_client.responses.create(
-            input=[
-                {
-                    "role": "user",
-                    "content": (
-                        "Retrieve all department variance narrative reports for Q1 2026. "
-                        "Use the MCP tools to gather:\n"
-                        "- IT department variance report\n"
-                        "- HR department variance report\n"
-                        "- Infrastructure department variance report\n\n"
-                        "These reports contain department justifications and claims. "
-                        "Return the full narrative content.\n\n"
-                        f"Context from submitted report:\n{budget_report_input[:500]}"
-                    ),
-                }
-            ],
-            extra_body={
-                "agent_reference": {
-                    "name": BUDGET_MCP_AGENT,
-                    "version": str(BUDGET_MCP_VERSION),
-                    "type": "agent_reference",
-                }
-            },
+        agent = FoundryAgent(
+            project_endpoint=self.project_endpoint,
+            agent_name=BUDGET_MCP_AGENT,
+            agent_version=str(BUDGET_MCP_VERSION),
+            credential=self.credential,
         )
-        text = response.output_text
+        user_message = (
+            "Retrieve all department variance narrative reports for Q1 2026. "
+            "Use the MCP tools to gather:\n"
+            "- IT department variance report\n"
+            "- HR department variance report\n"
+            "- Infrastructure department variance report\n\n"
+            "These reports contain department justifications and claims. "
+            "Return the full narrative content.\n\n"
+            f"Context from submitted report:\n{budget_report_input[:500]}"
+        )
+        result = await agent.run(user_message)
+        text = _extract_text_from_result(result)
         print(f"[Agent 1] Done. Retrieved department narratives.\n{text[:200]}...\n")
         return text
 
@@ -451,17 +439,14 @@ class BudgetVarianceWorkflowExecutor:
             "Return ONLY valid JSON matching the schema in your instructions."
         )
 
-        response = self.openai_client.responses.create(
-            input=[{"role": "user", "content": user_message}],
-            extra_body={
-                "agent_reference": {
-                    "name": WEB_SEARCH_AGENT,
-                    "version": str(WEB_SEARCH_VERSION),
-                    "type": "agent_reference",
-                }
-            },
+        agent = FoundryAgent(
+            project_endpoint=self.project_endpoint,
+            agent_name=WEB_SEARCH_AGENT,
+            agent_version=str(WEB_SEARCH_VERSION),
+            credential=self.credential,
         )
-        text = response.output_text
+        result = await agent.run(user_message)
+        text = _extract_text_from_result(result)
         print(f"[Agent 2] Done. Economic validation complete.\n{text[:200]}...\n")
         return text
 
@@ -496,17 +481,14 @@ class BudgetVarianceWorkflowExecutor:
             "5. Apply policy thresholds and flag issues\n"
             "6. Return structured JSON matching BudgetVarianceOutput schema."
         )
-        response = self.openai_client.responses.create(
-            input=[{"role": "user", "content": query}],
-            extra_body={
-                "agent_reference": {
-                    "name": CODE_INTERPRETER_AGENT,
-                    "version": str(CODE_INTERPRETER_VERSION),
-                    "type": "agent_reference",
-                }
-            },
+        agent = FoundryAgent(
+            project_endpoint=self.project_endpoint,
+            agent_name=CODE_INTERPRETER_AGENT,
+            agent_version=str(CODE_INTERPRETER_VERSION),
+            credential=self.credential,
         )
-        text = response.output_text
+        result = await agent.run(query)
+        text = _extract_text_from_result(result)
         print(f"[Agent 3] Done. Completed reconciliation analysis.\n{text[:200]}...\n")
         return text
 
@@ -540,17 +522,14 @@ class BudgetVarianceWorkflowExecutor:
             "6. Any regulatory risks or penalties\n\n"
             "Return structured policy guidance with document references."
         )
-        response = self.openai_client.responses.create(
-            input=[{"role": "user", "content": query}],
-            extra_body={
-                "agent_reference": {
-                    "name": POLICY_AGENT,
-                    "version": str(POLICY_VERSION),
-                    "type": "agent_reference",
-                }
-            },
+        agent = FoundryAgent(
+            project_endpoint=self.project_endpoint,
+            agent_name=POLICY_AGENT,
+            agent_version=str(POLICY_VERSION),
+            credential=self.credential,
         )
-        text = response.output_text
+        result = await agent.run(query)
+        text = _extract_text_from_result(result)
         print(f"[Agent 4] Done. Retrieved policy guidance.\n{text[:200]}...\n")
         return text
 
@@ -569,7 +548,11 @@ class BudgetVarianceWorkflowExecutor:
         print("\n[Agent 5] Summary Agent (Responses API) — running...")
         print("[Agent 5] Synthesizing comprehensive executive report...")
         agent = Agent(
-            client=self.responses_client,
+            client=FoundryChatClient(
+                project_endpoint=self.project_endpoint,
+                model=self.model,
+                credential=self.credential,
+            ),
             instructions=SUMMARY_INSTRUCTIONS,
         )
         query = (
@@ -642,17 +625,14 @@ Then append the full report content below the email closing:
 This email was generated automatically by the Budget Variance Workflow (Azure AI Foundry).
 """.strip()
 
-        response = self.openai_client.responses.create(
-            input=[{"role": "user", "content": email_prompt}],
-            extra_body={
-                "agent_reference": {
-                    "name": OUTLOOK_AGENT,
-                    "version": str(OUTLOOK_VERSION),
-                    "type": "agent_reference",
-                }
-            },
+        agent = FoundryAgent(
+            project_endpoint=self.project_endpoint,
+            agent_name=OUTLOOK_AGENT,
+            agent_version=str(OUTLOOK_VERSION),
+            credential=self.credential,
         )
-        text = response.output_text
+        result = await agent.run(email_prompt)
+        text = _extract_text_from_result(result)
         print(f"[Agent 6] Done. Email sent successfully.\n{text[:150]}...\n")
         return text
 
