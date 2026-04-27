@@ -592,10 +592,10 @@ uv venv venv
 venv\Scripts\activate
 
 # Log in to Azure 
-Azd auth login 
+azd auth login 
 
 # Install required packages
-uv pip install agent-framework --pre
+uv pip install agent-framework (GA 1.0.1, 1.2.0)
 uv pip install -r requirements.txt
 
 # Run the workflow
