@@ -50,6 +50,7 @@ import os
 from dotenv import load_dotenv
 from pydantic import BaseModel
 
+from agent_framework import Agent
 from agent_framework.foundry import FoundryChatClient, FoundryAgent
 from azure.identity import DefaultAzureCredential
 
